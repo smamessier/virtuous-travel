@@ -1,8 +1,8 @@
 function Preview(props){
     return (
-        <h3>
+        <p style={{whiteSpace:"pre"}}>
             {props.text}
-        </h3>
+        </p>
     )
 }
 
