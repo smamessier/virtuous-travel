@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/virtuous-travel/static/css/main.68c86366.css",
-    "main.js": "/virtuous-travel/static/js/main.ed86d7d4.js",
-    "static/js/787.2bb3426a.chunk.js": "/virtuous-travel/static/js/787.2bb3426a.chunk.js",
-    "static/media/logo.svg": "/virtuous-travel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/virtuous-travel/index.html",
-    "main.68c86366.css.map": "/virtuous-travel/static/css/main.68c86366.css.map",
-    "main.ed86d7d4.js.map": "/virtuous-travel/static/js/main.ed86d7d4.js.map",
-    "787.2bb3426a.chunk.js.map": "/virtuous-travel/static/js/787.2bb3426a.chunk.js.map"
+    "main.css": "/static/css/main.68c86366.css",
+    "main.js": "/static/js/main.32e1f3fb.js",
+    "static/js/787.2bb3426a.chunk.js": "/static/js/787.2bb3426a.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.68c86366.css.map": "/static/css/main.68c86366.css.map",
+    "main.32e1f3fb.js.map": "/static/js/main.32e1f3fb.js.map",
+    "787.2bb3426a.chunk.js.map": "/static/js/787.2bb3426a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68c86366.css",
-    "static/js/main.ed86d7d4.js"
+    "static/js/main.32e1f3fb.js"
   ]
 }
