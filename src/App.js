@@ -53,7 +53,7 @@ function App() {
                 <Box>
                     <p>
                         <h1>Virtuous Travel</h1>
-                        <h4>Toolkit for the virtuous traveler</h4>
+                        <h4>Survival kit for the virtuous traveler</h4>
                     </p>
                 </Box>
                 <Divider style={{width:'100%'}}><Chip label="Your travel cities"></Chip></Divider>
