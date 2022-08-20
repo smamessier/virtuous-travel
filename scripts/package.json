@@ -1,0 +1,17 @@
+{
+	"name": "virtuous-travel-datagen",
+	"version": "0.1.0",
+	"description": "Generating the dataset for the Virtuous Traveler app",
+	"main": "index.js",
+	"author": "Sebastien Mamessier <s.mamessier@gmail.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"dependencies": {
+		"axios": "0.27.2",
+		"csv-parser": "^3.0.0",
+		"csv-writer": "^1.6.0",
+		"danfojs-node": "^1.1.1"
+	}
+}

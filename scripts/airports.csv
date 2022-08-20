@@ -1,0 +1,265 @@
+city,country,airport
+Tirana,Albania,TIA
+Yerevan Zvartnots,Armenia,EVN
+Graz,Austria,GRZ
+Innsbruck,Austria,INN
+Klagenfurt,Austria,KLU
+Linz,Austria,LNZ
+Salzburg,Austria,SZG
+Vienna,Austria,VIE
+Baku,Azerbaijan,GYD
+Minsk,Belarus,MSQ
+Antwerp,Belgium,ANR
+Brussels,Belgium,BRU
+Charleroi,Belgium,CRL
+Liege,Belgium,LGG
+Ostend Bruges,Belgium,OST
+Sarajevo,Bosnia and Herzegovina,SJJ
+Tuzla,Bosnia and Herzegovina,TZL
+Burgas,Bulgaria,BOJ
+Sofia,Bulgaria,SOF
+Varna,Bulgaria,VAR
+Dubrovnik,Croatia,DBV
+Pula,Croatia,PUY
+Split,Croatia,SPU
+Zadar,Croatia,ZAD
+Zagreb,Croatia,ZAG
+Larnaca,Cyprus,LCA
+Paphos,Cyprus,PFO
+Brno,Czech Republic,BRQ
+Prague,Czech Republic,PRG
+Aalborg,Denmark,AAL
+Aarhus,Denmark,AAR
+Billund,Denmark,BLL
+Copenhagen,Denmark,CPH
+Vágar,Denmark,FAE
+Tallinn,Estonia,TLL
+Helsinki,Finland,HEL
+Oulu,Finland,OUL
+Rovaniemi,Finland,RVN
+Tampere,Finland,TMP
+Turku,Finland,TKU
+Vaasa,Finland,VAA
+Ajaccio,France,AJA
+Bastia,France,BIA
+Bergerac,France,EGC
+Biarritz,France,BIQ
+Bordeaux,France,BOD
+Brest Bretagne,France,BES
+Figari South Corsica,France,FSC
+Lille,France,LIL
+Lyon-Saint Exupéry,France,LYS
+Marseille,France,MRS
+Montpellier,France,MPL
+Nantes,France,NTE
+Nice,France,NCE
+Paris Beauvais,France,BVA
+Paris Charles de Gaulle,France,CDG
+Paris Orly,France,ORY
+Strasbourg,France,SXB
+Rennes Bretagne,France,RNS
+Réunion Roland Garros,France,RUN
+Toulon-Hyères,France,TLN
+Toulouse Blagnac,France,TLS
+Kutaisi,Georgia,KUT
+Tbilisi,Georgia,TBS
+Allgäu Memmingen,Germany,FMM
+Berlin Brandenburg,Germany,BER
+Berlin Schönefeld,Germany,SXF
+Berlin Tegel,Germany,TXL
+Bremen,Germany,BRE
+Cologne Bonn,Germany,CGN
+Dortmund,Germany,DTM
+Dresden,Germany,DRS
+Düsseldorf,Germany,DUS
+Frankfurt,Germany,FRA
+Frankfurt-Hahn,Germany,HHN
+Friedrichshafen,Germany,FDH
+Hamburg,Germany,HAM
+Hanover,Germany,HAJ
+Karlsruhe Baden-Baden,Germany,FKB
+Leipzig Halle,Germany,LEJ
+Munich,Germany,MUC
+Münster Osnabrück,Germany,FMO
+Nuremberg,Germany,NUE
+Paderborn Lippstadt,Germany,PAD
+Stuttgart,Germany,STR
+Weeze,Germany,NRN
+Athens,Greece,ATH
+Chania,Greece,CHQ
+Corfu,Greece,CFU
+Heraklion,Greece,HER
+Kos,Greece,KGS
+Mykonos,Greece,JMK
+Rhodes,Greece,RHO
+Santorini,Greece,JTR
+Thessaloniki,Greece,SKG
+Zante,Greece,ZTH
+Budapest,Hungary,BUD
+Debrecen,Hungary,DEB
+Keflavik,Iceland,KEF
+Cork,Ireland,ORK
+Dublin,Ireland,DUB
+Ireland West Knock,Ireland,NOC
+Kerry,Ireland,KIR
+Shannon,Ireland,SNN
+Alghero,Italy,AHO
+Ancona,Italy,AOI
+Bari,Italy,BRI
+Bergamo,Italy,BGY
+Bologna,Italy,BLQ
+Brindisi,Italy,BDS
+Cagliari,Italy,CAG
+Catania Fontanarossa,Italy,CTA
+Comiso,Italy,CIY
+Florence,Italy,FLR
+Genoa,Italy,GOA
+Lamezia Terme,Italy,SUF
+Milan Linate,Italy,LIN
+Milan Malpensa,Italy,MXP
+Naples,Italy,NAP
+Olbia Costa Smeralda,Italy,OLB
+Palermo,Italy,PMO
+Perugia,Italy,PEG
+Pescara,Italy,PSR
+Pisa,Italy,PSA
+Rome Ciampino,Italy,CIA
+Rome Fiumicino,Italy,FCO
+Trapani,Italy,TPS
+Treviso,Italy,TSF
+Turin,Italy,TRN
+Venice,Italy,VCE
+Verona,Italy,VRN
+Almaty,Kazakhstan,ALA
+Astana,Kazakhstan,TSE
+Pristina,Kosovo,PRN
+Riga,Latvia,RIX
+Kaunas,Lithuania,KUN
+Vilnius,Lithuania,VNO
+Luxembourg,Luxembourg,LUX
+Malta,Malta,MLA
+Chisinau,Moldova,KIV
+Podgorica,Montenegro,TGD
+Tivat,Montenegro,TIV
+Amsterdam Schiphol,Netherlands,AMS
+Eindhoven,Netherlands,EIN
+Groningen Eelde,Netherlands,GRQ
+Maastricht Aachen,Netherlands,MST
+Rotterdam The Hague,Netherlands,RTM
+Skopje,North Macedonia,SKP
+Ålesund,Norway,AES
+Bergen,Norway,BGO
+Bodø,Norway,BOO
+Haugesund,Norway,HAU
+Kristiansand,Norway,KRS
+Oslo,Norway,OSL
+Sandefjord Torp,Norway,TRF
+Stavanger,Norway,SVG
+Tromsø,Norway,TOS
+Trondheim,Norway,TRD
+Gdansk,Poland,GDN
+Katowice,Poland,KTW
+Kraków,Poland,KRK
+Poznan,Poland,POZ
+Szczecin-Goleniów,Poland,SZZ
+Warsaw,Poland,WAW
+Warsaw Modlin,Poland,WMI
+Wroclaw,Poland,WRO
+Faro,Portugal,FAO
+Lisbon,Portugal,LIS
+Madeira,Portugal,FNC
+Ponta Delgada,Portugal,PDL
+Porto,Portugal,OPO
+Bucharest Henri Coanda,Romania,OTP
+Cluj-Napoca,Romania,CLJ
+Iasi,Romania,IAS
+Timisoara,Romania,TSR
+Koltsovo,Russia,SVX
+Krasnodar,Russia,KRR
+Moscow Domodedovo,Russia,DME
+Moscow Sheremetyevo,Russia,SVO
+Moscow Vnukovo,Russia,VKO
+Moscow Zhukovsky,Russia,ZIA
+Novosibirsk Tolmachevo,Russia,OVB
+Saint Petersburg Pulkovo,Russia,LED
+Sochi,Russia,AER
+Belgrade Nikola Tesla,Serbia,BEG
+Niš,Serbia,INI
+Bratislava,Slovakia,BTS
+Košice,Slovakia,KSC
+Ljubljana,Slovenia,LJU
+Alicante,Spain,ALC
+Almeria,Spain,LEI
+Asturias,Spain,OVD
+Barcelona,Spain,BCN
+Bilbao,Spain,BIO
+Fuerteventura,Spain,FUE
+Girona,Spain,GRO
+Gran Canaria,Spain,LPA
+Granada-Jaén,Spain,GRX
+Ibiza,Spain,IBZ
+Jerez,Spain,XRY
+La Palma,Spain,SPC
+Lanzarote,Spain,ACE
+Madrid Barajas,Spain,MAD
+Malaga,Spain,AGP
+Menorca,Spain,MAH
+Palma de Mallorca,Spain,PMI
+Región de Murcia,Spain,RMU
+Reus,Spain,REU
+Santander,Spain,SDR
+Santiago de Compostela,Spain,SCQ
+Seville,Spain,SVQ
+Tenerife North,Spain,TFN
+Tenerife South,Spain,TFS
+Valencia,Spain,VLC
+Zaragoza,Spain,ZAZ
+Gothenburg Landvetter,Sweden,GOT
+Malmö,Sweden,MMX
+Stockholm Arlanda,Sweden,ARN
+Stockholm Bromma,Sweden,BMA
+Stockholm Skavsta,Sweden,NYO
+Stockholm Västerås,Sweden,VST
+Basel Mulhouse Freiburg,Switzerland,BSL
+Bern,Switzerland,BRN
+Geneva,Switzerland,GVA
+Zurich,Switzerland,ZRH
+Adana,Turkey,ADA
+Ankara Esenboga,Turkey,ESB
+Antalya,Turkey,AYT
+Dalaman,Turkey,DLM
+Istanbul New,Turkey,IST
+Istanbul Sabiha Gökcen,Turkey,SAW
+Izmir Adnan Menderes,Turkey,ADB
+Milas-Bodrum,Turkey,BJV
+Trabzon,Turkey,TZX
+Kharkiv,Ukraine,HRK
+Kiev Boryspil,Ukraine,KBP
+Kiev Zhuliany,Ukraine,IEV
+Lviv,Ukraine,LWO
+Odessa,Ukraine,ODS
+Aberdeen,United Kingdom,ABZ
+Belfast City,United Kingdom,BHD
+Belfast International,United Kingdom,BFS
+Birmingham,United Kingdom,BHX
+Bristol,United Kingdom,BRS
+Cardiff,United Kingdom,CWL
+Doncaster Sheffield,United Kingdom,DSA
+East Midlands,United Kingdom,EMA
+Edinburgh,United Kingdom,EDI
+Exeter,United Kingdom,EXT
+Glasgow,United Kingdom,GLA
+Glasgow Prestwick,United Kingdom,PIK
+Humberside,United Kingdom,HUY
+Jersey,United Kingdom,JER
+Leeds Bradford,United Kingdom,LBA
+Liverpool,United Kingdom,LPL
+London City,United Kingdom,LCY
+London Gatwick,United Kingdom,LGW
+London Heathrow,United Kingdom,LHR
+London Luton,United Kingdom,LTN
+London Southend,United Kingdom,SEN
+London Stansted,United Kingdom,STN
+Manchester,United Kingdom,MAN
+Newcastle,United Kingdom,NCL
+Southampton,United Kingdom,SOU
