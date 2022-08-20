@@ -1,0 +1,114 @@
+city,name,country,iata_code,lon,lat
+Tirana,Tirana,Albania,TIA,19.7206001282,41.4146995544
+Graz,Graz,Austria,GRZ,15.4395999908447,46.9911003112793
+Innsbruck,Innsbruck,Austria,INN,11.344,47.260201
+Salzburg,Salzburg,Austria,SZG,13.0043001175,47.7933006287
+Vienna,Vienna,Austria,VIE,16.569700241089,48.110298156738
+Minsk,Minsk,Belarus,MSQ,28.030700683594,53.882499694824
+Antwerp,Antwerp,Belgium,ANR,4.46027994156,51.1893997192
+Brussels,Brussels,Belgium,BRU,4.48443984985,50.9014015198
+Charleroi,Charleroi,Belgium,CRL,4.45382,50.459202
+Liege,Liege,Belgium,LGG,5.44322013854981,50.6374015808106
+Sarajevo,Sarajevo,Bosnia and Herzegovina,SJJ,18.3314990997314,43.8246002197266
+Sofia,Sofia,Bulgaria,SOF,23.4114360809326,42.6966934204102
+Dubrovnik,Dubrovnik,Croatia,DBV,18.2681999206543,42.5614013671875
+Zagreb,Zagreb,Croatia,ZAG,16.0687999725,45.7429008484
+Brno,Brno,Czech Republic,BRQ,16.6944007873535,49.1512985229492
+Prague,Prague,Czech Republic,PRG,14.26,50.1008
+Copenhagen,Copenhagen,Denmark,CPH,12.656000137329,55.617900848389
+Vágar,Vágar,Denmark,FAE,-7.27721977233887,62.0635986328125
+Tallinn,Tallinn,Estonia,TLL,24.8327999115,59.4132995605
+Helsinki,Helsinki,Finland,HEL,24.963300704956,60.317199707031
+Tampere,Tampere,Finland,TMP,23.604400634766,61.414100646973
+Turku,Turku,Finland,TKU,22.262800216675,60.514099121094
+Ajaccio,Ajaccio,France,AJA,8.8029203414917,41.9235992431641
+Bordeaux,Bordeaux,France,BOD,-0.715556025505,44.8283004761
+Lille,Lille,France,LIL,3.086886,50.563332
+Lyon,Lyon-Saint Exupéry,France,LYS,5.081111,45.725556
+Marseille,Marseille,France,MRS,5.22142410278,43.439271922
+Nantes,Nantes,France,NTE,-1.61073005199,47.1531982422
+Nice,Nice,France,NCE,7.21586990356,43.6584014893
+Paris,Paris Charles de Gaulle,France,CDG,2.55,49.012798
+Toulouse,Toulouse Blagnac,France,TLS,1.36382,43.629101
+Tbilisi,Tbilisi,Georgia,TBS,44.95470047,41.6692008972
+Berlin,Berlin Tegel,Germany,TXL,13.2877,52.5597
+Cologne,Cologne Bonn,Germany,CGN,7.1427397728,50.8658981323
+Düsseldorf,Düsseldorf,Germany,DUS,6.76678,51.289501
+Frankfurt,Frankfurt,Germany,FRA,8.570556,50.033333
+Friedrichshafen,Friedrichshafen,Germany,FDH,9.51148986816,47.6712989807
+Hanover,Hanover,Germany,HAJ,9.68507957458,52.461101532
+Munich,Munich,Germany,MUC,11.7861,48.353802
+Nuremberg,Nuremberg,Germany,NUE,11.078056,49.498699
+Stuttgart,Stuttgart,Germany,STR,9.22196006775,48.6898994446
+Hamburg,Hamburg,Germany,HAM,9.991111,53.630278
+Athens,Athens,Greece,ATH,23.9444999695,37.9364013672
+Thessaloniki,Thessaloniki,Greece,SKG,22.9708995819092,40.5196990966797
+Budapest,Budapest,Hungary,BUD,19.261093,47.42976
+Debrecen,Debrecen,Hungary,DEB,21.6152992248535,47.488899230957
+Cork,Cork,Ireland,ORK,-8.49110984802246,51.8413009643555
+Dublin,Dublin,Ireland,DUB,-6.27007,53.421299
+Shannon,Shannon,Ireland,SNN,-8.92482,52.702
+Bologna,Bologna,Italy,BLQ,11.2887,44.5354
+Florence,Florence,Italy,FLR,11.2051,43.810001
+Genoa,Genoa,Italy,GOA,8.8375,44.4133
+Milan,Milan Malpensa,Italy,MXP,8.72811,45.6306
+Naples,Naples,Italy,NAP,14.2908,40.886002
+Pisa,Pisa,Italy,PSA,10.3927,43.683899
+Rome,Rome Fiumicino,Italy,FCO,12.2388889,41.8002778
+Turin,Turin,Italy,TRN,7.64963,45.200802
+Venice,Venice,Italy,VCE,12.3519,45.505299
+Pristina,Pristina,Kosovo,PRN,21.035801,42.5728
+Riga,Riga,Latvia,RIX,23.9710998535156,56.9235992431641
+Vilnius,Vilnius,Lithuania,VNO,25.285801,54.634102
+Luxembourg,Luxembourg,Luxembourg,LUX,6.2044444,49.6233333
+Malta,Malta,Malta,MLA,14.4775,35.857498
+Chisinau,Chisinau,Moldova,KIV,28.9309997558594,46.9277000427246
+Podgorica,Podgorica,Montenegro,TGD,19.2519,42.359402
+Tivat,Tivat,Montenegro,TIV,18.7233009338379,42.4047012329102
+Amsterdam,Amsterdam Schiphol,Netherlands,AMS,4.76389,52.308601
+Eindhoven,Eindhoven,Netherlands,EIN,5.37452983856,51.4500999451
+Rotterdam,Rotterdam The Hague,Netherlands,RTM,4.43722,51.956902
+Skopje,Skopje,North Macedonia,SKP,21.621401,41.961601
+Bergen,Bergen,Norway,BGO,5.218140125,60.29339981
+Oslo,Oslo,Norway,OSL,11.100399971008,60.193901062012
+Stavanger,Stavanger,Norway,SVG,5.6377801895,58.876701354
+Katowice,Katowice,Poland,KTW,19.08,50.4743
+Kraków,Kraków,Poland,KRK,19.7848,50.077702
+Warsaw,Warsaw,Poland,WAW,20.9671001434,52.1656990051
+Lisbon,Lisbon,Portugal,LIS,-9.13592,38.7813
+Porto,Porto,Portugal,OPO,-8.68138980865,41.2481002808
+Bucharest,Bucharest Henri Coanda,Romania,OTP,26.085,44.5711111
+Cluj,Cluj-Napoca,Romania,CLJ,23.686199,46.785198
+Koltsovo,Koltsovo,Russia,SVX,60.802700042725,56.743099212646
+Krasnodar,Krasnodar,Russia,KRR,39.170501708984,45.034698486328
+Moscow,Moscow Sheremetyevo,Russia,SVO,37.4146,55.972599
+Saint Petersburg,Saint Petersburg Pulkovo,Russia,LED,30.2625007629395,59.8003005981445
+Belgrade,Belgrade Nikola Tesla,Serbia,BEG,20.3090991974,44.8184013367
+Bratislava,Bratislava,Slovakia,BTS,17.2126998901367,48.1702003479004
+Barcelona,Barcelona,Spain,BCN,2.07846,41.2971
+Girona,Girona,Spain,GRO,2.7605500221,41.901000977
+Granada,Granada-Jaén,Spain,GRX,-3.77735996246338,37.1887016296387
+Madrid,Madrid Barajas,Spain,MAD,-3.56264,40.471926
+Malaga,Malaga,Spain,AGP,-4.49911022186279,36.6749000549316
+Seville,Seville,Spain,SVQ,-5.8931097984314,37.4179992675781
+Valencia,Valencia,Spain,VLC,-0.481625,39.4893
+Malmö,Malmö,Sweden,MMX,13.3761978149,55.536305364
+Stockholm,Stockholm Arlanda,Sweden,ARN,17.918600082397,59.651901245117
+Basel,Basel Mulhouse Freiburg,Switzerland,BSL,7.529167,47.59
+Bern,Bern,Switzerland,BRN,7.49714994431,46.914100647
+Geneva,Geneva,Switzerland,GVA,6.10895013809204,46.2380981445313
+Zurich,Zurich,Switzerland,ZRH,8.54917,47.464699
+Antalya,Antalya,Turkey,AYT,30.800501,36.898701
+Istanbul,Istanbul New,Turkey,IST,28.751944,41.275278
+Kharkiv,Kharkiv,Ukraine,HRK,36.2900009155273,49.9248008728027
+Kiev,Kiev Boryspil,Ukraine,KBP,30.8946990966797,50.3450012207031
+Belfast,Belfast International,United Kingdom,BFS,-6.21582984924,54.6575012207
+Birmingham,Birmingham,United Kingdom,BHX,-1.74802994728,52.4538993835
+Cardiff,Cardiff,United Kingdom,CWL,-3.34332990646362,51.3967018127441
+Edinburgh,Edinburgh,United Kingdom,EDI,-3.37249994277954,55.9500007629395
+Glasgow,Glasgow,United Kingdom,GLA,-4.43306,55.871899
+Liverpool,Liverpool,United Kingdom,LPL,-2.8497200012207,53.3335990905762
+London,London Heathrow,United Kingdom,LHR,-0.461941,51.4706
+Manchester,Manchester,United Kingdom,MAN,-2.27495002746582,53.3536987304688
+Newcastle,Newcastle,United Kingdom,NCL,-1.69166994094849,55.0374984741211
+Southampton,Southampton,United Kingdom,SOU,-1.35679996013641,50.9502983093262
