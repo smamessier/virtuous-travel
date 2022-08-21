@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.68c86366.css",
-    "main.js": "/static/js/main.a8101145.js",
+    "main.js": "/static/js/main.1217f7ef.js",
     "static/js/787.2bb3426a.chunk.js": "/static/js/787.2bb3426a.chunk.js",
     "stations.csv": "/stations.csv",
     "cities.json": "/cities.json",
@@ -216,7 +216,6 @@
     "trip_data/marseille-london.json": "/trip_data/marseille-london.json",
     "trip_data/bordeaux-hamburg.json": "/trip_data/bordeaux-hamburg.json",
     "trip_data/lyon-granada.json": "/trip_data/lyon-granada.json",
-    "trip_data/prague-ajaccio.json": "/trip_data/prague-ajaccio.json",
     "trip_data/bordeaux-belgrade.json": "/trip_data/bordeaux-belgrade.json",
     "trip_data/bordeaux-berlin.json": "/trip_data/bordeaux-berlin.json",
     "trip_data/bordeaux-munich.json": "/trip_data/bordeaux-munich.json",
@@ -423,11 +422,11 @@
     "index.html": "/index.html",
     "README.md": "/README.md",
     "main.68c86366.css.map": "/static/css/main.68c86366.css.map",
-    "main.a8101145.js.map": "/static/js/main.a8101145.js.map",
+    "main.1217f7ef.js.map": "/static/js/main.1217f7ef.js.map",
     "787.2bb3426a.chunk.js.map": "/static/js/787.2bb3426a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68c86366.css",
-    "static/js/main.a8101145.js"
+    "static/js/main.1217f7ef.js"
   ]
 }

@@ -1,6 +1,5 @@
 {
     "cities": [
-        "Ajaccio",
         "Amsterdam",
         "Barcelona",
         "Belgrade",
@@ -956,10 +955,6 @@
         [
             "Marseille",
             "Bergen"
-        ],
-        [
-            "Prague",
-            "Ajaccio"
         ],
         [
             "Bordeaux",
