@@ -1,0 +1,102 @@
+{
+    "origin": "Lille",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "WELKENRAEDT (Belgium)",
+                        "lat": 50.659447,
+                        "lon": 5.975274
+                    },
+                    "time_s": 5880.0
+                },
+                {
+                    "start": {
+                        "name": "WELKENRAEDT (Belgium)",
+                        "lat": 50.659447,
+                        "lon": 5.975274
+                    },
+                    "end": {
+                        "name": "AACHEN HBF (Germany)",
+                        "lat": 50.767776,
+                        "lon": 6.091387
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "AACHEN HBF (Germany)",
+                        "lat": 50.767776,
+                        "lon": 6.091387
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 16260.0,
+            "total_distance_km": 293.23383938620356
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 392.77118409813227
+                }
+            ],
+            "total_duration_s": "PT18H25M",
+            "total_distance_km": 1362.8125338688164
+        }
+    ]
+}

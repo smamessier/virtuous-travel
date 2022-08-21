@@ -1,0 +1,115 @@
+{
+    "origin": "Lille",
+    "destination": "Manchester",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 1620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "end": {
+                        "name": "MANCHESTER OXFORD ROAD (United Kingdom)",
+                        "lat": 53.471111,
+                        "lon": -2.24111
+                    },
+                    "time_s": 120.0
+                }
+            ],
+            "total_duration_s": 18480.0,
+            "total_distance_km": 505.08567814824994
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "E70",
+                    "distance": 828.609538334467
+                },
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 694.5198081526531
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MAN"
+                    },
+                    "aircraft": "320",
+                    "distance": 587.9965926881875
+                }
+            ],
+            "total_duration_s": "PT13H25M",
+            "total_distance_km": 2111.1259391753074
+        }
+    ]
+}

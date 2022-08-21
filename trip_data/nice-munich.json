@@ -1,0 +1,95 @@
+{
+    "origin": "Nice",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 7740.0
+                },
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 6120.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 19500.0
+                }
+            ],
+            "total_duration_s": 53400.0,
+            "total_distance_km": 719.7206350998968
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "319",
+                    "distance": 629.9672578105702
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 629.9672578105702
+        }
+    ]
+}

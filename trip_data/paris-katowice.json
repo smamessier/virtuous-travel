@@ -1,0 +1,92 @@
+{
+    "origin": "Paris",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 8280.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 17580.0
+                }
+            ],
+            "total_duration_s": 58080.0,
+            "total_distance_km": 1345.7415634705717
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1342.4949677851112
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E75",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H45M",
+            "total_distance_km": 1571.7597150987751
+        }
+    ]
+}

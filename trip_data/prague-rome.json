@@ -1,0 +1,69 @@
+{
+    "origin": "Prague",
+    "destination": "Rome",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 20400.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19440.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "time_s": 11880.0
+                }
+            ],
+            "total_duration_s": 55920.0,
+            "total_distance_km": 1016.2621563706816
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "320",
+                    "distance": 936.0136465889541
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 936.0136465889541
+        }
+    ]
+}

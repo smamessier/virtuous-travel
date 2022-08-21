@@ -1,0 +1,118 @@
+{
+    "origin": "Nice",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "time_s": 28980.0
+                },
+                {
+                    "start": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 4740.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "SARGANS (Switzerland)",
+                        "lat": 47.044722,
+                        "lon": 9.446386
+                    },
+                    "time_s": 3480.0
+                },
+                {
+                    "start": {
+                        "name": "SARGANS (Switzerland)",
+                        "lat": 47.044722,
+                        "lon": 9.446386
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 25020.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 3540.0
+                }
+            ],
+            "total_duration_s": 107760.0,
+            "total_distance_km": 1529.2323655986654
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1857.070583271903
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1250.583618299244
+                }
+            ],
+            "total_duration_s": "PT12H20M",
+            "total_distance_km": 3107.654201571147
+        }
+    ]
+}

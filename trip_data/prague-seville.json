@@ -1,0 +1,131 @@
+{
+    "origin": "Prague",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 15840.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 13500.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 34140.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 124440.0,
+            "total_distance_km": 2624.257975991247
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 705.00895445239
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1852.0709185460846
+                }
+            ],
+            "total_duration_s": "PT15H25M",
+            "total_distance_km": 2557.0798729984745
+        }
+    ]
+}

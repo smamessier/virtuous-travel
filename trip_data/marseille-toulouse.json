@@ -1,0 +1,43 @@
+{
+    "origin": "Marseille",
+    "destination": "Toulouse",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "time_s": 14220.0
+                }
+            ],
+            "total_duration_s": 14220.0,
+            "total_distance_km": 318.7616770992075
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "TLS"
+                    },
+                    "aircraft": "BEH",
+                    "distance": 311.65786631897157
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 311.65786631897157
+        }
+    ]
+}

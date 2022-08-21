@@ -1,0 +1,56 @@
+{
+    "origin": "Lyon",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 13680.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 4680.0
+                }
+            ],
+            "total_duration_s": 19860.0,
+            "total_distance_km": 490.4237914988574
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "BEH",
+                    "distance": 454.2806287215321
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 454.2806287215321
+        }
+    ]
+}

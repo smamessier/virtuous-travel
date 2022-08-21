@@ -1,0 +1,79 @@
+{
+    "origin": "Marseille",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "CANNES (France)",
+                        "lat": 43.553887,
+                        "lon": 7.018607
+                    },
+                    "time_s": 7920.0
+                },
+                {
+                    "start": {
+                        "name": "CANNES (France)",
+                        "lat": 43.553887,
+                        "lon": 7.018607
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 5940.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 7500.0
+                }
+            ],
+            "total_duration_s": 25680.0,
+            "total_distance_km": 315.31144354882383
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "319",
+                    "distance": 351.24814502147507
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 650.5311779758703
+                }
+            ],
+            "total_duration_s": "PT19H15M",
+            "total_distance_km": 1001.7793229973454
+        }
+    ]
+}

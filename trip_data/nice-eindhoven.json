@@ -1,0 +1,115 @@
+{
+    "origin": "Nice",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 20760.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "time_s": 9420.0
+                },
+                {
+                    "start": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "end": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 1920.0
+                }
+            ],
+            "total_duration_s": 39000.0,
+            "total_distance_km": 1147.065866082453
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "BRU"
+                    },
+                    "aircraft": "320",
+                    "distance": 831.1697161933338
+                },
+                {
+                    "start": {
+                        "name": "BRU"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "32N",
+                    "distance": 2101.435049604536
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "320",
+                    "distance": 2088.9934755386253
+                }
+            ],
+            "total_duration_s": "PT48H10M",
+            "total_distance_km": 5021.5982413364945
+        }
+    ]
+}

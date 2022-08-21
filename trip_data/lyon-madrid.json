@@ -1,0 +1,56 @@
+{
+    "origin": "Lyon",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PERRACHE (France)",
+                        "lat": 45.748613,
+                        "lon": 4.825553
+                    },
+                    "end": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "time_s": 3840.0
+                },
+                {
+                    "start": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 25500.0
+                }
+            ],
+            "total_duration_s": 31140.0,
+            "total_distance_km": 1003.1358584789807
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "32A",
+                    "distance": 912.1977103553056
+                }
+            ],
+            "total_duration_s": "PT1H55M",
+            "total_distance_km": 912.1977103553056
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "origin": "Marseille",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11940.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 8100.0
+                }
+            ],
+            "total_duration_s": 24720.0,
+            "total_distance_km": 1001.3799826264828
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 254.46617093473907
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "318",
+                    "distance": 536.5848684670569
+                }
+            ],
+            "total_duration_s": "PT3H15M",
+            "total_distance_km": 791.0510394017961
+        }
+    ]
+}

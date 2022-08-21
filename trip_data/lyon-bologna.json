@@ -1,0 +1,82 @@
+{
+    "origin": "Lyon",
+    "destination": "Bologna",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU GARE ROUTIERE (France)",
+                        "lat": 45.760559,
+                        "lon": 4.862778
+                    },
+                    "end": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "time_s": 5220.0
+                },
+                {
+                    "start": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "end": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 9240.0
+                }
+            ],
+            "total_duration_s": 29760.0,
+            "total_distance_km": 538.8202950883427
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "BLQ"
+                    },
+                    "aircraft": "E70",
+                    "distance": 504.48259952875713
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 504.48259952875713
+        }
+    ]
+}

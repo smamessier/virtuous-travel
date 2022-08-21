@@ -1,0 +1,131 @@
+{
+    "origin": "Marseille",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 6240.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "time_s": 10020.0
+                },
+                {
+                    "start": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 1320.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "time_s": 360.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "end": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "time_s": 5100.0
+                },
+                {
+                    "start": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "end": {
+                        "name": "RADOLFZELL (Germany)",
+                        "lat": 47.735831,
+                        "lon": 8.968888
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "RADOLFZELL (Germany)",
+                        "lat": 47.735831,
+                        "lon": 8.968888
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 4020.0
+                }
+            ],
+            "total_duration_s": 33480.0,
+            "total_distance_km": 741.4648104646948
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 776.1699393868524
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT6H25M",
+            "total_distance_km": 1047.6832400559774
+        }
+    ]
+}

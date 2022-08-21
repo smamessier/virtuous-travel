@@ -1,0 +1,141 @@
+{
+    "origin": "Prague",
+    "destination": "Girona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 15840.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 13500.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "CERBERE (France)",
+                        "lat": 42.44167,
+                        "lon": 3.163331
+                    },
+                    "time_s": 41760.0
+                },
+                {
+                    "start": {
+                        "name": "CERBERE (France)",
+                        "lat": 42.44167,
+                        "lon": 3.163331
+                    },
+                    "end": {
+                        "name": "PORT-BOU (Spain)",
+                        "lat": 42.424447,
+                        "lon": 3.157776
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "PORT-BOU (Spain)",
+                        "lat": 42.424447,
+                        "lon": 3.157776
+                    },
+                    "end": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "time_s": 3780.0
+                }
+            ],
+            "total_duration_s": 97980.0,
+            "total_distance_km": 1742.7520118568434
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "LCA"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2307.4374674462365
+                },
+                {
+                    "start": {
+                        "name": "LCA"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "7M8",
+                    "distance": 2094.741157357393
+                },
+                {
+                    "start": {
+                        "name": "KTW"
+                    },
+                    "end": {
+                        "name": "GRO"
+                    },
+                    "aircraft": "7M8",
+                    "distance": 1571.27456556475
+                }
+            ],
+            "total_duration_s": "PT20H50M",
+            "total_distance_km": 5973.45319036838
+        }
+    ]
+}

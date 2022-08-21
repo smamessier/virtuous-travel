@@ -1,0 +1,108 @@
+{
+    "origin": "Prague",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "time_s": 15000.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 7320.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "time_s": 13080.0
+                },
+                {
+                    "start": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "end": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "time_s": 9000.0
+                },
+                {
+                    "start": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 9960.0
+                }
+            ],
+            "total_duration_s": 110640.0,
+            "total_distance_km": 1418.5123188775945
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1139.7883016909382
+                }
+            ],
+            "total_duration_s": "PT2H",
+            "total_distance_km": 1139.7883016909382
+        }
+    ]
+}

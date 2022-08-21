@@ -1,0 +1,118 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Newcastle",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 8400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "end": {
+                        "name": "NEWCASTLE (United Kingdom)",
+                        "lat": 54.96528,
+                        "lon": -1.615829
+                    },
+                    "time_s": 11340.0
+                }
+            ],
+            "total_duration_s": 35580.0,
+            "total_distance_km": 1240.9022358871541
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 527.1426132576643
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NCL"
+                    },
+                    "aircraft": "319",
+                    "distance": 729.7464473578839
+                }
+            ],
+            "total_duration_s": "PT5H35M",
+            "total_distance_km": 1256.8890606155483
+        }
+    ]
+}

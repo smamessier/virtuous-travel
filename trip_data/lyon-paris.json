@@ -1,0 +1,43 @@
+{
+    "origin": "Lyon",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 7140.0
+                }
+            ],
+            "total_duration_s": 7140.0,
+            "total_distance_km": 390.8073579095004
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 412.18284884671124
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "origin": "Marseille",
+    "destination": "Pisa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "CANNES (France)",
+                        "lat": 43.553887,
+                        "lon": 7.018607
+                    },
+                    "time_s": 7920.0
+                },
+                {
+                    "start": {
+                        "name": "CANNES (France)",
+                        "lat": 43.553887,
+                        "lon": 7.018607
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 5940.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 7500.0
+                },
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "LA SPEZIA CENTRALE (Italy)",
+                        "lat": 44.111389,
+                        "lon": 9.813892
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "LA SPEZIA CENTRALE (Italy)",
+                        "lat": 44.111389,
+                        "lon": 9.813892
+                    },
+                    "end": {
+                        "name": "PISA S. ROSSORE (Italy)",
+                        "lat": 43.723334,
+                        "lon": 10.387224
+                    },
+                    "time_s": 3900.0
+                }
+            ],
+            "total_duration_s": 38880.0,
+            "total_distance_km": 457.1985902176621
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 986.8104778103706
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "PSA"
+                    },
+                    "aircraft": "73G",
+                    "distance": 1045.7127477262484
+                }
+            ],
+            "total_duration_s": "PT9H55M",
+            "total_distance_km": 2032.523225536619
+        }
+    ]
+}

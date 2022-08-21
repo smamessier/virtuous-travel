@@ -1,0 +1,69 @@
+{
+    "origin": "Nice",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 9780.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 13200.0
+                }
+            ],
+            "total_duration_s": 30840.0,
+            "total_distance_km": 586.8441461105195
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "321",
+                    "distance": 496.2972051557355
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 496.2972051557355
+        }
+    ]
+}

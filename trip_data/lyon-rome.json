@@ -1,0 +1,92 @@
+{
+    "origin": "Lyon",
+    "destination": "Rome",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU GARE ROUTIERE (France)",
+                        "lat": 45.760559,
+                        "lon": 4.862778
+                    },
+                    "end": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "time_s": 5220.0
+                },
+                {
+                    "start": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "end": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "time_s": 17940.0
+                }
+            ],
+            "total_duration_s": 38460.0,
+            "total_distance_km": 767.85823108727
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "MLA"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1350.6095051534364
+                },
+                {
+                    "start": {
+                        "name": "MLA"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "320",
+                    "distance": 688.5995498019843
+                }
+            ],
+            "total_duration_s": "PT16H10M",
+            "total_distance_km": 2039.2090549554207
+        }
+    ]
+}

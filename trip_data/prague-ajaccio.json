@@ -1,0 +1,92 @@
+{
+    "origin": "Prague",
+    "destination": "Ajaccio",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BUDAPEST-NYUGATI (Hungary)",
+                        "lat": 47.510831,
+                        "lon": 19.0575
+                    },
+                    "time_s": 35160.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-NYUGATI (Hungary)",
+                        "lat": 47.510831,
+                        "lon": 19.0575
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "end": {
+                        "name": "NYIREGYHAZA (Hungary)",
+                        "lat": 47.946664,
+                        "lon": 21.70556
+                    },
+                    "time_s": 10740.0
+                },
+                {
+                    "start": {
+                        "name": "NYIREGYHAZA (Hungary)",
+                        "lat": 47.946664,
+                        "lon": 21.70556
+                    },
+                    "end": {
+                        "name": "AJAK (Hungary)",
+                        "lat": 48.187503,
+                        "lon": 22.050836
+                    },
+                    "time_s": 2400.0
+                }
+            ],
+            "total_duration_s": 53520.0,
+            "total_distance_km": 684.6138737374937
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "32A",
+                    "distance": 852.3721885810297
+                },
+                {
+                    "start": {
+                        "name": "ORY"
+                    },
+                    "end": {
+                        "name": "AJA"
+                    },
+                    "aircraft": "320",
+                    "distance": 906.9434850006783
+                }
+            ],
+            "total_duration_s": "PT24H15M",
+            "total_distance_km": 1759.3156735817079
+        }
+    ]
+}

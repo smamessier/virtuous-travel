@@ -1,0 +1,43 @@
+{
+    "origin": "Paris",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 11400.0
+                }
+            ],
+            "total_duration_s": 11400.0,
+            "total_distance_km": 499.3538553461902
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "E90",
+                    "distance": 489.33346193618945
+                }
+            ],
+            "total_duration_s": "PT1H15M",
+            "total_distance_km": 489.33346193618945
+        }
+    ]
+}

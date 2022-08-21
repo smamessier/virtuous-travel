@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 7980.0
+                }
+            ],
+            "total_duration_s": 19920.0,
+            "total_distance_km": 688.6487528846566
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "32A",
+                    "distance": 681.5701871575657
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 681.5701871575657
+        }
+    ]
+}

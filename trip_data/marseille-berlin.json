@@ -1,0 +1,79 @@
+{
+    "origin": "Marseille",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 20100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 15600.0
+                }
+            ],
+            "total_duration_s": 45120.0,
+            "total_distance_km": 1500.6639174786874
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 776.1699393868524
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "321",
+                    "distance": 431.68306686036414
+                }
+            ],
+            "total_duration_s": "PT9H5M",
+            "total_distance_km": 1207.8530062472166
+        }
+    ]
+}

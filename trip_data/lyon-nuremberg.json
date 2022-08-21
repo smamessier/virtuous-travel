@@ -1,0 +1,79 @@
+{
+    "origin": "Lyon",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 13680.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 4680.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 8640.0
+                }
+            ],
+            "total_duration_s": 31620.0,
+            "total_distance_km": 647.131855517061
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E75",
+                    "distance": 541.5968895724073
+                }
+            ],
+            "total_duration_s": "PT3H35M",
+            "total_distance_km": 1273.9625581100734
+        }
+    ]
+}

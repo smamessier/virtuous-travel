@@ -1,0 +1,115 @@
+{
+    "origin": "Lille",
+    "destination": "Glasgow",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 1620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "end": {
+                        "name": "EDINBURGH (United Kingdom)",
+                        "lat": 55.949724,
+                        "lon": -3.186667
+                    },
+                    "time_s": 15360.0
+                },
+                {
+                    "start": {
+                        "name": "EDINBURGH (United Kingdom)",
+                        "lat": 55.949724,
+                        "lon": -3.186667
+                    },
+                    "end": {
+                        "name": "GLASGOW QUEEN STREET (United Kingdom)",
+                        "lat": 55.860282,
+                        "lon": -4.250001
+                    },
+                    "time_s": 3000.0
+                }
+            ],
+            "total_duration_s": 26700.0,
+            "total_distance_km": 843.1407703720947
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "GLA"
+                    },
+                    "aircraft": "73H",
+                    "distance": 717.9574758733316
+                }
+            ],
+            "total_duration_s": "PT21H",
+            "total_distance_km": 2008.1816453349707
+        }
+    ]
+}

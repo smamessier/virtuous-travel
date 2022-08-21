@@ -1,0 +1,79 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 12600.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 45060.0,
+            "total_distance_km": 1362.3239084221232
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 537.3738677138739
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "321",
+                    "distance": 394.8478810366565
+                }
+            ],
+            "total_duration_s": "PT11H50M",
+            "total_distance_km": 932.2217487505304
+        }
+    ]
+}

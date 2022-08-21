@@ -1,0 +1,82 @@
+{
+    "origin": "Nantes",
+    "destination": "Malaga",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "MONTPELLIER SAINT-ROCH (France)",
+                        "lat": 43.604721,
+                        "lon": 3.880553
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MONTPELLIER SAINT-ROCH (France)",
+                        "lat": 43.604721,
+                        "lon": 3.880553
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 10800.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10500.0
+                }
+            ],
+            "total_duration_s": 93360.0,
+            "total_distance_km": 1786.5857804415762
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "AGP"
+                    },
+                    "aircraft": "320",
+                    "distance": 1189.1638755035297
+                }
+            ],
+            "total_duration_s": "PT2H5M",
+            "total_distance_km": 1189.1638755035297
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "origin": "Nice",
+    "destination": "Turin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 7740.0
+                },
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "TORINO PORTA NUOVA (Italy)",
+                        "lat": 45.06056,
+                        "lon": 7.677498
+                    },
+                    "time_s": 6420.0
+                }
+            ],
+            "total_duration_s": 20040.0,
+            "total_distance_km": 276.7033706154249
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "320",
+                    "distance": 694.5198081526531
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "TRN"
+                    },
+                    "aircraft": "E90",
+                    "distance": 573.0038939473278
+                }
+            ],
+            "total_duration_s": "PT5H5M",
+            "total_distance_km": 1267.523702099981
+        }
+    ]
+}

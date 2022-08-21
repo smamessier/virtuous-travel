@@ -1,0 +1,92 @@
+{
+    "origin": "Nice",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 16560.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 17820.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 10020.0
+                }
+            ],
+            "total_duration_s": 96900.0,
+            "total_distance_km": 1722.0815997955365
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 978.8657825569127
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1852.0709185460846
+                }
+            ],
+            "total_duration_s": "PT16H55M",
+            "total_distance_km": 2830.936701102997
+        }
+    ]
+}

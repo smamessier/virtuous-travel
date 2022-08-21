@@ -1,0 +1,79 @@
+{
+    "origin": "Nantes",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 18000.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 6660.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 13560.0
+                }
+            ],
+            "total_duration_s": 42540.0,
+            "total_distance_km": 1128.4971955036026
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 733.267711574465
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "73H",
+                    "distance": 379.357426640726
+                }
+            ],
+            "total_duration_s": "PT5H35M",
+            "total_distance_km": 1112.6251382151909
+        }
+    ]
+}

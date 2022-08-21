@@ -1,0 +1,66 @@
+{
+    "origin": "Nantes",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "MASSY TGV (France)",
+                        "lat": 48.725831,
+                        "lon": 2.261389
+                    },
+                    "time_s": 8580.0
+                },
+                {
+                    "start": {
+                        "name": "MASSY TGV (France)",
+                        "lat": 48.725831,
+                        "lon": 2.261389
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 14100.0
+                }
+            ],
+            "total_duration_s": 26520.0,
+            "total_distance_km": 978.2176396263393
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "318",
+                    "distance": 536.5848684670569
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 254.46617093473907
+                }
+            ],
+            "total_duration_s": "PT2H30M",
+            "total_distance_km": 791.0510394017961
+        }
+    ]
+}

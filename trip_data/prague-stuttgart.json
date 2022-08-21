@@ -1,0 +1,79 @@
+{
+    "origin": "Prague",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "time_s": 12360.0
+                },
+                {
+                    "start": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 4440.0
+                },
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 26940.0,
+            "total_distance_km": 419.26972799466466
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 521.0128722404482
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "E75",
+                    "distance": 915.9669080610397
+                }
+            ],
+            "total_duration_s": "PT6H15M",
+            "total_distance_km": 1436.979780301488
+        }
+    ]
+}

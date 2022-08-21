@@ -1,0 +1,66 @@
+{
+    "origin": "Nice",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "TOULON (France)",
+                        "lat": 43.128329,
+                        "lon": 5.929168
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "TOULON (France)",
+                        "lat": 43.128329,
+                        "lon": 5.929168
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 3660.0
+                }
+            ],
+            "total_duration_s": 11100.0,
+            "total_distance_km": 173.79101188537996
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "AJA"
+                    },
+                    "aircraft": "AT7",
+                    "distance": 232.32867584543004
+                },
+                {
+                    "start": {
+                        "name": "AJA"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "320",
+                    "distance": 337.7632013268967
+                }
+            ],
+            "total_duration_s": "PT11H40M",
+            "total_distance_km": 570.0918771723268
+        }
+    ]
+}

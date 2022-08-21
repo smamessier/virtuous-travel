@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 9840.0
+                }
+            ],
+            "total_duration_s": 24060.0,
+            "total_distance_km": 816.5219006423949
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "320",
+                    "distance": 694.5198081526531
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 694.5198081526531
+        }
+    ]
+}

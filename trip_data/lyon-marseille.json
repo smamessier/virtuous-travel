@@ -1,0 +1,43 @@
+{
+    "origin": "Lyon",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 6420.0
+                }
+            ],
+            "total_duration_s": 6420.0,
+            "total_distance_km": 276.36855477379976
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 254.46617093473907
+                }
+            ],
+            "total_duration_s": "PT50M",
+            "total_distance_km": 254.46617093473907
+        }
+    ]
+}

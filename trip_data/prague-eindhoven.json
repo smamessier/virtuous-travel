@@ -1,0 +1,118 @@
+{
+    "origin": "Prague",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 15420.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "DUISBURG HBF (Germany)",
+                        "lat": 51.429723,
+                        "lon": 6.775835
+                    },
+                    "time_s": 14520.0
+                },
+                {
+                    "start": {
+                        "name": "DUISBURG HBF (Germany)",
+                        "lat": 51.429723,
+                        "lon": 6.775835
+                    },
+                    "end": {
+                        "name": "VIERSEN (Germany)",
+                        "lat": 51.255,
+                        "lon": 6.403888
+                    },
+                    "time_s": 1560.0
+                },
+                {
+                    "start": {
+                        "name": "VIERSEN (Germany)",
+                        "lat": 51.255,
+                        "lon": 6.403888
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 1380.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 40620.0,
+            "total_distance_km": 850.5682600981015
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "SAW"
+                    },
+                    "aircraft": "320",
+                    "distance": 1551.3017698625324
+                },
+                {
+                    "start": {
+                        "name": "SAW"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "320",
+                    "distance": 2169.3998052953457
+                }
+            ],
+            "total_duration_s": "PT20H50M",
+            "total_distance_km": 3720.7015751578783
+        }
+    ]
+}

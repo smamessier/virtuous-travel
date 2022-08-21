@@ -1,0 +1,66 @@
+{
+    "origin": "Marseille",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 16320.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "VALENCIA-ESTACIO DEL NORD (Spain)",
+                        "lat": 39.465,
+                        "lon": -0.377502
+                    },
+                    "time_s": 13680.0
+                }
+            ],
+            "total_duration_s": 31560.0,
+            "total_distance_km": 642.7015308846131
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 797.2550056582962
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 284.32595552066823
+                }
+            ],
+            "total_duration_s": "PT13H55M",
+            "total_distance_km": 1081.5809611789646
+        }
+    ]
+}

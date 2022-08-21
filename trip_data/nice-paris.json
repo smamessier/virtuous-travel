@@ -1,0 +1,43 @@
+{
+    "origin": "Nice",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 20760.0
+                }
+            ],
+            "total_duration_s": 20760.0,
+            "total_distance_km": 683.6944477478675
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "346",
+                    "distance": 694.5198081526531
+                }
+            ],
+            "total_duration_s": "PT43M",
+            "total_distance_km": 694.5198081526531
+        }
+    ]
+}

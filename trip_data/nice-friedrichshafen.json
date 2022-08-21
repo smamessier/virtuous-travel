@@ -1,0 +1,92 @@
+{
+    "origin": "Nice",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "time_s": 28980.0
+                },
+                {
+                    "start": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 1140.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "time_s": 360.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 40800.0,
+            "total_distance_km": 620.3363760304454
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 716.2752091481028
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT3H10M",
+            "total_distance_km": 987.7885098172278
+        }
+    ]
+}

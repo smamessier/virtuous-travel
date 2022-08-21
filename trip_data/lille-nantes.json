@@ -1,0 +1,56 @@
+{
+    "origin": "Lille",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "PARIS AEROPORT CDG2 TGV ROISSY (France)",
+                        "lat": 49.003885,
+                        "lon": 2.571113
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AEROPORT CDG2 TGV ROISSY (France)",
+                        "lat": 49.003885,
+                        "lon": 2.571113
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 10920.0
+                }
+            ],
+            "total_duration_s": 14280.0,
+            "total_distance_km": 549.6422935033323
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "320",
+                    "distance": 511.5498086052627
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 511.5498086052627
+        }
+    ]
+}

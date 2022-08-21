@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 20280.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 22920.0
+                }
+            ],
+            "total_duration_s": 44760.0,
+            "total_distance_km": 1293.5805643071014
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "319",
+                    "distance": 1289.6075912362753
+                }
+            ],
+            "total_duration_s": "PT2H15M",
+            "total_distance_km": 1289.6075912362753
+        }
+    ]
+}

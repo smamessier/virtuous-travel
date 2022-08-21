@@ -1,0 +1,92 @@
+{
+    "origin": "Nice",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 32520.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 2580.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 52080.0,
+            "total_distance_km": 828.9308445833136
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "320",
+                    "distance": 694.5198081526531
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 620.9430969252229
+                }
+            ],
+            "total_duration_s": "PT4H55M",
+            "total_distance_km": 1315.462905077876
+        }
+    ]
+}

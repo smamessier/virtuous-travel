@@ -1,0 +1,92 @@
+{
+    "origin": "Paris",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "CHATELET LES HALLES (France)",
+                        "lat": 48.861667,
+                        "lon": 2.34694
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "CHATELET LES HALLES (France)",
+                        "lat": 48.861667,
+                        "lon": 2.34694
+                    },
+                    "end": {
+                        "name": "PARIS AEROPORT CDG 2 RER (France)",
+                        "lat": 49.003885,
+                        "lon": 2.571113
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AEROPORT CDG 2 RER (France)",
+                        "lat": 49.003885,
+                        "lon": 2.571113
+                    },
+                    "end": {
+                        "name": "PARIS AEROPORT CDG2 TGV ROISSY (France)",
+                        "lat": 49.003885,
+                        "lon": 2.571113
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AEROPORT CDG2 TGV ROISSY (France)",
+                        "lat": 49.003885,
+                        "lon": 2.571113
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 3120.0
+                }
+            ],
+            "total_duration_s": 10080.0,
+            "total_distance_km": 210.16069058502114
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                }
+            ],
+            "total_duration_s": "PT3H50M",
+            "total_distance_km": 970.0413497706843
+        }
+    ]
+}

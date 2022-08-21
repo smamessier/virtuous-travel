@@ -1,0 +1,105 @@
+{
+    "origin": "Paris",
+    "destination": "Debrecen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 8280.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 23580.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "end": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "time_s": 10320.0
+                }
+            ],
+            "total_duration_s": 59460.0,
+            "total_distance_km": 1448.5932892438843
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "32A",
+                    "distance": 681.5701871575657
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DEB"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                }
+            ],
+            "total_duration_s": "PT4H10M",
+            "total_distance_km": 1419.7800219560067
+        }
+    ]
+}

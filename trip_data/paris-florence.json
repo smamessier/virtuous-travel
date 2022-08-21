@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Florence",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 20280.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 11580.0
+                }
+            ],
+            "total_duration_s": 33420.0,
+            "total_distance_km": 899.2115997838606
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "FLR"
+                    },
+                    "aircraft": "319",
+                    "distance": 879.3473737244514
+                }
+            ],
+            "total_duration_s": "PT1H40M",
+            "total_distance_km": 879.3473737244514
+        }
+    ]
+}

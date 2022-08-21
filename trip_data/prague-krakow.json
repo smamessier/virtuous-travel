@@ -1,0 +1,66 @@
+{
+    "origin": "Prague",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "time_s": 12480.0
+                },
+                {
+                    "start": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 8880.0
+                }
+            ],
+            "total_duration_s": 21960.0,
+            "total_distance_km": 396.3222233438888
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "CPH"
+                    },
+                    "aircraft": "73H",
+                    "distance": 622.8090593866174
+                },
+                {
+                    "start": {
+                        "name": "CPH"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "73H",
+                    "distance": 779.353956105485
+                }
+            ],
+            "total_duration_s": "PT13H5M",
+            "total_distance_km": 1402.1630154921024
+        }
+    ]
+}

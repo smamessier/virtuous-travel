@@ -1,0 +1,144 @@
+{
+    "origin": "Marseille",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11940.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 11340.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 7980.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 14400.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 23520.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "time_s": 9840.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 600.0
+                }
+            ],
+            "total_duration_s": 95280.0,
+            "total_distance_km": 2274.1085426128784
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 986.8104778103706
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1101.1715249816768
+                }
+            ],
+            "total_duration_s": "PT9H30M",
+            "total_distance_km": 2087.9820027920473
+        }
+    ]
+}

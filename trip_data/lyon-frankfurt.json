@@ -1,0 +1,56 @@
+{
+    "origin": "Lyon",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 13320.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 11160.0
+                }
+            ],
+            "total_duration_s": 25320.0,
+            "total_distance_km": 882.402156515376
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32N",
+                    "distance": 544.9826998315332
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 544.9826998315332
+        }
+    ]
+}

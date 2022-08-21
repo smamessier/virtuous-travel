@@ -1,0 +1,69 @@
+{
+    "origin": "Lyon",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PERRACHE (France)",
+                        "lat": 45.748613,
+                        "lon": 4.825553
+                    },
+                    "end": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "time_s": 3840.0
+                },
+                {
+                    "start": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 14040.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "VALENCIA-ESTACIO DEL NORD (Spain)",
+                        "lat": 39.465,
+                        "lon": -0.377502
+                    },
+                    "time_s": 13680.0
+                }
+            ],
+            "total_duration_s": 34920.0,
+            "total_distance_km": 860.3065618131573
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "320",
+                    "distance": 829.0481979285082
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 829.0481979285082
+        }
+    ]
+}

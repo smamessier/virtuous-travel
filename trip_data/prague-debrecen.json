@@ -1,0 +1,131 @@
+{
+    "origin": "Prague",
+    "destination": "Debrecen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "OLOMOUC HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 49.592499,
+                        "lon": 17.27778
+                    },
+                    "time_s": 8220.0
+                },
+                {
+                    "start": {
+                        "name": "OLOMOUC HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 49.592499,
+                        "lon": 17.27778
+                    },
+                    "end": {
+                        "name": "PREROV (Czech Republic)",
+                        "lat": 49.444447,
+                        "lon": 17.448332
+                    },
+                    "time_s": 1260.0
+                },
+                {
+                    "start": {
+                        "name": "PREROV (Czech Republic)",
+                        "lat": 49.444447,
+                        "lon": 17.448332
+                    },
+                    "end": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "time_s": 6300.0
+                },
+                {
+                    "start": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 3240.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 8400.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "end": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "time_s": 8040.0
+                }
+            ],
+            "total_duration_s": 54660.0,
+            "total_distance_km": 801.2904705073308
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 264.56321691512125
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DEB"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                }
+            ],
+            "total_duration_s": "PT7H40M",
+            "total_distance_km": 1002.7730517135624
+        }
+    ]
+}

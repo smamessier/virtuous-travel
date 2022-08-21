@@ -1,0 +1,79 @@
+{
+    "origin": "Prague",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "REGENSBURG HBF (Germany)",
+                        "lat": 49.01167,
+                        "lon": 12.099723
+                    },
+                    "time_s": 14820.0
+                },
+                {
+                    "start": {
+                        "name": "REGENSBURG HBF (Germany)",
+                        "lat": 49.01167,
+                        "lon": 12.099723
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 4140.0
+                }
+            ],
+            "total_duration_s": 29820.0,
+            "total_distance_km": 467.043938597689
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 406.0554853001114
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT3H20M",
+            "total_distance_km": 677.5687859692364
+        }
+    ]
+}

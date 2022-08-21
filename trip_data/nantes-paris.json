@@ -1,0 +1,43 @@
+{
+    "origin": "Nantes",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 7740.0
+                }
+            ],
+            "total_duration_s": 7740.0,
+            "total_distance_km": 338.98512578481325
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 371.78334166513326
+                }
+            ],
+            "total_duration_s": "PT1H5M",
+            "total_distance_km": 371.78334166513326
+        }
+    ]
+}

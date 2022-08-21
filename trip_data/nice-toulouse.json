@@ -1,0 +1,66 @@
+{
+    "origin": "Nice",
+    "destination": "Toulouse",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 9780.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "time_s": 13560.0
+                }
+            ],
+            "total_duration_s": 24840.0,
+            "total_distance_km": 476.95594083473134
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "AJA"
+                    },
+                    "aircraft": "AT7",
+                    "distance": 232.32867584543004
+                },
+                {
+                    "start": {
+                        "name": "AJA"
+                    },
+                    "end": {
+                        "name": "TLS"
+                    },
+                    "aircraft": "320",
+                    "distance": 635.8302983605214
+                }
+            ],
+            "total_duration_s": "PT4H5M",
+            "total_distance_km": 868.1589742059514
+        }
+    ]
+}

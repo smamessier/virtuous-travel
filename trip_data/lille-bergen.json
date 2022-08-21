@@ -1,0 +1,89 @@
+{
+    "origin": "Lille",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE FLANDRES (France)",
+                        "lat": 50.636389,
+                        "lon": 3.070275
+                    },
+                    "end": {
+                        "name": "TOURNAI (Belgium)",
+                        "lat": 50.613053,
+                        "lon": 3.396664
+                    },
+                    "time_s": 3480.0
+                },
+                {
+                    "start": {
+                        "name": "TOURNAI (Belgium)",
+                        "lat": 50.613053,
+                        "lon": 3.396664
+                    },
+                    "end": {
+                        "name": "SAINT-GHISLAIN (Belgium)",
+                        "lat": 50.44278,
+                        "lon": 3.820002
+                    },
+                    "time_s": 1680.0
+                },
+                {
+                    "start": {
+                        "name": "SAINT-GHISLAIN (Belgium)",
+                        "lat": 50.44278,
+                        "lon": 3.820002
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 2040.0
+                }
+            ],
+            "total_duration_s": 8460.0,
+            "total_distance_km": 67.3376438043015
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1265.7722687509593
+                }
+            ],
+            "total_duration_s": "PT26H25M",
+            "total_distance_km": 2235.8136185216435
+        }
+    ]
+}

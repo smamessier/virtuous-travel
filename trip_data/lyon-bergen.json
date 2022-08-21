@@ -1,0 +1,92 @@
+{
+    "origin": "Lyon",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 7080.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "AULNOYE AYMERIES (France)",
+                        "lat": 50.1975,
+                        "lon": 3.843329
+                    },
+                    "time_s": 6540.0
+                },
+                {
+                    "start": {
+                        "name": "AULNOYE AYMERIES (France)",
+                        "lat": 50.1975,
+                        "lon": 3.843329
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1680.0
+                }
+            ],
+            "total_duration_s": 18840.0,
+            "total_distance_km": 605.8906163190478
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 548.6332552318446
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "32A",
+                    "distance": 2123.206042614734
+                }
+            ],
+            "total_duration_s": "PT14H10M",
+            "total_distance_km": 2671.8392978465786
+        }
+    ]
+}

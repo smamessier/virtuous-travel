@@ -1,0 +1,141 @@
+{
+    "origin": "Lille",
+    "destination": "Porto",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 10620.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 17820.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "end": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "time_s": 16440.0
+                },
+                {
+                    "start": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "end": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "end": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 121800.0,
+            "total_distance_km": 2254.1311949225255
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "OPO"
+                    },
+                    "aircraft": "319",
+                    "distance": 1231.1406628600103
+                }
+            ],
+            "total_duration_s": "PT39H15M",
+            "total_distance_km": 2201.1820126306948
+        }
+    ]
+}

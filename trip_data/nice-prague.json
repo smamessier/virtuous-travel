@@ -1,0 +1,118 @@
+{
+    "origin": "Nice",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 32520.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 6300.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "time_s": 15480.0
+                },
+                {
+                    "start": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "end": {
+                        "name": "BAD SCHANDAU (Germany)",
+                        "lat": 50.919163,
+                        "lon": 14.137497
+                    },
+                    "time_s": 2700.0
+                },
+                {
+                    "start": {
+                        "name": "BAD SCHANDAU (Germany)",
+                        "lat": 50.919163,
+                        "lon": 14.137497
+                    },
+                    "end": {
+                        "name": "DECIN HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.774167,
+                        "lon": 14.201392
+                    },
+                    "time_s": 1680.0
+                },
+                {
+                    "start": {
+                        "name": "DECIN HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.774167,
+                        "lon": 14.201392
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 6420.0
+                }
+            ],
+            "total_duration_s": 91200.0,
+            "total_distance_km": 1225.5829668232004
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1857.070583271903
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1139.7883016909382
+                }
+            ],
+            "total_duration_s": "PT13H5M",
+            "total_distance_km": 2996.8588849628413
+        }
+    ]
+}

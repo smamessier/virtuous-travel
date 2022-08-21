@@ -1,0 +1,118 @@
+{
+    "origin": "Lyon",
+    "destination": "Cardiff",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 7140.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "end": {
+                        "name": "CARDIFF CENTRAL (United Kingdom)",
+                        "lat": 51.472782,
+                        "lon": -3.176392
+                    },
+                    "time_s": 7500.0
+                }
+            ],
+            "total_duration_s": 32820.0,
+            "total_distance_km": 950.1647943435579
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "CWL"
+                    },
+                    "aircraft": "E90",
+                    "distance": 565.673671116523
+                }
+            ],
+            "total_duration_s": "PT3H40M",
+            "total_distance_km": 1298.039339654189
+        }
+    ]
+}

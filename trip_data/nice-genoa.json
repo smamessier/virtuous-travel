@@ -1,0 +1,66 @@
+{
+    "origin": "Nice",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 7740.0
+                }
+            ],
+            "total_duration_s": 11640.0,
+            "total_distance_km": 155.2638694615568
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "32S",
+                    "distance": 459.25828935194266
+                },
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "319",
+                    "distance": 400.76366988733935
+                }
+            ],
+            "total_duration_s": "PT7H",
+            "total_distance_km": 860.0219592392821
+        }
+    ]
+}

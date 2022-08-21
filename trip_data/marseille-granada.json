@@ -1,0 +1,79 @@
+{
+    "origin": "Marseille",
+    "destination": "Granada",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 27780.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10620.0
+                },
+                {
+                    "start": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "end": {
+                        "name": "GRANADA (Spain)",
+                        "lat": 37.184167,
+                        "lon": -3.609169
+                    },
+                    "time_s": 4320.0
+                }
+            ],
+            "total_duration_s": 48900.0,
+            "total_distance_km": 1322.6810829579097
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 797.2550056582962
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "GRX"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 365.5514944166332
+                }
+            ],
+            "total_duration_s": "PT13H55M",
+            "total_distance_km": 1162.8065000749293
+        }
+    ]
+}

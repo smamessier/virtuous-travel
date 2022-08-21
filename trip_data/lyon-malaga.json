@@ -1,0 +1,69 @@
+{
+    "origin": "Lyon",
+    "destination": "Malaga",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PERRACHE (France)",
+                        "lat": 45.748613,
+                        "lon": 4.825553
+                    },
+                    "end": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "time_s": 3840.0
+                },
+                {
+                    "start": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 25500.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10620.0
+                }
+            ],
+            "total_duration_s": 44760.0,
+            "total_distance_km": 1418.9577353048376
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "AGP"
+                    },
+                    "aircraft": "319",
+                    "distance": 1284.5992897745355
+                }
+            ],
+            "total_duration_s": "PT2H10M",
+            "total_distance_km": 1284.5992897745355
+        }
+    ]
+}

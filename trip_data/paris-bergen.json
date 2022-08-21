@@ -1,0 +1,92 @@
+{
+    "origin": "Paris",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 5880.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "HAL (Belgium)",
+                        "lat": 50.733886,
+                        "lon": 4.240553
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "HAL (Belgium)",
+                        "lat": 50.733886,
+                        "lon": 4.240553
+                    },
+                    "end": {
+                        "name": "BRAINE-LE-COMTE (Belgium)",
+                        "lat": 50.604999,
+                        "lon": 4.137501
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "BRAINE-LE-COMTE (Belgium)",
+                        "lat": 50.604999,
+                        "lon": 4.137501
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1500.0
+                }
+            ],
+            "total_duration_s": 12240.0,
+            "total_distance_km": 310.6524660320737
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1539.1579265957794
+                },
+                {
+                    "start": {
+                        "name": "ARN"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "73H",
+                    "distance": 709.1724027105588
+                }
+            ],
+            "total_duration_s": "PT5H55M",
+            "total_distance_km": 2248.330329306338
+        }
+    ]
+}

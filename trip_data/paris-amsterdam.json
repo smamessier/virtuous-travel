@@ -1,0 +1,43 @@
+{
+    "origin": "Paris",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 13380.0
+                }
+            ],
+            "total_duration_s": 13380.0,
+            "total_distance_km": 428.36796551214366
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 398.27033320195
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 398.27033320195
+        }
+    ]
+}

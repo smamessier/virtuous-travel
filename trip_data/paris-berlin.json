@@ -1,0 +1,66 @@
+{
+    "origin": "Paris",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 19620.0
+                }
+            ],
+            "total_duration_s": 30720.0,
+            "total_distance_km": 966.9172559504502
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "744",
+                    "distance": 449.00346723415527
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "321",
+                    "distance": 431.68306686036414
+                }
+            ],
+            "total_duration_s": "PT4H30M",
+            "total_distance_km": 880.6865340945194
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "origin": "Paris",
+    "destination": "Lisbon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 12000.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "end": {
+                        "name": "MERIDA (Spain)",
+                        "lat": 38.921386,
+                        "lon": -6.343885
+                    },
+                    "time_s": 15000.0
+                },
+                {
+                    "start": {
+                        "name": "MERIDA (Spain)",
+                        "lat": 38.921386,
+                        "lon": -6.343885
+                    },
+                    "end": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "end": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "end": {
+                        "name": "LISBON - ORIENTE (Portugal)",
+                        "lat": 38.767779,
+                        "lon": -9.098054
+                    },
+                    "time_s": 5280.0
+                }
+            ],
+            "total_duration_s": 104400.0,
+            "total_distance_km": 1906.0099511899566
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "223",
+                    "distance": 1469.9661629165287
+                }
+            ],
+            "total_duration_s": "PT2H40M",
+            "total_distance_km": 1469.9661629165287
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "Nantes",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 18000.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 8400.0
+                }
+            ],
+            "total_duration_s": 27840.0,
+            "total_distance_km": 764.6294950772351
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 714.2362067199095
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "321",
+                    "distance": 1167.4161993130658
+                }
+            ],
+            "total_duration_s": "PT5H50M",
+            "total_distance_km": 1881.6524060329753
+        }
+    ]
+}
