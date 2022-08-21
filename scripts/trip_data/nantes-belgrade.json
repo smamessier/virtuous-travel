@@ -1,0 +1,79 @@
+{
+    "origin": "Nantes",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 18000.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "DENDERLEEUW (Belgium)",
+                        "lat": 50.891665,
+                        "lon": 4.071664
+                    },
+                    "time_s": 1020.0
+                },
+                {
+                    "start": {
+                        "name": "DENDERLEEUW (Belgium)",
+                        "lat": 50.891665,
+                        "lon": 4.071664
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 1620.0
+                }
+            ],
+            "total_duration_s": 22920.0,
+            "total_distance_km": 626.4850615578578
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 733.267711574465
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "295",
+                    "distance": 1410.2168665429149
+                }
+            ],
+            "total_duration_s": "PT10H40M",
+            "total_distance_km": 2143.48457811738
+        }
+    ]
+}

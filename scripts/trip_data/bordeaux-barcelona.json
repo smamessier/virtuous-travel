@@ -1,0 +1,56 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 12600.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 7260.0
+                }
+            ],
+            "total_duration_s": 21960.0,
+            "total_distance_km": 551.4916874291323
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 453.4692086453925
+                }
+            ],
+            "total_duration_s": "PT1H15M",
+            "total_distance_km": 453.4692086453925
+        }
+    ]
+}

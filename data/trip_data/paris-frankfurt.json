@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 4080.0
+                }
+            ],
+            "total_duration_s": 15180.0,
+            "total_distance_km": 566.7654466644863
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "E70",
+                    "distance": 449.00346723415527
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 449.00346723415527
+        }
+    ]
+}

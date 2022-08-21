@@ -1,0 +1,66 @@
+{
+    "origin": "Prague",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "time_s": 15000.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 7260.0
+                }
+            ],
+            "total_duration_s": 25140.0,
+            "total_distance_km": 530.952618671001
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E70",
+                    "distance": 521.0128722404482
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "E70",
+                    "distance": 753.399372514192
+                }
+            ],
+            "total_duration_s": "PT4H",
+            "total_distance_km": 1274.4122447546401
+        }
+    ]
+}

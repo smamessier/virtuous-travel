@@ -1,0 +1,53 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 21840.0
+                }
+            ],
+            "total_duration_s": 21840.0,
+            "total_distance_km": 503.5211541085103
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 527.1426132576643
+                },
+                {
+                    "start": {
+                        "name": "ORY"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "318",
+                    "distance": 626.9987910335658
+                }
+            ],
+            "total_duration_s": "PT21H5M",
+            "total_distance_km": 1154.1414042912302
+        }
+    ]
+}

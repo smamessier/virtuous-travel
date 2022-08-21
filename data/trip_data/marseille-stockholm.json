@@ -1,0 +1,131 @@
+{
+    "origin": "Marseille",
+    "destination": "Stockholm",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 23760.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 18180.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "FLENSBURG (Germany)",
+                        "lat": 54.774169,
+                        "lon": 9.43639
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "FLENSBURG (Germany)",
+                        "lat": 54.774169,
+                        "lon": 9.43639
+                    },
+                    "end": {
+                        "name": "FREDERICIA (Denmark)",
+                        "lat": 55.56806,
+                        "lon": 9.740558
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "FREDERICIA (Denmark)",
+                        "lat": 55.56806,
+                        "lon": 9.740558
+                    },
+                    "end": {
+                        "name": "CPH LUFTHAVN (Denmark)",
+                        "lat": 55.629169,
+                        "lon": 12.648892
+                    },
+                    "time_s": 9480.0
+                },
+                {
+                    "start": {
+                        "name": "CPH LUFTHAVN (Denmark)",
+                        "lat": 55.629169,
+                        "lon": 12.648892
+                    },
+                    "end": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "time_s": 1440.0
+                },
+                {
+                    "start": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "end": {
+                        "name": "Stockholm Central (Sweden)",
+                        "lat": 59.330001,
+                        "lon": 18.058052
+                    },
+                    "time_s": 16200.0
+                }
+            ],
+            "total_duration_s": 95040.0,
+            "total_distance_km": 2141.5110034226327
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "32A",
+                    "distance": 880.5772543741713
+                },
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "320",
+                    "distance": 1162.4037497605145
+                }
+            ],
+            "total_duration_s": "PT15H40M",
+            "total_distance_km": 2042.981004134686
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "time_s": 12480.0
+                },
+                {
+                    "start": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "time_s": 13920.0
+                }
+            ],
+            "total_duration_s": 46980.0,
+            "total_distance_km": 1293.412634421015
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 923.6933288206424
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "E90",
+                    "distance": 379.357426640726
+                }
+            ],
+            "total_duration_s": "PT5H20M",
+            "total_distance_km": 1303.0507554613682
+        }
+    ]
+}

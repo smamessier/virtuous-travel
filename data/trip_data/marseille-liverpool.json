@@ -1,0 +1,131 @@
+{
+    "origin": "Marseille",
+    "destination": "Liverpool",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11940.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "CREWE (United Kingdom)",
+                        "lat": 53.086669,
+                        "lon": -2.431663
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "CREWE (United Kingdom)",
+                        "lat": 53.086669,
+                        "lon": -2.431663
+                    },
+                    "end": {
+                        "name": "LIVERPOOL LIME STREET (United Kingdom)",
+                        "lat": 53.404447,
+                        "lon": -2.976391
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 36600.0,
+            "total_distance_km": 1290.8521052737426
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 776.1699393868524
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "LPL"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 867.3535342196461
+                }
+            ],
+            "total_duration_s": "PT6H30M",
+            "total_distance_km": 1643.5234736064986
+        }
+    ]
+}

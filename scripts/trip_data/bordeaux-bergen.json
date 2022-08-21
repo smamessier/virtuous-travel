@@ -1,0 +1,105 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "time_s": 12480.0
+                },
+                {
+                    "start": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "HAL (Belgium)",
+                        "lat": 50.733886,
+                        "lon": 4.240553
+                    },
+                    "time_s": 600.0
+                },
+                {
+                    "start": {
+                        "name": "HAL (Belgium)",
+                        "lat": 50.733886,
+                        "lon": 4.240553
+                    },
+                    "end": {
+                        "name": "BRAINE-LE-COMTE (Belgium)",
+                        "lat": 50.604999,
+                        "lon": 4.137501
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "BRAINE-LE-COMTE (Belgium)",
+                        "lat": 50.604999,
+                        "lon": 4.137501
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1500.0
+                }
+            ],
+            "total_duration_s": 30420.0,
+            "total_distance_km": 812.5914291799801
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 453.4692086453925
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "32A",
+                    "distance": 2123.206042614734
+                }
+            ],
+            "total_duration_s": "PT27H35M",
+            "total_distance_km": 2576.6752512601265
+        }
+    ]
+}

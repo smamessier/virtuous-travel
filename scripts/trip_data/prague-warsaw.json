@@ -1,0 +1,82 @@
+{
+    "origin": "Prague",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "time_s": 12480.0
+                },
+                {
+                    "start": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 5040.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "time_s": 8220.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 35040.0,
+            "total_distance_km": 600.051552852496
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 521.0128722404482
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 521.0128722404482
+        }
+    ]
+}

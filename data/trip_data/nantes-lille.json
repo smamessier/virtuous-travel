@@ -1,0 +1,43 @@
+{
+    "origin": "Nantes",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 15360.0
+                }
+            ],
+            "total_duration_s": 15360.0,
+            "total_distance_km": 508.30479293549973
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "320",
+                    "distance": 511.5498086052627
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 511.5498086052627
+        }
+    ]
+}

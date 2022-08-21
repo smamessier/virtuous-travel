@@ -1,0 +1,66 @@
+{
+    "origin": "Marseille",
+    "destination": "Malaga",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 27780.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10620.0
+                }
+            ],
+            "total_duration_s": 41400.0,
+            "total_distance_km": 1232.6646283657262
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 797.2550056582962
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "AGP"
+                    },
+                    "aircraft": "32A",
+                    "distance": 429.97948719332817
+                }
+            ],
+            "total_duration_s": "PT13H45M",
+            "total_distance_km": 1227.2344928516245
+        }
+    ]
+}

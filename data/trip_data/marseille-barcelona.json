@@ -1,0 +1,43 @@
+{
+    "origin": "Marseille",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 16320.0
+                }
+            ],
+            "total_duration_s": 16320.0,
+            "total_distance_km": 341.477640042071
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "320",
+                    "distance": 351.24814502147507
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 351.24814502147507
+        }
+    ]
+}

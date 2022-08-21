@@ -1,0 +1,56 @@
+{
+    "origin": "Nice",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "time_s": 12420.0
+                },
+                {
+                    "start": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "end": {
+                        "name": "LILLE FLANDRES (France)",
+                        "lat": 50.636389,
+                        "lon": 3.070275
+                    },
+                    "time_s": 14040.0
+                }
+            ],
+            "total_duration_s": 27720.0,
+            "total_distance_km": 957.87313707759
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "319",
+                    "distance": 828.609538334467
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 828.609538334467
+        }
+    ]
+}

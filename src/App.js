@@ -6,6 +6,8 @@ import { Form } from './form';
 import { Preview } from './preview';
 import templates from './templates';
 
+import city_list from './data/cities.json';
+
 import { Chip, Button, Divider } from '@mui/material';
 import { Container, Stack, Box} from '@mui/material';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
@@ -22,14 +24,16 @@ const Item = styled(Paper)(({ theme }) => ({
     borderTop: 'none' 
 }));
 
+const cities = city_list.cities;
+const pairs = city_list.pairs;
 
 function App() {
 
-    const cities = [
-        "Paris",
-        "Madrid",
-        "New York"
-    ]
+    //const cities = [
+    //    "Paris",
+    //    "Madrid",
+    //    "New York"
+    //]
 
     const defaultSettings = {
         cityA: cities[0],
@@ -40,10 +44,16 @@ function App() {
 
     const [settings, setSettings] = useState(defaultSettings);
     const [text, setText] = useState(defaultText);
+    const [tripData, setTripData] = useState({});
 
     useEffect(() => {
         let templateId = settings.templateId || 'default';
         setText(templates[templateId](settings)); 
+
+        import(`./data/trip_data/${settings.cityA.toLowerCase()}-${settings.cityB.toLowerCase()}.json`).then(data => {
+            console.log(data);
+            //setTripData(data);
+        })
     }, [settings])
 
 
@@ -61,6 +71,7 @@ function App() {
                     <Form cities={cities} settings={settings} setSettings={setSettings}/>
                 </Box>
                 <Divider style={{width:'100%'}}><Chip label="Your social media post"></Chip></Divider>
+                <pre>{JSON.stringify(tripData)}</pre>
                 <Preview text={text}/>
                 <Divider style={{width:'100%'}}><Chip label="Show the world"></Chip></Divider>
                 <Box className="form-item">

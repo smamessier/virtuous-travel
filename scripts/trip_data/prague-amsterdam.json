@@ -1,0 +1,82 @@
+{
+    "origin": "Prague",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "time_s": 12360.0
+                },
+                {
+                    "start": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 4440.0
+                },
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 14760.0
+                },
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 9660.0
+                }
+            ],
+            "total_duration_s": 44100.0,
+            "total_distance_km": 808.3902149028079
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 705.00895445239
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 705.00895445239
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "ST PIERRE DES CORPS (France)",
+                        "lat": 47.386115,
+                        "lon": 0.723614
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "ST PIERRE DES CORPS (France)",
+                        "lat": 47.386115,
+                        "lon": 0.723614
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 7560.0
+                }
+            ],
+            "total_duration_s": 15120.0,
+            "total_distance_km": 473.1516857865256
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 527.1426132576643
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "223",
+                    "distance": 371.78334166513326
+                }
+            ],
+            "total_duration_s": "PT24H50M",
+            "total_distance_km": 898.9259549227975
+        }
+    ]
+}

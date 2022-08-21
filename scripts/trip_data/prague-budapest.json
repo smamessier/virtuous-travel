@@ -1,0 +1,105 @@
+{
+    "origin": "Prague",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "OLOMOUC HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 49.592499,
+                        "lon": 17.27778
+                    },
+                    "time_s": 8220.0
+                },
+                {
+                    "start": {
+                        "name": "OLOMOUC HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 49.592499,
+                        "lon": 17.27778
+                    },
+                    "end": {
+                        "name": "PREROV (Czech Republic)",
+                        "lat": 49.444447,
+                        "lon": 17.448332
+                    },
+                    "time_s": 1260.0
+                },
+                {
+                    "start": {
+                        "name": "PREROV (Czech Republic)",
+                        "lat": 49.444447,
+                        "lon": 17.448332
+                    },
+                    "end": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "time_s": 6300.0
+                },
+                {
+                    "start": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 3240.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 8400.0
+                }
+            ],
+            "total_duration_s": 44520.0,
+            "total_distance_km": 605.1927275211967
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "CPH"
+                    },
+                    "aircraft": "73H",
+                    "distance": 622.8090593866174
+                },
+                {
+                    "start": {
+                        "name": "CPH"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1017.6487107026694
+                }
+            ],
+            "total_duration_s": "PT5H5M",
+            "total_distance_km": 1640.457770089287
+        }
+    ]
+}

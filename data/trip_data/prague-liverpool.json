@@ -1,0 +1,170 @@
+{
+    "origin": "Prague",
+    "destination": "Liverpool",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "time_s": 12360.0
+                },
+                {
+                    "start": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 4440.0
+                },
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "SIEGBURG/BONN (Germany)",
+                        "lat": 50.793889,
+                        "lon": 7.203056
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "SIEGBURG/BONN (Germany)",
+                        "lat": 50.793889,
+                        "lon": 7.203056
+                    },
+                    "end": {
+                        "name": "AACHEN HBF (Germany)",
+                        "lat": 50.767776,
+                        "lon": 6.091387
+                    },
+                    "time_s": 5340.0
+                },
+                {
+                    "start": {
+                        "name": "AACHEN HBF (Germany)",
+                        "lat": 50.767776,
+                        "lon": 6.091387
+                    },
+                    "end": {
+                        "name": "WELKENRAEDT (Belgium)",
+                        "lat": 50.659447,
+                        "lon": 5.975274
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "WELKENRAEDT (Belgium)",
+                        "lat": 50.659447,
+                        "lon": 5.975274
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3900.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "LIVERPOOL LIME STREET (United Kingdom)",
+                        "lat": 53.404447,
+                        "lon": -2.976391
+                    },
+                    "time_s": 11280.0
+                }
+            ],
+            "total_duration_s": 67860.0,
+            "total_distance_km": 1392.1156703074746
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32N",
+                    "distance": 406.0554853001114
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "LPL"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 867.3535342196461
+                }
+            ],
+            "total_duration_s": "PT7H50M",
+            "total_distance_km": 1273.4090195197575
+        }
+    ]
+}

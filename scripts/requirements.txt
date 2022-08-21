@@ -1,3 +1,4 @@
+haversine==2.6.0
 interrail==0.0.3
 pandas==1.4.3
 python-slugify==6.1.2

@@ -1,0 +1,79 @@
+{
+    "origin": "Nice",
+    "destination": "Florence",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "time_s": 15600.0
+                },
+                {
+                    "start": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "end": {
+                        "name": "FIRENZE RIFREDI (Italy)",
+                        "lat": 43.80056,
+                        "lon": 11.235554
+                    },
+                    "time_s": 3360.0
+                }
+            ],
+            "total_duration_s": 24600.0,
+            "total_distance_km": 321.78864633711754
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "32S",
+                    "distance": 459.25828935194266
+                },
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "FLR"
+                    },
+                    "aircraft": "319",
+                    "distance": 238.85026979804505
+                }
+            ],
+            "total_duration_s": "PT23H",
+            "total_distance_km": 698.1085591499877
+        }
+    ]
+}

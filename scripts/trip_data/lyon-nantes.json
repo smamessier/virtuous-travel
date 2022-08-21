@@ -1,0 +1,43 @@
+{
+    "origin": "Lyon",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 15600.0
+                }
+            ],
+            "total_duration_s": 15600.0,
+            "total_distance_km": 515.9437059541647
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "319",
+                    "distance": 536.5848684670569
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 536.5848684670569
+        }
+    ]
+}

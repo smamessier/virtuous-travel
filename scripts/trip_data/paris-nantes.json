@@ -1,0 +1,69 @@
+{
+    "origin": "Paris",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "MASSY-PALAISEAU (France)",
+                        "lat": 48.725552,
+                        "lon": 2.257497
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "MASSY-PALAISEAU (France)",
+                        "lat": 48.725552,
+                        "lon": 2.257497
+                    },
+                    "end": {
+                        "name": "MASSY TGV (France)",
+                        "lat": 48.725831,
+                        "lon": 2.261389
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "MASSY TGV (France)",
+                        "lat": 48.725831,
+                        "lon": 2.261389
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 7680.0
+                }
+            ],
+            "total_duration_s": 13200.0,
+            "total_distance_km": 344.46592508518614
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "321",
+                    "distance": 371.78334166513326
+                }
+            ],
+            "total_duration_s": "PT1H5M",
+            "total_distance_km": 371.78334166513326
+        }
+    ]
+}

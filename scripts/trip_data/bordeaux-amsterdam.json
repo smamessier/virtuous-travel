@@ -1,0 +1,95 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "time_s": 12480.0
+                },
+                {
+                    "start": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BREDA (Netherlands)",
+                        "lat": 51.594999,
+                        "lon": 4.780275
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "BREDA (Netherlands)",
+                        "lat": 51.594999,
+                        "lon": 4.780275
+                    },
+                    "end": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "time_s": 1380.0
+                },
+                {
+                    "start": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 34440.0,
+            "total_distance_km": 952.3889793818364
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 923.6933288206424
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 923.6933288206424
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "Prague",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "time_s": 12480.0
+                },
+                {
+                    "start": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 5040.0
+                }
+            ],
+            "total_duration_s": 18120.0,
+            "total_distance_km": 342.76105974278585
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E70",
+                    "distance": 521.0128722404482
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E75",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H40M",
+            "total_distance_km": 750.2776195541122
+        }
+    ]
+}

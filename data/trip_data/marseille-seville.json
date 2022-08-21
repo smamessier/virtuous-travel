@@ -1,0 +1,66 @@
+{
+    "origin": "Marseille",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 27780.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 39420.0,
+            "total_distance_km": 1205.9518280238312
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 797.2550056582962
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "321",
+                    "distance": 394.8478810366565
+                }
+            ],
+            "total_duration_s": "PT14H20M",
+            "total_distance_km": 1192.1028866949528
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "origin": "Marseille",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 27780.0
+                }
+            ],
+            "total_duration_s": 27780.0,
+            "total_distance_km": 816.8427515398693
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 797.2550056582962
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 797.2550056582962
+        }
+    ]
+}

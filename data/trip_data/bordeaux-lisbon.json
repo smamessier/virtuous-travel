@@ -1,0 +1,131 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Lisbon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 12600.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-CHAMARTIN (Spain)",
+                        "lat": 40.471109,
+                        "lon": -3.682782
+                    },
+                    "time_s": 2700.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-CHAMARTIN (Spain)",
+                        "lat": 40.471109,
+                        "lon": -3.682782
+                    },
+                    "end": {
+                        "name": "PONTEVEDRA (Spain)",
+                        "lat": 42.421948,
+                        "lon": -8.635559
+                    },
+                    "time_s": 15240.0
+                },
+                {
+                    "start": {
+                        "name": "PONTEVEDRA (Spain)",
+                        "lat": 42.421948,
+                        "lon": -8.635559
+                    },
+                    "end": {
+                        "name": "VIGO GUIXAR (Spain)",
+                        "lat": 42.239718,
+                        "lon": -8.711114
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "VIGO GUIXAR (Spain)",
+                        "lat": 42.239718,
+                        "lon": -8.711114
+                    },
+                    "end": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "time_s": 4920.0
+                },
+                {
+                    "start": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "end": {
+                        "name": "LISBON - ORIENTE (Portugal)",
+                        "lat": 38.767779,
+                        "lon": -9.098054
+                    },
+                    "time_s": 11640.0
+                }
+            ],
+            "total_duration_s": 113040.0,
+            "total_distance_km": 1857.948343692602
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 537.3738677138739
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "32A",
+                    "distance": 512.8846487919395
+                }
+            ],
+            "total_duration_s": "PT6H10M",
+            "total_distance_km": 1050.2585165058135
+        }
+    ]
+}

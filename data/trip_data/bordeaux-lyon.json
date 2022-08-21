@@ -1,0 +1,56 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 12600.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 10980.0
+                }
+            ],
+            "total_duration_s": 24840.0,
+            "total_distance_km": 659.2428383511538
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "319",
+                    "distance": 464.294944521102
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 464.294944521102
+        }
+    ]
+}

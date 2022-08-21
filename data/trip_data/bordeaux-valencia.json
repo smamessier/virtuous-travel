@@ -1,0 +1,79 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 12600.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 7260.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "VALENCIA-ESTACIO DEL NORD (Spain)",
+                        "lat": 39.465,
+                        "lon": -0.377502
+                    },
+                    "time_s": 13680.0
+                }
+            ],
+            "total_duration_s": 37200.0,
+            "total_distance_km": 852.7155782716744
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 537.3738677138739
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 284.32595552066823
+                }
+            ],
+            "total_duration_s": "PT8H5M",
+            "total_distance_km": 821.6998232345421
+        }
+    ]
+}

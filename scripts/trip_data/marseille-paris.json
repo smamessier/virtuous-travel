@@ -1,0 +1,43 @@
+{
+    "origin": "Marseille",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11940.0
+                }
+            ],
+            "total_duration_s": 11940.0,
+            "total_distance_km": 658.3276369068711
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MRS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 652.8198469514226
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 652.8198469514226
+        }
+    ]
+}

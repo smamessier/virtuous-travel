@@ -1,0 +1,79 @@
+{
+    "origin": "Lyon",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PERRACHE (France)",
+                        "lat": 45.748613,
+                        "lon": 4.825553
+                    },
+                    "end": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "time_s": 3840.0
+                },
+                {
+                    "start": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 25500.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 42780.0,
+            "total_distance_km": 1392.2449349629426
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1852.0709185460846
+                }
+            ],
+            "total_duration_s": "PT15H35M",
+            "total_distance_km": 2584.4365870837505
+        }
+    ]
+}

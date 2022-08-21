@@ -1,0 +1,82 @@
+{
+    "origin": "Nice",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 9780.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "end": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "time_s": 10740.0
+                },
+                {
+                    "start": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 14160.0
+                }
+            ],
+            "total_duration_s": 49620.0,
+            "total_distance_km": 1072.262877695309
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 956.7979317945806
+                }
+            ],
+            "total_duration_s": "PT2H5M",
+            "total_distance_km": 956.7979317945806
+        }
+    ]
+}

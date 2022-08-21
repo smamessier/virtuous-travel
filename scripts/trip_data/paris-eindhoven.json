@@ -1,0 +1,79 @@
+{
+    "origin": "Paris",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "time_s": 10860.0
+                },
+                {
+                    "start": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "end": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 1920.0
+                }
+            ],
+            "total_duration_s": 16860.0,
+            "total_distance_km": 459.22628518461704
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "AYT"
+                    },
+                    "aircraft": "7M8",
+                    "distance": 2641.7775042172666
+                },
+                {
+                    "start": {
+                        "name": "AYT"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2571.373153497606
+                }
+            ],
+            "total_duration_s": "PT15H30M",
+            "total_distance_km": 5213.150657714872
+        }
+    ]
+}

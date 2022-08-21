@@ -1,0 +1,105 @@
+{
+    "origin": "Nice",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "time_s": 28980.0
+                },
+                {
+                    "start": {
+                        "name": "MULHOUSE VILLE (France)",
+                        "lat": 47.742501,
+                        "lon": 7.343054
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 4740.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "SARGANS (Switzerland)",
+                        "lat": 47.044722,
+                        "lon": 9.446386
+                    },
+                    "time_s": 3480.0
+                },
+                {
+                    "start": {
+                        "name": "SARGANS (Switzerland)",
+                        "lat": 47.044722,
+                        "lon": 9.446386
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 25020.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 16800.0
+                }
+            ],
+            "total_duration_s": 100680.0,
+            "total_distance_km": 1459.7081990523784
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 1390.4834838030536
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E70",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT18H45M",
+            "total_distance_km": 1619.7482311167175
+        }
+    ]
+}

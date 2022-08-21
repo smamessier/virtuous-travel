@@ -1,0 +1,43 @@
+{
+    "origin": "Lille",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 11100.0
+                }
+            ],
+            "total_duration_s": 11100.0,
+            "total_distance_km": 558.3610868228437
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LIL"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 557.858500923973
+        }
+    ]
+}

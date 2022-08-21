@@ -1,0 +1,92 @@
+{
+    "origin": "Nantes",
+    "destination": "Granada",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "MONTPELLIER SAINT-ROCH (France)",
+                        "lat": 43.604721,
+                        "lon": 3.880553
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MONTPELLIER SAINT-ROCH (France)",
+                        "lat": 43.604721,
+                        "lon": 3.880553
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 10800.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "GRANADA (Spain)",
+                        "lat": 37.184167,
+                        "lon": -3.609169
+                    },
+                    "time_s": 12240.0
+                }
+            ],
+            "total_duration_s": 95100.0,
+            "total_distance_km": 1729.1286470360174
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 759.1844193902186
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "GRX"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 365.5514944166332
+                }
+            ],
+            "total_duration_s": "PT23H",
+            "total_distance_km": 1124.7359138068518
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 24060.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 8100.0
+                }
+            ],
+            "total_duration_s": 34440.0,
+            "total_distance_km": 872.8881273165432
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "223",
+                    "distance": 835.343363244979
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 835.343363244979
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Toulouse",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "time_s": 7680.0
+                }
+            ],
+            "total_duration_s": 7680.0,
+            "total_distance_km": 209.51613687385233
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 527.1426132576643
+                },
+                {
+                    "start": {
+                        "name": "ORY"
+                    },
+                    "end": {
+                        "name": "TLS"
+                    },
+                    "aircraft": "318",
+                    "distance": 571.8107439841826
+                }
+            ],
+            "total_duration_s": "PT19H20M",
+            "total_distance_km": 1098.9533572418468
+        }
+    ]
+}

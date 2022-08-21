@@ -1,0 +1,157 @@
+{
+    "origin": "Nice",
+    "destination": "Porto",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 9720.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "time_s": 5100.0
+                },
+                {
+                    "start": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 13140.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 12000.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "end": {
+                        "name": "MERIDA (Spain)",
+                        "lat": 38.921386,
+                        "lon": -6.343885
+                    },
+                    "time_s": 15000.0
+                },
+                {
+                    "start": {
+                        "name": "MERIDA (Spain)",
+                        "lat": 38.921386,
+                        "lon": -6.343885
+                    },
+                    "end": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "end": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "end": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 113580.0,
+            "total_distance_km": 1756.3857879913244
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1468.0996691915525
+                },
+                {
+                    "start": {
+                        "name": "LIS"
+                    },
+                    "end": {
+                        "name": "OPO"
+                    },
+                    "aircraft": "E95",
+                    "distance": 277.01257426570265
+                }
+            ],
+            "total_duration_s": "PT4H50M",
+            "total_distance_km": 1745.112243457255
+        }
+    ]
+}

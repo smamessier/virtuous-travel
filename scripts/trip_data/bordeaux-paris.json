@@ -1,0 +1,43 @@
+{
+    "origin": "Bordeaux",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 10980.0
+                }
+            ],
+            "total_duration_s": 10980.0,
+            "total_distance_km": 496.93750689340243
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 527.1426132576643
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 527.1426132576643
+        }
+    ]
+}

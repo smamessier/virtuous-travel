@@ -1,0 +1,82 @@
+{
+    "origin": "Paris",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 19620.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "time_s": 20640.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 52620.0,
+            "total_distance_km": 1483.8380182057451
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 1342.4949677851112
+                }
+            ],
+            "total_duration_s": "PT2H15M",
+            "total_distance_km": 1342.4949677851112
+        }
+    ]
+}

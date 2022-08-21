@@ -1,0 +1,105 @@
+{
+    "origin": "Lyon",
+    "destination": "Pisa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU GARE ROUTIERE (France)",
+                        "lat": 45.760559,
+                        "lon": 4.862778
+                    },
+                    "end": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "time_s": 5220.0
+                },
+                {
+                    "start": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "end": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 11580.0
+                },
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "time_s": 4260.0
+                }
+            ],
+            "total_duration_s": 39360.0,
+            "total_distance_km": 629.5163565259749
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "PSA"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1045.7127477262484
+                }
+            ],
+            "total_duration_s": "PT20H45M",
+            "total_distance_km": 1778.0784162639143
+        }
+    ]
+}

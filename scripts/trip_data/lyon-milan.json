@@ -1,0 +1,92 @@
+{
+    "origin": "Lyon",
+    "destination": "Milan",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PART DIEU GARE ROUTIERE (France)",
+                        "lat": 45.760559,
+                        "lon": 4.862778
+                    },
+                    "end": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "time_s": 5220.0
+                },
+                {
+                    "start": {
+                        "name": "AIX LES BAINS LE REVARD (France)",
+                        "lat": 45.688052,
+                        "lon": 5.909446
+                    },
+                    "end": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 3000.0
+                }
+            ],
+            "total_duration_s": 23520.0,
+            "total_distance_km": 370.75691171545543
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MXP"
+                    },
+                    "aircraft": "319",
+                    "distance": 598.2518943056699
+                }
+            ],
+            "total_duration_s": "PT3H40M",
+            "total_distance_km": 1010.4347431523811
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "origin": "Nice",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "PAVIA (Italy)",
+                        "lat": 45.18889,
+                        "lon": 9.144448
+                    },
+                    "time_s": 12180.0
+                },
+                {
+                    "start": {
+                        "name": "PAVIA (Italy)",
+                        "lat": 45.18889,
+                        "lon": 9.144448
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 14880.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 40920.0
+                }
+            ],
+            "total_duration_s": 77160.0,
+            "total_distance_km": 1262.6415599227385
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NCE"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1857.070583271903
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                }
+            ],
+            "total_duration_s": "PT14H55M",
+            "total_distance_km": 3371.441587010842
+        }
+    ]
+}

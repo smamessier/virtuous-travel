@@ -1,0 +1,56 @@
+{
+    "origin": "Nantes",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "end": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "time_s": 10560.0
+                },
+                {
+                    "start": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 6600.0
+                }
+            ],
+            "total_duration_s": 17940.0,
+            "total_distance_km": 749.6933305520978
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NTE"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "319",
+                    "distance": 536.5848684670569
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 536.5848684670569
+        }
+    ]
+}

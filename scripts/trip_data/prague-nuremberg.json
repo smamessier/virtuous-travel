@@ -1,0 +1,66 @@
+{
+    "origin": "Prague",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "end": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "time_s": 12360.0
+                },
+                {
+                    "start": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 4440.0
+                }
+            ],
+            "total_duration_s": 17040.0,
+            "total_distance_km": 262.5616639764611
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PRG"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "320",
+                    "distance": 1555.6317459696772
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "320",
+                    "distance": 1645.1184502036406
+                }
+            ],
+            "total_duration_s": "PT18H25M",
+            "total_distance_km": 3200.750196173318
+        }
+    ]
+}

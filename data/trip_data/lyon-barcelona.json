@@ -1,0 +1,56 @@
+{
+    "origin": "Lyon",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYON PERRACHE (France)",
+                        "lat": 45.748613,
+                        "lon": 4.825553
+                    },
+                    "end": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "time_s": 3840.0
+                },
+                {
+                    "start": {
+                        "name": "AVIGNON TGV (France)",
+                        "lat": 43.921663,
+                        "lon": 4.78556
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 14040.0
+                }
+            ],
+            "total_duration_s": 19680.0,
+            "total_distance_km": 559.0826709706151
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 548.6332552318446
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 548.6332552318446
+        }
+    ]
+}
