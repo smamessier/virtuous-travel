@@ -9,16 +9,20 @@ TRIP_CITY_FILE = "../data/cities.json"
 
 def get_city_set():
     all_cities = []
-    all_pairs = []
+    available_pairs = {}
 
     trip_files = [f for f in listdir(TRIP_FOLDER) if isfile(join(TRIP_FOLDER, f))]
-    for f in trip_files:
+    for idx, f in enumerate(trip_files):
+        # Update all cities
         from_city, to_city = [x.capitalize() for x in Path(f).stem.split('-')]
         all_cities.append(from_city)
         all_cities.append(to_city)
-        all_pairs.append([from_city, to_city])
-        print(f"{from_city} -> {to_city}")
-    return set(all_cities), all_pairs
+
+        # Update available pairs
+        to_append = available_pairs.get(from_city, [])
+        to_append.append(to_city)
+        available_pairs[from_city] = to_append
+    return set(all_cities), available_pairs
 
 
 def save_to_json(city_set, pairs):

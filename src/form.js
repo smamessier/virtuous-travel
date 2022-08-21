@@ -23,7 +23,7 @@ function Form(props) {
                 id="cityA"
                 value={props.settings.cityA}
                 onChange={handleChange}
-                options={props.cities}
+                options={Object.keys(props.cities)}
                 sx={{ width: 300 }}
                 renderInput={(params) => <TextField {...params} label="From" name="cityA" />}
             />
@@ -33,7 +33,7 @@ function Form(props) {
                     id="cityB"
                     value={props.settings.cityB}
                     onChange={handleChange}
-                    options={props.cities}
+                    options={props.cities[props.settings.cityA]}
                     sx={{ width: 300 }}
                     renderInput={(params) => <TextField {...params} label="To" />}
                 />

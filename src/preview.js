@@ -1,8 +1,8 @@
 function Preview(props){
     return (
-        <p style={{whiteSpace:"pre"}}>
+        <div style={{whiteSpace:"pre"}}>
             {props.text}
-        </p>
+        </div>
     )
 }
 

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 import { Form } from './form';
 import { Preview } from './preview';
-import templates from './templates';
+import { templates, genText } from './templates';
 
 import city_list from './data/cities.json';
 
@@ -14,6 +14,7 @@ import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
+import axios from 'axios';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -29,15 +30,9 @@ const pairs = city_list.pairs;
 
 function App() {
 
-    //const cities = [
-    //    "Paris",
-    //    "Madrid",
-    //    "New York"
-    //]
-
     const defaultSettings = {
-        cityA: cities[0],
-        cityB: cities[1]
+        cityA: 'Paris',
+        cityB: 'Amsterdam'
     }
 
     const defaultText = "I'm a virtuous traveler";
@@ -48,13 +43,20 @@ function App() {
 
     useEffect(() => {
         let templateId = settings.templateId || 'default';
-        setText(templates[templateId](settings)); 
+        let newText = genText(templates[templateId], settings, tripData); 
+        setText(newText);
 
-        import(`./data/trip_data/${settings.cityA.toLowerCase()}-${settings.cityB.toLowerCase()}.json`).then(data => {
-            console.log(data);
-            //setTripData(data);
+        axios.get(`/trip_data/${settings.cityA.toLowerCase()}-${settings.cityB.toLowerCase()}.json`).then(response => {
+            setTripData(response.data);
         })
     }, [settings])
+
+    useEffect(() => {
+        let templateId = settings.templateId || 'default';
+        let newText = genText(templates[templateId], settings, tripData); 
+        setText(newText);
+        
+    }, [tripData])
 
 
     return (
@@ -68,10 +70,9 @@ function App() {
                 </Box>
                 <Divider style={{width:'100%'}}><Chip label="Your travel cities"></Chip></Divider>
                 <Box className="form-item">
-                    <Form cities={cities} settings={settings} setSettings={setSettings}/>
+                    <Form cities={pairs} settings={settings} setSettings={setSettings}/>
                 </Box>
                 <Divider style={{width:'100%'}}><Chip label="Your social media post"></Chip></Divider>
-                <pre>{JSON.stringify(tripData)}</pre>
                 <Preview text={text}/>
                 <Divider style={{width:'100%'}}><Chip label="Show the world"></Chip></Divider>
                 <Box className="form-item">
