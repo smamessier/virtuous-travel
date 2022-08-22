@@ -1,0 +1,121 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Stavanger",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "end": {
+                        "name": "Kil (Sweden)",
+                        "lat": 59.505003,
+                        "lon": 13.316108
+                    },
+                    "time_s": 7800.0
+                },
+                {
+                    "start": {
+                        "name": "Kil (Sweden)",
+                        "lat": 59.505003,
+                        "lon": 13.316108
+                    },
+                    "end": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "time_s": 5880.0
+                },
+                {
+                    "start": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 4500.0
+                },
+                {
+                    "start": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "end": {
+                        "name": "STAVANGER (Norway)",
+                        "lat": 58.966387,
+                        "lon": 5.732781
+                    },
+                    "time_s": 30240.0
+                }
+            ],
+            "total_duration_s": 147180.0,
+            "total_distance_km": 1609.260778576362
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "SVG"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1001.1993674851994
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 1001.1993674851994
+        }
+    ]
+}

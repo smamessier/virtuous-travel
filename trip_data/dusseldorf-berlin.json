@@ -1,0 +1,79 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "OSNABRUECK HBF (Germany)",
+                        "lat": 52.272777,
+                        "lon": 8.06167
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "OSNABRUECK HBF (Germany)",
+                        "lat": 52.272777,
+                        "lon": 8.06167
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 5580.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 6660.0
+                }
+            ],
+            "total_duration_s": 21480.0,
+            "total_distance_km": 507.11941781438355
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 188.86835255443205
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "321",
+                    "distance": 431.68306686036414
+                }
+            ],
+            "total_duration_s": "PT2H50M",
+            "total_distance_km": 620.5514194147962
+        }
+    ]
+}

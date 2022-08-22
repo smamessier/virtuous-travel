@@ -1,0 +1,43 @@
+{
+    "origin": "Cologne",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 18840.0
+                }
+            ],
+            "total_duration_s": 18840.0,
+            "total_distance_km": 455.11730539224277
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "744",
+                    "distance": 435.70095418874473
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 435.70095418874473
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Rotterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "time_s": 2040.0
+                },
+                {
+                    "start": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 1860.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "end": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "time_s": 1920.0
+                },
+                {
+                    "start": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "end": {
+                        "name": "BREDA (Netherlands)",
+                        "lat": 51.594999,
+                        "lon": 4.780275
+                    },
+                    "time_s": 1920.0
+                },
+                {
+                    "start": {
+                        "name": "BREDA (Netherlands)",
+                        "lat": 51.594999,
+                        "lon": 4.780275
+                    },
+                    "end": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 14760.0,
+            "total_distance_km": 198.9602616076263
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "ADB"
+                    },
+                    "aircraft": "737",
+                    "distance": 2149.4313748081017
+                },
+                {
+                    "start": {
+                        "name": "ADB"
+                    },
+                    "end": {
+                        "name": "RTM"
+                    },
+                    "aircraft": "737",
+                    "distance": 2324.6815253939562
+                }
+            ],
+            "total_duration_s": "PT23H10M",
+            "total_distance_km": 4474.112900202058
+        }
+    ]
+}

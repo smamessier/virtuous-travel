@@ -1,0 +1,79 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 3960.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "AUGSBURG HBF (Germany)",
+                        "lat": 48.365552,
+                        "lon": 10.885559
+                    },
+                    "time_s": 2700.0
+                },
+                {
+                    "start": {
+                        "name": "AUGSBURG HBF (Germany)",
+                        "lat": 48.365552,
+                        "lon": 10.885559
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 4200.0
+                }
+            ],
+            "total_duration_s": 11700.0,
+            "total_distance_km": 278.94205210881876
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 189.6409970646257
+                }
+            ],
+            "total_duration_s": "PT3H10M",
+            "total_distance_km": 461.15429773375064
+        }
+    ]
+}

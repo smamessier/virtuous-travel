@@ -1,0 +1,82 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "OFFENBURG (Germany)",
+                        "lat": 48.476389,
+                        "lon": 7.946671
+                    },
+                    "time_s": 6480.0
+                },
+                {
+                    "start": {
+                        "name": "OFFENBURG (Germany)",
+                        "lat": 48.476389,
+                        "lon": 7.946671
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 8220.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 8100.0
+                }
+            ],
+            "total_duration_s": 32040.0,
+            "total_distance_km": 945.357233210037
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 813.5276931944622
+                }
+            ],
+            "total_duration_s": "PT1H40M",
+            "total_distance_km": 813.5276931944622
+        }
+    ]
+}

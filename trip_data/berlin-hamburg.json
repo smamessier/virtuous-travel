@@ -1,0 +1,53 @@
+{
+    "origin": "Berlin",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 6300.0
+                }
+            ],
+            "total_duration_s": 6300.0,
+            "total_distance_km": 252.12817402833406
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "319",
+                    "distance": 411.6459401461768
+                }
+            ],
+            "total_duration_s": "PT20H5M",
+            "total_distance_km": 843.3290070065409
+        }
+    ]
+}

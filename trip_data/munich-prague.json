@@ -1,0 +1,43 @@
+{
+    "origin": "Munich",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 20220.0
+                }
+            ],
+            "total_duration_s": 20220.0,
+            "total_distance_km": 300.6874564545669
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "E95",
+                    "distance": 264.56321691512125
+                }
+            ],
+            "total_duration_s": "PT50M",
+            "total_distance_km": 264.56321691512125
+        }
+    ]
+}

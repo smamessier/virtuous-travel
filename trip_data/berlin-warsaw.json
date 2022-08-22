@@ -1,0 +1,79 @@
+{
+    "origin": "Berlin",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KUTNO (Poland)",
+                        "lat": 52.227498,
+                        "lon": 19.347222
+                    },
+                    "time_s": 16440.0
+                },
+                {
+                    "start": {
+                        "name": "KUTNO (Poland)",
+                        "lat": 52.227498,
+                        "lon": 19.347222
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 23160.0,
+            "total_distance_km": 517.6128611366571
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "32N",
+                    "distance": 896.244194309191
+                }
+            ],
+            "total_duration_s": "PT6H55M",
+            "total_distance_km": 1327.927261169555
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "origin": "Cologne",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 14100.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 23220.0
+                }
+            ],
+            "total_duration_s": 38940.0,
+            "total_distance_km": 940.8519566790758
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "AYT"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2432.0871996945934
+                },
+                {
+                    "start": {
+                        "name": "AYT"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1774.7730080526635
+                }
+            ],
+            "total_duration_s": "PT29H",
+            "total_distance_km": 4206.860207747257
+        }
+    ]
+}

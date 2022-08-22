@@ -1,0 +1,43 @@
+{
+    "origin": "Toulouse",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 16320.0
+                }
+            ],
+            "total_duration_s": 16320.0,
+            "total_distance_km": 585.1801751413947
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 605.509494881887
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 605.509494881887
+        }
+    ]
+}

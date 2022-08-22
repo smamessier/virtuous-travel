@@ -1,0 +1,131 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "time_s": 4260.0
+                },
+                {
+                    "start": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 9960.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 17820.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "VINAROZ (Spain)",
+                        "lat": 40.471666,
+                        "lon": 0.455834
+                    },
+                    "time_s": 11940.0
+                },
+                {
+                    "start": {
+                        "name": "VINAROZ (Spain)",
+                        "lat": 40.471666,
+                        "lon": 0.455834
+                    },
+                    "end": {
+                        "name": "VALENCIA-ESTACIO DEL NORD (Spain)",
+                        "lat": 39.465,
+                        "lon": -0.377502
+                    },
+                    "time_s": 9120.0
+                }
+            ],
+            "total_duration_s": 96240.0,
+            "total_distance_km": 1272.2144284873375
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1370.836459545686
+                }
+            ],
+            "total_duration_s": "PT6H",
+            "total_distance_km": 1642.3497602148109
+        }
+    ]
+}

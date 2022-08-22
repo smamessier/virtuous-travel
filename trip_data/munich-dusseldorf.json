@@ -1,0 +1,43 @@
+{
+    "origin": "Munich",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 18480.0
+                }
+            ],
+            "total_duration_s": 18480.0,
+            "total_distance_km": 484.323825153315
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "320",
+                    "distance": 485.82345364362175
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 485.82345364362175
+        }
+    ]
+}

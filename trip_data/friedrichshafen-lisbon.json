@@ -1,0 +1,170 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Lisbon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 8460.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 11520.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 12000.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-ATOCHA CERCANIAS (Spain)",
+                        "lat": 40.406665,
+                        "lon": -3.689443
+                    },
+                    "end": {
+                        "name": "MERIDA (Spain)",
+                        "lat": 38.921386,
+                        "lon": -6.343885
+                    },
+                    "time_s": 15000.0
+                },
+                {
+                    "start": {
+                        "name": "MERIDA (Spain)",
+                        "lat": 38.921386,
+                        "lon": -6.343885
+                    },
+                    "end": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "BADAJOZ (Spain)",
+                        "lat": 38.890832,
+                        "lon": -6.98167
+                    },
+                    "end": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "ENTRONCAMENTO (Portugal)",
+                        "lat": 39.461665,
+                        "lon": -8.474167
+                    },
+                    "end": {
+                        "name": "LISBON - ORIENTE (Portugal)",
+                        "lat": 38.767779,
+                        "lon": -9.098054
+                    },
+                    "time_s": 5280.0
+                }
+            ],
+            "total_duration_s": 131820.0,
+            "total_distance_km": 2536.7275573490956
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "320",
+                    "distance": 1873.850358172272
+                }
+            ],
+            "total_duration_s": "PT14H40M",
+            "total_distance_km": 2145.363658841397
+        }
+    ]
+}

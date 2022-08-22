@@ -1,0 +1,43 @@
+{
+    "origin": "Toulouse",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 14760.0
+                }
+            ],
+            "total_duration_s": 14760.0,
+            "total_distance_km": 359.9170834321341
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 375.07190253298165
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 375.07190253298165
+        }
+    ]
+}

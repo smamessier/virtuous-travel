@@ -1,0 +1,56 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)SUED (Germany)",
+                        "lat": 50.099446,
+                        "lon": 8.686393
+                    },
+                    "end": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "time_s": 17940.0
+                },
+                {
+                    "start": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 7560.0
+                }
+            ],
+            "total_duration_s": 27480.0,
+            "total_distance_km": 345.18851699532394
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1160.1912891965585
+                }
+            ],
+            "total_duration_s": "PT2H",
+            "total_distance_km": 1160.1912891965585
+        }
+    ]
+}

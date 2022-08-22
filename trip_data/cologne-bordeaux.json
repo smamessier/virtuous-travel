@@ -1,0 +1,79 @@
+{
+    "origin": "Cologne",
+    "destination": "Bordeaux",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 12060.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "time_s": 7380.0
+                }
+            ],
+            "total_duration_s": 23400.0,
+            "total_distance_km": 903.6427333586578
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "SAW"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2030.3471340551168
+                },
+                {
+                    "start": {
+                        "name": "IST"
+                    },
+                    "end": {
+                        "name": "BOD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2413.0763161509553
+                }
+            ],
+            "total_duration_s": "PT15H5M",
+            "total_distance_km": 4443.423450206072
+        }
+    ]
+}

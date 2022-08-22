@@ -1,0 +1,43 @@
+{
+    "origin": "Munich",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "time_s": 25500.0
+                }
+            ],
+            "total_duration_s": 25500.0,
+            "total_distance_km": 601.1916884309024
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "32A",
+                    "distance": 600.0206235940029
+                }
+            ],
+            "total_duration_s": "PT1H15M",
+            "total_distance_km": 600.0206235940029
+        }
+    ]
+}
