@@ -1,0 +1,131 @@
+{
+    "origin": "Toulouse",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 16080.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 11340.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "SALZBURG HBF (Austria)",
+                        "lat": 47.813057,
+                        "lon": 13.045829
+                    },
+                    "time_s": 14640.0
+                },
+                {
+                    "start": {
+                        "name": "SALZBURG HBF (Austria)",
+                        "lat": 47.813057,
+                        "lon": 13.045829
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8700.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 3540.0
+                }
+            ],
+            "total_duration_s": 102000.0,
+            "total_distance_km": 2015.6870340046771
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "ORY"
+                    },
+                    "aircraft": "321",
+                    "distance": 571.8107439841826
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1246.2904804752068
+                }
+            ],
+            "total_duration_s": "PT24H35M",
+            "total_distance_km": 1818.1012244593894
+        }
+    ]
+}

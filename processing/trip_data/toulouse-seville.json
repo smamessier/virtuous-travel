@@ -1,0 +1,79 @@
+{
+    "origin": "Toulouse",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 36840.0,
+            "total_distance_km": 1158.2332137807764
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 997.4675773841553
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1852.0709185460846
+                }
+            ],
+            "total_duration_s": "PT16H55M",
+            "total_distance_km": 2849.53849593024
+        }
+    ]
+}

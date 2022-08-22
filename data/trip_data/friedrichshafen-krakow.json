@@ -1,0 +1,105 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 4080.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 3780.0
+                }
+            ],
+            "total_duration_s": 48600.0,
+            "total_distance_km": 937.9445707436055
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "32A",
+                    "distance": 799.8731071163617
+                }
+            ],
+            "total_duration_s": "PT22H55M",
+            "total_distance_km": 1071.3864077854867
+        }
+    ]
+}

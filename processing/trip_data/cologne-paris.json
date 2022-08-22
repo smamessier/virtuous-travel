@@ -1,0 +1,53 @@
+{
+    "origin": "Cologne",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 12060.0
+                }
+            ],
+            "total_duration_s": 12060.0,
+            "total_distance_km": 401.4586149930362
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "320",
+                    "distance": 363.27917690254185
+                },
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 727.8476267598029
+                }
+            ],
+            "total_duration_s": "PT11H30M",
+            "total_distance_km": 1091.1268036623446
+        }
+    ]
+}

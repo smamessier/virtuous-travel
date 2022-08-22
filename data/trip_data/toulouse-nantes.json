@@ -1,0 +1,69 @@
+{
+    "origin": "Toulouse",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "time_s": 8160.0
+                },
+                {
+                    "start": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "end": {
+                        "name": "ST PIERRE DES CORPS (France)",
+                        "lat": 47.386115,
+                        "lon": 0.723614
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "ST PIERRE DES CORPS (France)",
+                        "lat": 47.386115,
+                        "lon": 0.723614
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 5760.0
+                }
+            ],
+            "total_duration_s": 24900.0,
+            "total_distance_km": 682.6678226603779
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "320",
+                    "distance": 455.4482984227072
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 455.4482984227072
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Malaga",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 8580.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "time_s": 16140.0
+                },
+                {
+                    "start": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 15480.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10500.0
+                }
+            ],
+            "total_duration_s": 103020.0,
+            "total_distance_km": 2209.2070481182236
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "AGP"
+                    },
+                    "aircraft": "320",
+                    "distance": 1853.4631777004392
+                }
+            ],
+            "total_duration_s": "PT3H5M",
+            "total_distance_km": 1853.4631777004392
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "origin": "Berlin",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 15240.0
+                }
+            ],
+            "total_duration_s": 15240.0,
+            "total_distance_km": 423.2415609899687
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 431.68306686036414
+        }
+    ]
+}

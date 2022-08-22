@@ -1,0 +1,76 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Cologne",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 4560.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 11760.0
+                }
+            ],
+            "total_duration_s": 16800.0,
+            "total_distance_km": 447.9523663455768
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "32A",
+                    "distance": 299.0786454580804
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "CGN"
+                    },
+                    "aircraft": "320",
+                    "distance": 435.70095418874473
+                }
+            ],
+            "total_duration_s": "PT6H10M",
+            "total_distance_km": 1006.2929003159501
+        }
+    ]
+}

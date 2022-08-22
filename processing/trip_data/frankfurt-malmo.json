@@ -1,0 +1,105 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Malm\u00f6",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "FLENSBURG (Germany)",
+                        "lat": 54.774169,
+                        "lon": 9.43639
+                    },
+                    "time_s": 7200.0
+                },
+                {
+                    "start": {
+                        "name": "FLENSBURG (Germany)",
+                        "lat": 54.774169,
+                        "lon": 9.43639
+                    },
+                    "end": {
+                        "name": "FREDERICIA (Denmark)",
+                        "lat": 55.56806,
+                        "lon": 9.740558
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "FREDERICIA (Denmark)",
+                        "lat": 55.56806,
+                        "lon": 9.740558
+                    },
+                    "end": {
+                        "name": "CPH LUFTHAVN (Denmark)",
+                        "lat": 55.629169,
+                        "lon": 12.648892
+                    },
+                    "time_s": 7320.0
+                },
+                {
+                    "start": {
+                        "name": "CPH LUFTHAVN (Denmark)",
+                        "lat": 55.629169,
+                        "lon": 12.648892
+                    },
+                    "end": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "time_s": 1440.0
+                }
+            ],
+            "total_duration_s": 43800.0,
+            "total_distance_km": 830.265729291165
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 1222.9870223623666
+                },
+                {
+                    "start": {
+                        "name": "ARN"
+                    },
+                    "end": {
+                        "name": "MMX"
+                    },
+                    "aircraft": "32N",
+                    "distance": 531.4192384914018
+                }
+            ],
+            "total_duration_s": "PT6H55M",
+            "total_distance_km": 1754.4062608537683
+        }
+    ]
+}

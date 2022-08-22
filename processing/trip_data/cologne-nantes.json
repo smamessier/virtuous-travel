@@ -1,0 +1,92 @@
+{
+    "origin": "Cologne",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 12060.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "RENNES (France)",
+                        "lat": 48.103337,
+                        "lon": -1.672218
+                    },
+                    "time_s": 5340.0
+                },
+                {
+                    "start": {
+                        "name": "RENNES (France)",
+                        "lat": 48.103337,
+                        "lon": -1.672218
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 25800.0,
+            "total_distance_km": 811.0379781749017
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "ZRH"
+                    },
+                    "aircraft": "32A",
+                    "distance": 391.75738736317413
+                },
+                {
+                    "start": {
+                        "name": "ZRH"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "290",
+                    "distance": 766.2443953318166
+                }
+            ],
+            "total_duration_s": "PT6H45M",
+            "total_distance_km": 1158.0017826949907
+        }
+    ]
+}

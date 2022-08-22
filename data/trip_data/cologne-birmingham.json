@@ -1,0 +1,105 @@
+{
+    "origin": "Cologne",
+    "destination": "Birmingham",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 12060.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "BIRMINGHAM INTERNATIONAL (United Kingdom)",
+                        "lat": 52.449163,
+                        "lon": -1.723331
+                    },
+                    "time_s": 4200.0
+                }
+            ],
+            "total_duration_s": 29340.0,
+            "total_distance_km": 895.3522606866346
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "ZRH"
+                    },
+                    "aircraft": "32A",
+                    "distance": 391.75738736317413
+                },
+                {
+                    "start": {
+                        "name": "ZRH"
+                    },
+                    "end": {
+                        "name": "BHX"
+                    },
+                    "aircraft": "295",
+                    "distance": 920.716103643461
+                }
+            ],
+            "total_duration_s": "PT11H55M",
+            "total_distance_km": 1312.4734910066352
+        }
+    ]
+}

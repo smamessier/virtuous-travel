@@ -1,0 +1,66 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 4740.0
+                }
+            ],
+            "total_duration_s": 10320.0,
+            "total_distance_km": 211.3275936114032
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "32A",
+                    "distance": 299.0786454580804
+                }
+            ],
+            "total_duration_s": "PT4H25M",
+            "total_distance_km": 570.5919461272053
+        }
+    ]
+}

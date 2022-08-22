@@ -1,0 +1,79 @@
+{
+    "origin": "Cologne",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 17040.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "POZNAN GLOWNY (Poland)",
+                        "lat": 52.401385,
+                        "lon": 16.911667
+                    },
+                    "time_s": 10380.0
+                },
+                {
+                    "start": {
+                        "name": "POZNAN GLOWNY (Poland)",
+                        "lat": 52.401385,
+                        "lon": 16.911667
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 18300.0
+                }
+            ],
+            "total_duration_s": 47880.0,
+            "total_distance_km": 1049.9592068801514
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "VIE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 745.9899815657448
+                },
+                {
+                    "start": {
+                        "name": "VIE"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "E95",
+                    "distance": 320.353276511317
+                }
+            ],
+            "total_duration_s": "PT13H45M",
+            "total_distance_km": 1066.3432580770618
+        }
+    ]
+}

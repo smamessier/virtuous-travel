@@ -1,0 +1,69 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "OFFENBURG (Germany)",
+                        "lat": 48.476389,
+                        "lon": 7.946671
+                    },
+                    "time_s": 6480.0
+                },
+                {
+                    "start": {
+                        "name": "OFFENBURG (Germany)",
+                        "lat": 48.476389,
+                        "lon": 7.946671
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 2040.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 6960.0
+                }
+            ],
+            "total_duration_s": 18960.0,
+            "total_distance_km": 603.9217252718702
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 449.00346723415527
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 449.00346723415527
+        }
+    ]
+}

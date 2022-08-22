@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 5520.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 8460.0,
+            "total_distance_km": 293.06507918001296
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "319",
+                    "distance": 1423.2455438115414
+                }
+            ],
+            "total_duration_s": "PT2H20M",
+            "total_distance_km": 1423.2455438115414
+        }
+    ]
+}

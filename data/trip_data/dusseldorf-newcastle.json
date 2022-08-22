@@ -1,0 +1,95 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Newcastle",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 13920.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "end": {
+                        "name": "NEWCASTLE (United Kingdom)",
+                        "lat": 54.96528,
+                        "lon": -1.615829
+                    },
+                    "time_s": 11340.0
+                }
+            ],
+            "total_duration_s": 37560.0,
+            "total_distance_km": 1148.6507524085819
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "NCL"
+                    },
+                    "aircraft": "32A",
+                    "distance": 700.4026579078931
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 700.4026579078931
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 8580.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 2100.0
+                }
+            ],
+            "total_duration_s": 16740.0,
+            "total_distance_km": 268.49774927132626
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "HER"
+                    },
+                    "aircraft": "320",
+                    "distance": 2302.821838563924
+                },
+                {
+                    "start": {
+                        "name": "HER"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "319",
+                    "distance": 2451.8016017864848
+                }
+            ],
+            "total_duration_s": "PT29H45M",
+            "total_distance_km": 4754.623440350409
+        }
+    ]
+}

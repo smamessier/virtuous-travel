@@ -1,0 +1,56 @@
+{
+    "origin": "Munich",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 11040.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 2160.0
+                }
+            ],
+            "total_duration_s": 13440.0,
+            "total_distance_km": 342.0050926350393
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32N",
+                    "distance": 299.0786454580804
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 299.0786454580804
+        }
+    ]
+}

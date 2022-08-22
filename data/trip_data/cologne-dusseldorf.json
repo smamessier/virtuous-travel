@@ -1,0 +1,53 @@
+{
+    "origin": "Cologne",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 1380.0,
+            "total_distance_km": 32.86040229055927
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "BER"
+                    },
+                    "aircraft": "32A",
+                    "distance": 468.4597263274897
+                },
+                {
+                    "start": {
+                        "name": "BER"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "319",
+                    "distance": 477.01494353877274
+                }
+            ],
+            "total_duration_s": "PT3H40M",
+            "total_distance_km": 945.4746698662625
+        }
+    ]
+}

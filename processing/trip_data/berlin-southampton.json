@@ -1,0 +1,128 @@
+{
+    "origin": "Berlin",
+    "destination": "Southampton",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 16740.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6780.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "end": {
+                        "name": "SOUTHAMPTON AIRPORT (United Kingdom)",
+                        "lat": 50.948612,
+                        "lon": -1.362225
+                    },
+                    "time_s": 3960.0
+                }
+            ],
+            "total_duration_s": 43860.0,
+            "total_distance_km": 1089.9412760930181
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "320",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 366.57375472178785
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SOU"
+                    },
+                    "aircraft": "E75",
+                    "distance": 448.4895717662466
+                }
+            ],
+            "total_duration_s": "PT9H50M",
+            "total_distance_km": 1246.7463933483987
+        }
+    ]
+}

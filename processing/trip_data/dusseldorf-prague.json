@@ -1,0 +1,82 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 1680.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "SCHWANDORF (Germany)",
+                        "lat": 49.326391,
+                        "lon": 12.103885
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 12540.0
+                }
+            ],
+            "total_duration_s": 34920.0,
+            "total_distance_km": 632.8837773799378
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "319",
+                    "distance": 543.8237243391549
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 543.8237243391549
+        }
+    ]
+}

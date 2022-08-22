@@ -1,0 +1,79 @@
+{
+    "origin": "Toulouse",
+    "destination": "Malaga",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10620.0
+                }
+            ],
+            "total_duration_s": 38820.0,
+            "total_distance_km": 1184.9460141226714
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 605.509494881887
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "AGP"
+                    },
+                    "aircraft": "321",
+                    "distance": 1485.820118468917
+                }
+            ],
+            "total_duration_s": "PT6H10M",
+            "total_distance_km": 2091.329613350804
+        }
+    ]
+}

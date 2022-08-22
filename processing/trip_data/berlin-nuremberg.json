@@ -1,0 +1,53 @@
+{
+    "origin": "Berlin",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 12600.0
+                }
+            ],
+            "total_duration_s": 12600.0,
+            "total_distance_km": 372.8113011253974
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 189.6409970646257
+                }
+            ],
+            "total_duration_s": "PT6H15M",
+            "total_distance_km": 621.3240639249898
+        }
+    ]
+}

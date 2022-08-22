@@ -1,0 +1,66 @@
+{
+    "origin": "Berlin",
+    "destination": "Bologna",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 16740.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 24300.0
+                }
+            ],
+            "total_duration_s": 42060.0,
+            "total_distance_km": 903.1570512474939
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "320",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "BLQ"
+                    },
+                    "aircraft": "319",
+                    "distance": 644.6919857273069
+                }
+            ],
+            "total_duration_s": "PT3H25M",
+            "total_distance_km": 1076.375052587671
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "origin": "Toulouse",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 16320.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 4920.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "time_s": 2460.0
+                },
+                {
+                    "start": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 30780.0,
+            "total_distance_km": 918.3035491124577
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 997.4675773841553
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "73H",
+                    "distance": 888.3069671871147
+                }
+            ],
+            "total_duration_s": "PT10H30M",
+            "total_distance_km": 1885.7745445712699
+        }
+    ]
+}

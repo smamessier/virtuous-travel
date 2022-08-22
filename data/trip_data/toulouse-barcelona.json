@@ -1,0 +1,66 @@
+{
+    "origin": "Toulouse",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 7260.0
+                }
+            ],
+            "total_duration_s": 13740.0,
+            "total_distance_km": 347.40099278778547
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1029.410646566496
+                },
+                {
+                    "start": {
+                        "name": "LIS"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "E90",
+                    "distance": 994.001706075484
+                }
+            ],
+            "total_duration_s": "PT6H50M",
+            "total_distance_km": 2023.41235264198
+        }
+    ]
+}

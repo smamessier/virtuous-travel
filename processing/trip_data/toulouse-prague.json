@@ -1,0 +1,134 @@
+{
+    "origin": "Toulouse",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 16320.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 13740.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "time_s": 15480.0
+                },
+                {
+                    "start": {
+                        "name": "DRESDEN HBF (Germany)",
+                        "lat": 51.040553,
+                        "lon": 13.73194
+                    },
+                    "end": {
+                        "name": "BAD SCHANDAU (Germany)",
+                        "lat": 50.919163,
+                        "lon": 14.137497
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "BAD SCHANDAU (Germany)",
+                        "lat": 50.919163,
+                        "lon": 14.137497
+                    },
+                    "end": {
+                        "name": "DECIN HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.774167,
+                        "lon": 14.201392
+                    },
+                    "time_s": 1320.0
+                },
+                {
+                    "start": {
+                        "name": "DECIN HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.774167,
+                        "lon": 14.201392
+                    },
+                    "end": {
+                        "name": "LOVOSICE (Czech Republic)",
+                        "lat": 50.507502,
+                        "lon": 14.068891
+                    },
+                    "time_s": 2220.0
+                },
+                {
+                    "start": {
+                        "name": "LOVOSICE (Czech Republic)",
+                        "lat": 50.507502,
+                        "lon": 14.068891
+                    },
+                    "end": {
+                        "name": "PRAGUE MASARYKOVO NADRAZI (Czech Republic)",
+                        "lat": 50.08722,
+                        "lon": 14.436946
+                    },
+                    "time_s": 4980.0
+                }
+            ],
+            "total_duration_s": 84120.0,
+            "total_distance_km": 1570.9788373983538
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "319",
+                    "distance": 1213.447656361941
+                }
+            ],
+            "total_duration_s": "PT2H10M",
+            "total_distance_km": 1213.447656361941
+        }
+    ]
+}

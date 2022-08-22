@@ -1,0 +1,56 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 1680.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 5340.0
+                }
+            ],
+            "total_duration_s": 7740.0,
+            "total_distance_km": 185.0701272712202
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 188.86835255443205
+                }
+            ],
+            "total_duration_s": "PT50M",
+            "total_distance_km": 188.86835255443205
+        }
+    ]
+}

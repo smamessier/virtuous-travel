@@ -1,0 +1,66 @@
+{
+    "origin": "Cologne",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 5340.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 6240.0
+                }
+            ],
+            "total_duration_s": 13440.0,
+            "total_distance_km": 304.01280486411645
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "BER"
+                    },
+                    "aircraft": "319",
+                    "distance": 468.4597263274897
+                },
+                {
+                    "start": {
+                        "name": "BER"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "320",
+                    "distance": 506.73756306468556
+                }
+            ],
+            "total_duration_s": "PT3H40M",
+            "total_distance_km": 975.1972893921752
+        }
+    ]
+}

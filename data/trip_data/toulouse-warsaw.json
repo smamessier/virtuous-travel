@@ -1,0 +1,144 @@
+{
+    "origin": "Toulouse",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 15480.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 12000.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 16980.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KUTNO (Poland)",
+                        "lat": 52.227498,
+                        "lon": 19.347222
+                    },
+                    "time_s": 16440.0
+                },
+                {
+                    "start": {
+                        "name": "KUTNO (Poland)",
+                        "lat": 52.227498,
+                        "lon": 19.347222
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 91860.0,
+            "total_distance_km": 1984.5430859653375
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 997.4675773841553
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1101.1715249816768
+                }
+            ],
+            "total_duration_s": "PT25H55M",
+            "total_distance_km": 2098.639102365832
+        }
+    ]
+}

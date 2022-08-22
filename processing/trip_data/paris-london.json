@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "London",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 6720.0,
+            "total_distance_km": 343.4827460280015
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "LHR"
+                    },
+                    "aircraft": "319",
+                    "distance": 347.1679876326314
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 347.1679876326314
+        }
+    ]
+}

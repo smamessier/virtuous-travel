@@ -1,0 +1,105 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Pisa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "time_s": 6000.0
+                },
+                {
+                    "start": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 2160.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 8520.0
+                },
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "time_s": 3600.0
+                }
+            ],
+            "total_duration_s": 40200.0,
+            "total_distance_km": 634.083483580663
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "PSA"
+                    },
+                    "aircraft": "E95",
+                    "distance": 719.430419211815
+                }
+            ],
+            "total_duration_s": "PT15H5M",
+            "total_distance_km": 990.9437198809399
+        }
+    ]
+}

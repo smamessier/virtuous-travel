@@ -1,0 +1,69 @@
+{
+    "origin": "Cologne",
+    "destination": "Stockholm",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 16140.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Stockholm Central (Sweden)",
+                        "lat": 59.330001,
+                        "lon": 18.058052
+                    },
+                    "time_s": 19080.0
+                }
+            ],
+            "total_duration_s": 55980.0,
+            "total_distance_km": 1165.9962540493977
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1188.765428513664
+                }
+            ],
+            "total_duration_s": "PT2H5M",
+            "total_distance_km": 1188.765428513664
+        }
+    ]
+}

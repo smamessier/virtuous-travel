@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 24240.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "VALENCIA JOAQUIN SOROLLA (Spain)",
+                        "lat": 39.459166,
+                        "lon": -0.383057
+                    },
+                    "time_s": 10020.0
+                }
+            ],
+            "total_duration_s": 39120.0,
+            "total_distance_km": 1132.3551108860845
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "320",
+                    "distance": 1085.90484927232
+                }
+            ],
+            "total_duration_s": "PT1H55M",
+            "total_distance_km": 1085.90484927232
+        }
+    ]
+}

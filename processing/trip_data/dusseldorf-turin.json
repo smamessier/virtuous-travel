@@ -1,0 +1,144 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Turin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 1920.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 4680.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 10620.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "LUGANO (Switzerland)",
+                        "lat": 46.00556,
+                        "lon": 8.946946
+                    },
+                    "time_s": 10500.0
+                },
+                {
+                    "start": {
+                        "name": "LUGANO (Switzerland)",
+                        "lat": 46.00556,
+                        "lon": 8.946946
+                    },
+                    "end": {
+                        "name": "MENDRISIO (Switzerland)",
+                        "lat": 45.869167,
+                        "lon": 8.978615
+                    },
+                    "time_s": 1260.0
+                },
+                {
+                    "start": {
+                        "name": "MENDRISIO (Switzerland)",
+                        "lat": 45.869167,
+                        "lon": 8.978615
+                    },
+                    "end": {
+                        "name": "ARCISATE (Italy)",
+                        "lat": 45.858335,
+                        "lon": 8.862501
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "ARCISATE (Italy)",
+                        "lat": 45.858335,
+                        "lon": 8.862501
+                    },
+                    "end": {
+                        "name": "RHO-FIERA MILANO (Italy)",
+                        "lat": 45.521392,
+                        "lon": 9.085559
+                    },
+                    "time_s": 2880.0
+                },
+                {
+                    "start": {
+                        "name": "RHO-FIERA MILANO (Italy)",
+                        "lat": 45.521392,
+                        "lon": 9.085559
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 41880.0,
+            "total_distance_km": 867.8629257123179
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 178.3437495562394
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "TRN"
+                    },
+                    "aircraft": "E75",
+                    "distance": 817.9997703198069
+                }
+            ],
+            "total_duration_s": "PT17H",
+            "total_distance_km": 996.3435198760462
+        }
+    ]
+}

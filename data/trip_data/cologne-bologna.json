@@ -1,0 +1,56 @@
+{
+    "origin": "Cologne",
+    "destination": "Bologna",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 18840.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 24300.0
+                }
+            ],
+            "total_duration_s": 46800.0,
+            "total_distance_km": 859.528015230152
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "BLQ"
+                    },
+                    "aircraft": "319",
+                    "distance": 768.9538747361647
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 768.9538747361647
+        }
+    ]
+}

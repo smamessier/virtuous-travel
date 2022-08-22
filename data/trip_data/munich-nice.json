@@ -1,0 +1,82 @@
+{
+    "origin": "Munich",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 7860.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 4860.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "AIX EN PROVENCE TGV (France)",
+                        "lat": 43.454997,
+                        "lon": 5.317218
+                    },
+                    "time_s": 20760.0
+                },
+                {
+                    "start": {
+                        "name": "AIX EN PROVENCE TGV (France)",
+                        "lat": 43.454997,
+                        "lon": 5.317218
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 11040.0
+                }
+            ],
+            "total_duration_s": 54780.0,
+            "total_distance_km": 1056.9950043360288
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "320",
+                    "distance": 629.9672578105702
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 629.9672578105702
+        }
+    ]
+}

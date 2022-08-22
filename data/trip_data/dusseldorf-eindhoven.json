@@ -1,0 +1,79 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "time_s": 2040.0
+                },
+                {
+                    "start": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 1860.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 7800.0,
+            "total_distance_km": 99.8653067261983
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "ADB"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2149.4313748081017
+                },
+                {
+                    "start": {
+                        "name": "ADB"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2240.031122932035
+                }
+            ],
+            "total_duration_s": "PT24H",
+            "total_distance_km": 4389.462497740136
+        }
+    ]
+}

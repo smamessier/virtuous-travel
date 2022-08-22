@@ -1,0 +1,79 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 8580.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 13440.0,
+            "total_distance_km": 245.33923272050015
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1026.0599999817823
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "73H",
+                    "distance": 324.7080661986591
+                }
+            ],
+            "total_duration_s": "PT4H40M",
+            "total_distance_km": 1350.7680661804413
+        }
+    ]
+}

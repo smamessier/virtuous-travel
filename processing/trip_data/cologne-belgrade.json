@@ -1,0 +1,66 @@
+{
+    "origin": "Cologne",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 10200.0,
+            "total_distance_km": 217.70846460273603
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "SAW"
+                    },
+                    "aircraft": "320",
+                    "distance": 2030.3471340551168
+                },
+                {
+                    "start": {
+                        "name": "SAW"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "320",
+                    "distance": 852.5710160700809
+                }
+            ],
+            "total_duration_s": "PT7H40M",
+            "total_distance_km": 2882.918150125198
+        }
+    ]
+}

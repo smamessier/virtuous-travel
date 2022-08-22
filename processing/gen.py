@@ -29,8 +29,8 @@ amadeus = Client(
     client_secret=AMADEUS_API_SECRET
 )
 
-airports = pd.read_csv('/home/webaba/Dev/virtuous-travel/scripts/airports_short.csv')
-all_airports = pd.read_csv('/home/webaba/Dev/virtuous-travel/scripts/airports_full.csv')
+airports = pd.read_csv('/home/webaba/Dev/virtuous-travel/processing/airports_short.csv')
+all_airports = pd.read_csv('/home/webaba/Dev/virtuous-travel/processing/airports_full.csv')
 
 def get_distance(iata1, iata2):
     row1 = all_airports[all_airports.airport == iata1].iloc[0]
@@ -134,7 +134,7 @@ def gen_airports_latlon():
     return main_airports
 
 def enrich_airports():
-    df = pd.read_csv('/home/webaba/Dev/virtuous-travel/scripts/airports.csv')
+    df = pd.read_csv('/home/webaba/Dev/virtuous-travel/processing/airports.csv')
     #df = df[df.country.isin(countries)]
     df_with_latlon = gen_airports_latlon()
     df_enriched = pd.merge(df, df_with_latlon, how='inner', left_on='airport',
@@ -145,7 +145,7 @@ def enrich_airports():
     df_final.to_csv("./airports_full.csv")
 
 def gen_pairs():
-    df = pd.read_csv('/home/webaba/Dev/virtuous-travel/scripts/airports_short.csv')
+    df = pd.read_csv('/home/webaba/Dev/virtuous-travel/processing/airports_short.csv')
     df = df[df.country.isin(countries)]
     joined = df.merge(df, how='cross')[['city_x', 'city_y', 'iata_code_x',
                                         'iata_code_y', 'lat_x', 'lat_y',
@@ -177,4 +177,4 @@ def endgame(input_file):
 
 if __name__ == "__main__":
     #gen_pairs()
-    endgame('./input_data/pairs_0.csv')
+    endgame('./input_data/pairs_1.csv')

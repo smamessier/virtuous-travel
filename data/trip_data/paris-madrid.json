@@ -1,0 +1,56 @@
+{
+    "origin": "Paris",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "time_s": 21780.0
+                },
+                {
+                    "start": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 14160.0
+                }
+            ],
+            "total_duration_s": 43020.0,
+            "total_distance_km": 1335.979248476477
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1064.5143609019738
+                }
+            ],
+            "total_duration_s": "PT2H10M",
+            "total_distance_km": 1064.5143609019738
+        }
+    ]
+}

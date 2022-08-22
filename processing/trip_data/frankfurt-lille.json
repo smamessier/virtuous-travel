@@ -1,0 +1,66 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)SUED (Germany)",
+                        "lat": 50.099446,
+                        "lon": 8.686393
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 22260.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 2100.0
+                }
+            ],
+            "total_duration_s": 25740.0,
+            "total_distance_km": 409.8897939018795
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "32Q",
+                    "distance": 1815.6405629932456
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "319",
+                    "distance": 2161.7806041876975
+                }
+            ],
+            "total_duration_s": "PT20H",
+            "total_distance_km": 3977.421167180943
+        }
+    ]
+}

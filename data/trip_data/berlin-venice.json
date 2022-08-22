@@ -1,0 +1,79 @@
+{
+    "origin": "Berlin",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 16740.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19440.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 4500.0
+                }
+            ],
+            "total_duration_s": 43140.0,
+            "total_distance_km": 901.109302813293
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "32A",
+                    "distance": 577.2026554906591
+                }
+            ],
+            "total_duration_s": "PT26H20M",
+            "total_distance_km": 1008.8857223510233
+        }
+    ]
+}

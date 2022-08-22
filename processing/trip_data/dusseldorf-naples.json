@@ -1,0 +1,95 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "SIEGBURG/BONN (Germany)",
+                        "lat": 50.793889,
+                        "lon": 7.203056
+                    },
+                    "time_s": 2760.0
+                },
+                {
+                    "start": {
+                        "name": "SIEGBURG/BONN (Germany)",
+                        "lat": 50.793889,
+                        "lon": 7.203056
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 4860.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 7920.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 18900.0
+                }
+            ],
+            "total_duration_s": 54960.0,
+            "total_distance_km": 1370.6169612624954
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "223",
+                    "distance": 1292.5718777802028
+                }
+            ],
+            "total_duration_s": "PT2H15M",
+            "total_distance_km": 1292.5718777802028
+        }
+    ]
+}

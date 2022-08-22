@@ -1,0 +1,118 @@
+{
+    "origin": "Toulouse",
+    "destination": "Southampton",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 16320.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "end": {
+                        "name": "SOUTHAMPTON AIRPORT (United Kingdom)",
+                        "lat": 50.948612,
+                        "lon": -1.362225
+                    },
+                    "time_s": 4140.0
+                }
+            ],
+            "total_duration_s": 39000.0,
+            "total_distance_km": 1044.110430209496
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 997.4675773841553
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SOU"
+                    },
+                    "aircraft": "E75",
+                    "distance": 448.4895717662466
+                }
+            ],
+            "total_duration_s": "PT3H45M",
+            "total_distance_km": 1445.957149150402
+        }
+    ]
+}

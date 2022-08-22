@@ -1,0 +1,66 @@
+{
+    "origin": "Berlin",
+    "destination": "Milan",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "SPIEZ (Switzerland)",
+                        "lat": 46.686385,
+                        "lon": 7.679997
+                    },
+                    "time_s": 32580.0
+                },
+                {
+                    "start": {
+                        "name": "SPIEZ (Switzerland)",
+                        "lat": 46.686385,
+                        "lon": 7.679997
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 9300.0
+                }
+            ],
+            "total_duration_s": 43800.0,
+            "total_distance_km": 945.1666843270439
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "MXP"
+                    },
+                    "aircraft": "319",
+                    "distance": 489.70317003867336
+                }
+            ],
+            "total_duration_s": "PT6H15M",
+            "total_distance_km": 921.3862368990375
+        }
+    ]
+}

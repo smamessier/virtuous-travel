@@ -1,0 +1,79 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Milan",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "time_s": 6000.0
+                },
+                {
+                    "start": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 2160.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 11820.0
+                }
+            ],
+            "total_duration_s": 23520.0,
+            "total_distance_km": 315.86445882869646
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "MXP"
+                    },
+                    "aircraft": "321",
+                    "distance": 489.70317003867336
+                }
+            ],
+            "total_duration_s": "PT13H40M",
+            "total_distance_km": 761.2164707077983
+        }
+    ]
+}

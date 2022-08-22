@@ -1,0 +1,53 @@
+{
+    "origin": "Berlin",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 16740.0
+                }
+            ],
+            "total_duration_s": 16740.0,
+            "total_distance_km": 498.7463414095845
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "321",
+                    "distance": 299.0786454580804
+                }
+            ],
+            "total_duration_s": "PT4H30M",
+            "total_distance_km": 730.7617123184446
+        }
+    ]
+}

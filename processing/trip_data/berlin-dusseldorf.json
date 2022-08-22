@@ -1,0 +1,53 @@
+{
+    "origin": "Berlin",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 16380.0
+                }
+            ],
+            "total_duration_s": 16380.0,
+            "total_distance_km": 473.96216870270075
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "319",
+                    "distance": 188.86835255443205
+                }
+            ],
+            "total_duration_s": "PT5H35M",
+            "total_distance_km": 620.5514194147962
+        }
+    ]
+}

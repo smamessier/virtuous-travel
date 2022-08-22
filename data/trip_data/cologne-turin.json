@@ -1,0 +1,131 @@
+{
+    "origin": "Cologne",
+    "destination": "Turin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 4680.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 10620.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "LUGANO (Switzerland)",
+                        "lat": 46.00556,
+                        "lon": 8.946946
+                    },
+                    "time_s": 10500.0
+                },
+                {
+                    "start": {
+                        "name": "LUGANO (Switzerland)",
+                        "lat": 46.00556,
+                        "lon": 8.946946
+                    },
+                    "end": {
+                        "name": "MENDRISIO (Switzerland)",
+                        "lat": 45.869167,
+                        "lon": 8.978615
+                    },
+                    "time_s": 1260.0
+                },
+                {
+                    "start": {
+                        "name": "MENDRISIO (Switzerland)",
+                        "lat": 45.869167,
+                        "lon": 8.978615
+                    },
+                    "end": {
+                        "name": "ARCISATE (Italy)",
+                        "lat": 45.858335,
+                        "lon": 8.862501
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "ARCISATE (Italy)",
+                        "lat": 45.858335,
+                        "lon": 8.862501
+                    },
+                    "end": {
+                        "name": "RHO-FIERA MILANO (Italy)",
+                        "lat": 45.521392,
+                        "lon": 9.085559
+                    },
+                    "time_s": 2880.0
+                },
+                {
+                    "start": {
+                        "name": "RHO-FIERA MILANO (Italy)",
+                        "lat": 45.521392,
+                        "lon": 9.085559
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 39360.0,
+            "total_distance_km": 835.0025234217586
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "320",
+                    "distance": 435.70095418874473
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "TRN"
+                    },
+                    "aircraft": "E95",
+                    "distance": 471.17628050850146
+                }
+            ],
+            "total_duration_s": "PT3H30M",
+            "total_distance_km": 906.8772346972462
+        }
+    ]
+}

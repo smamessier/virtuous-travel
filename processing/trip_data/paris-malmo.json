@@ -1,0 +1,92 @@
+{
+    "origin": "Paris",
+    "destination": "Malm\u00f6",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 12000.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 14580.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16920.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 53460.0,
+            "total_distance_km": 1073.946485952807
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "223",
+                    "distance": 1539.1579265957794
+                },
+                {
+                    "start": {
+                        "name": "ARN"
+                    },
+                    "end": {
+                        "name": "MMX"
+                    },
+                    "aircraft": "32N",
+                    "distance": 531.4192384914018
+                }
+            ],
+            "total_duration_s": "PT4H45M",
+            "total_distance_km": 2070.577165087181
+        }
+    ]
+}

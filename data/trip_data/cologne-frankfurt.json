@@ -1,0 +1,53 @@
+{
+    "origin": "Cologne",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 5340.0
+                }
+            ],
+            "total_duration_s": 5340.0,
+            "total_distance_km": 152.20972498066092
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "744",
+                    "distance": 435.70095418874473
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 299.0786454580804
+                }
+            ],
+            "total_duration_s": "PT11H30M",
+            "total_distance_km": 734.7795996468251
+        }
+    ]
+}

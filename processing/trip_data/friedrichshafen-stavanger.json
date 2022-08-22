@@ -1,0 +1,154 @@
+{
+    "origin": "Friedrichshafen",
+    "destination": "Stavanger",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 4020.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 26760.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16920.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Hassleholm C (Sweden)",
+                        "lat": 56.157501,
+                        "lon": 13.76306
+                    },
+                    "time_s": 5280.0
+                },
+                {
+                    "start": {
+                        "name": "Hassleholm C (Sweden)",
+                        "lat": 56.157501,
+                        "lon": 13.76306
+                    },
+                    "end": {
+                        "name": "Nassjo C (Sweden)",
+                        "lat": 57.652218,
+                        "lon": 14.693893
+                    },
+                    "time_s": 6180.0
+                },
+                {
+                    "start": {
+                        "name": "Nassjo C (Sweden)",
+                        "lat": 57.652218,
+                        "lon": 14.693893
+                    },
+                    "end": {
+                        "name": "Hallsberg (Sweden)",
+                        "lat": 59.066941,
+                        "lon": 15.110274
+                    },
+                    "time_s": 9960.0
+                },
+                {
+                    "start": {
+                        "name": "Hallsberg (Sweden)",
+                        "lat": 59.066941,
+                        "lon": 15.110274
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 14280.0
+                },
+                {
+                    "start": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "end": {
+                        "name": "STAVANGER (Norway)",
+                        "lat": 58.966387,
+                        "lon": 5.732781
+                    },
+                    "time_s": 28200.0
+                }
+            ],
+            "total_duration_s": 135600.0,
+            "total_distance_km": 1944.2610254820106
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FDH"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1140.9890528096707
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "SVG"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 340.8823611196569
+                }
+            ],
+            "total_duration_s": "PT16H45M",
+            "total_distance_km": 1753.3847145984525
+        }
+    ]
+}

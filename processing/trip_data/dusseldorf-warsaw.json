@@ -1,0 +1,69 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 15600.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "time_s": 21720.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 600.0
+                }
+            ],
+            "total_duration_s": 39840.0,
+            "total_distance_km": 996.6374366005084
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 981.2851047110297
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 981.2851047110297
+        }
+    ]
+}

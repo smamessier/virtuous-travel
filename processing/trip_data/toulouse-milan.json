@@ -1,0 +1,105 @@
+{
+    "origin": "Toulouse",
+    "destination": "Milan",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 5580.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "time_s": 7800.0
+                },
+                {
+                    "start": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "end": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "time_s": 6120.0
+                },
+                {
+                    "start": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "time_s": 3000.0
+                }
+            ],
+            "total_duration_s": 37320.0,
+            "total_distance_km": 761.2026255582648
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "321",
+                    "distance": 605.509494881887
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MXP"
+                    },
+                    "aircraft": "223",
+                    "distance": 598.2518943056699
+                }
+            ],
+            "total_duration_s": "PT4H5M",
+            "total_distance_km": 1203.761389187557
+        }
+    ]
+}

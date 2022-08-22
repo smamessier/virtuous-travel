@@ -1,0 +1,128 @@
+{
+    "origin": "Berlin",
+    "destination": "Cardiff",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 16740.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6780.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "end": {
+                        "name": "CARDIFF CENTRAL (United Kingdom)",
+                        "lat": 51.472782,
+                        "lon": -3.176392
+                    },
+                    "time_s": 6540.0
+                }
+            ],
+            "total_duration_s": 47220.0,
+            "total_distance_km": 1191.4699357812253
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "320",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 366.57375472178785
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "CWL"
+                    },
+                    "aircraft": "E75",
+                    "distance": 565.673671116523
+                }
+            ],
+            "total_duration_s": "PT5H30M",
+            "total_distance_km": 1363.9304926986752
+        }
+    ]
+}

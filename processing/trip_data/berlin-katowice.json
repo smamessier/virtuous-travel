@@ -1,0 +1,66 @@
+{
+    "origin": "Berlin",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "time_s": 4860.0
+                },
+                {
+                    "start": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 21240.0
+                }
+            ],
+            "total_duration_s": 29460.0,
+            "total_distance_km": 473.2818136777611
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 748.1663164839514
+                }
+            ],
+            "total_duration_s": "PT4H55M",
+            "total_distance_km": 1179.8493833443156
+        }
+    ]
+}

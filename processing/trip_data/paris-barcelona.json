@@ -1,0 +1,43 @@
+{
+    "origin": "Paris",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 24240.0
+                }
+            ],
+            "total_duration_s": 24240.0,
+            "total_distance_km": 830.3337134138101
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 858.739197643162
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 858.739197643162
+        }
+    ]
+}

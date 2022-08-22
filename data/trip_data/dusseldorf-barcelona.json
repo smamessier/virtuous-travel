@@ -1,0 +1,69 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Barcelona",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 8580.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "time_s": 16140.0
+                },
+                {
+                    "start": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 15480.0
+                }
+            ],
+            "total_duration_s": 47940.0,
+            "total_distance_km": 1291.5279464407681
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "321",
+                    "distance": 1167.4161993130658
+                }
+            ],
+            "total_duration_s": "PT2H20M",
+            "total_distance_km": 1167.4161993130658
+        }
+    ]
+}

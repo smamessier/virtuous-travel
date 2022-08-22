@@ -1,0 +1,56 @@
+{
+    "origin": "Toulouse",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                }
+            ],
+            "total_duration_s": 25200.0,
+            "total_distance_km": 769.1241372968144
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TLS"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "319",
+                    "distance": 537.1375787260022
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 537.1375787260022
+        }
+    ]
+}

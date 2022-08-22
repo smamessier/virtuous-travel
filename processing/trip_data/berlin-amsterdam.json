@@ -1,0 +1,79 @@
+{
+    "origin": "Berlin",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 6480.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "BAD BENTHEIM (Germany)",
+                        "lat": 52.309722,
+                        "lon": 7.158614
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BAD BENTHEIM (Germany)",
+                        "lat": 52.309722,
+                        "lon": 7.158614
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 8160.0
+                }
+            ],
+            "total_duration_s": 23400.0,
+            "total_distance_km": 575.5520992123402
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "319",
+                    "distance": 366.57375472178785
+                }
+            ],
+            "total_duration_s": "PT6H5M",
+            "total_distance_km": 798.256821582152
+        }
+    ]
+}

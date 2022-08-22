@@ -1,0 +1,56 @@
+{
+    "origin": "Munich",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 14880.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 8400.0
+                }
+            ],
+            "total_duration_s": 24000.0,
+            "total_distance_km": 570.3161850442214
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "319",
+                    "distance": 566.4855918491334
+                }
+            ],
+            "total_duration_s": "PT1H15M",
+            "total_distance_km": 566.4855918491334
+        }
+    ]
+}

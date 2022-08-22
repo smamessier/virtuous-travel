@@ -1,0 +1,105 @@
+{
+    "origin": "Cologne",
+    "destination": "Seville",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "time_s": 16140.0
+                },
+                {
+                    "start": {
+                        "name": "VALENCE TGV RHONE-ALPES SUD (France)",
+                        "lat": 44.991388,
+                        "lon": 4.978613
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 15480.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "SEVILLA-SANTA JUSTA (Spain)",
+                        "lat": 37.391944,
+                        "lon": -5.975274
+                    },
+                    "time_s": 10020.0
+                }
+            ],
+            "total_duration_s": 97380.0,
+            "total_distance_km": 2189.6751629773953
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "744",
+                    "distance": 435.70095418874473
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "SVQ"
+                    },
+                    "aircraft": "321",
+                    "distance": 1876.9947473403424
+                }
+            ],
+            "total_duration_s": "PT16H45M",
+            "total_distance_km": 2312.6957015290873
+        }
+    ]
+}

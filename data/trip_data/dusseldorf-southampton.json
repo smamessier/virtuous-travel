@@ -1,0 +1,105 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Southampton",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 13920.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "end": {
+                        "name": "SOUTHAMPTON AIRPORT (United Kingdom)",
+                        "lat": 50.948612,
+                        "lon": -1.362225
+                    },
+                    "time_s": 4080.0
+                }
+            ],
+            "total_duration_s": 32400.0,
+            "total_distance_km": 863.6162784829314
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 178.3437495562394
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "SOU"
+                    },
+                    "aircraft": "E75",
+                    "distance": 448.4895717662466
+                }
+            ],
+            "total_duration_s": "PT3H15M",
+            "total_distance_km": 626.833321322486
+        }
+    ]
+}

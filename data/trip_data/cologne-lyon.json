@@ -1,0 +1,79 @@
+{
+    "origin": "Cologne",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 12060.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 6960.0
+                }
+            ],
+            "total_duration_s": 22320.0,
+            "total_distance_km": 796.4111060525051
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CGN"
+                    },
+                    "end": {
+                        "name": "AYT"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2432.0871996945934
+                },
+                {
+                    "start": {
+                        "name": "AYT"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "7M8",
+                    "distance": 2348.060949820003
+                }
+            ],
+            "total_duration_s": "PT14H30M",
+            "total_distance_km": 4780.148149514596
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "origin": "Frankfurt",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 8220.0
+                }
+            ],
+            "total_duration_s": 8220.0,
+            "total_distance_km": 151.80307988345555
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "319",
+                    "distance": 156.65320284707025
+                }
+            ],
+            "total_duration_s": "PT40M",
+            "total_distance_km": 156.65320284707025
+        }
+    ]
+}

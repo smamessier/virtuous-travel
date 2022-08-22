@@ -1,0 +1,79 @@
+{
+    "origin": "Berlin",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "SPIEZ (Switzerland)",
+                        "lat": 46.686385,
+                        "lon": 7.679997
+                    },
+                    "time_s": 32580.0
+                },
+                {
+                    "start": {
+                        "name": "SPIEZ (Switzerland)",
+                        "lat": 46.686385,
+                        "lon": 7.679997
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 9300.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 5940.0
+                }
+            ],
+            "total_duration_s": 51240.0,
+            "total_distance_km": 1066.0683754028576
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "320",
+                    "distance": 479.57554185086275
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "E95",
+                    "distance": 493.00084332362337
+                }
+            ],
+            "total_duration_s": "PT3H5M",
+            "total_distance_km": 972.5763851744862
+        }
+    ]
+}

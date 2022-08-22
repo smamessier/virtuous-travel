@@ -1,0 +1,95 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "time_s": 5460.0
+                },
+                {
+                    "start": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "end": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "end": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "end": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1200.0
+                }
+            ],
+            "total_duration_s": 21360.0,
+            "total_distance_km": 304.52921969031155
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 178.3437495562394
+                }
+            ],
+            "total_duration_s": "PT50M",
+            "total_distance_km": 178.3437495562394
+        }
+    ]
+}

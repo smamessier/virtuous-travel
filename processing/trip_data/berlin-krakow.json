@@ -1,0 +1,66 @@
+{
+    "origin": "Berlin",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "time_s": 4860.0
+                },
+                {
+                    "start": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 24960.0
+                }
+            ],
+            "total_duration_s": 33180.0,
+            "total_distance_km": 538.1567829531476
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TXL"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 431.68306686036414
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "32A",
+                    "distance": 799.8731071163617
+                }
+            ],
+            "total_duration_s": "PT26H5M",
+            "total_distance_km": 1231.5561739767259
+        }
+    ]
+}

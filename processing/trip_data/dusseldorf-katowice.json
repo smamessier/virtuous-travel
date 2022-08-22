@@ -1,0 +1,66 @@
+{
+    "origin": "D\u00fcsseldorf",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 15900.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 23220.0
+                }
+            ],
+            "total_duration_s": 40620.0,
+            "total_distance_km": 939.7693021597458
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 981.2851047110297
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E70",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H55M",
+            "total_distance_km": 1210.5498520246938
+        }
+    ]
+}
