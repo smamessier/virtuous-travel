@@ -1,0 +1,131 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "time_s": 13200.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "time_s": 420.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 180.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 12120.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "MARSEILLE BLANCARDE (France)",
+                        "lat": 43.296391,
+                        "lon": 5.40694
+                    },
+                    "time_s": 34560.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE BLANCARDE (France)",
+                        "lat": 43.296391,
+                        "lon": 5.40694
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 300.0
+                }
+            ],
+            "total_duration_s": 66120.0,
+            "total_distance_km": 1405.3851775725168
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 620.9430969252229
+                },
+                {
+                    "start": {
+                        "name": "ORY"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "318",
+                    "distance": 626.9987910335658
+                }
+            ],
+            "total_duration_s": "PT20H55M",
+            "total_distance_km": 1247.9418879587888
+        }
+    ]
+}

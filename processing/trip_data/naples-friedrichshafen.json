@@ -1,0 +1,105 @@
+{
+    "origin": "Naples",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 19200.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BRIG (Switzerland)",
+                        "lat": 46.319446,
+                        "lon": 7.988057
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRIG (Switzerland)",
+                        "lat": 46.319446,
+                        "lon": 7.988057
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 7800.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 4320.0
+                }
+            ],
+            "total_duration_s": 44820.0,
+            "total_distance_km": 1015.2720251143533
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32Q",
+                    "distance": 1109.8618177062826
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT15H20M",
+            "total_distance_km": 1381.3751183754075
+        }
+    ]
+}

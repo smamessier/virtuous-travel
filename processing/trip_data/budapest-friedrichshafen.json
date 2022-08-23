@@ -1,0 +1,79 @@
+{
+    "origin": "Budapest",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 4560.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 3900.0
+                }
+            ],
+            "total_duration_s": 34140.0,
+            "total_distance_km": 773.4438906753556
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 834.901702357353
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT7H25M",
+            "total_distance_km": 1106.415003026478
+        }
+    ]
+}

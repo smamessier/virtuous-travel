@@ -1,0 +1,66 @@
+{
+    "origin": "Hamburg",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 20220.0
+                },
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 8700.0
+                }
+            ],
+            "total_duration_s": 30240.0,
+            "total_distance_km": 660.9417030060889
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 411.6459401461768
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT3H",
+            "total_distance_km": 683.1592408153017
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "origin": "Hamburg",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 16980.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 12120.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 7620.0
+                }
+            ],
+            "total_duration_s": 67740.0,
+            "total_distance_km": 1258.3710583761724
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 379.357426640726
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 733.267711574465
+                }
+            ],
+            "total_duration_s": "PT16H55M",
+            "total_distance_km": 1112.6251382151909
+        }
+    ]
+}

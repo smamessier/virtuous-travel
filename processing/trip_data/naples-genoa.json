@@ -1,0 +1,69 @@
+{
+    "origin": "Naples",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "time_s": 18540.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "end": {
+                        "name": "PAVIA (Italy)",
+                        "lat": 45.18889,
+                        "lon": 9.144448
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "PAVIA (Italy)",
+                        "lat": 45.18889,
+                        "lon": 9.144448
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 3720.0
+                }
+            ],
+            "total_duration_s": 24720.0,
+            "total_distance_km": 768.3582862780252
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "320",
+                    "distance": 593.6819767028298
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 593.6819767028298
+        }
+    ]
+}

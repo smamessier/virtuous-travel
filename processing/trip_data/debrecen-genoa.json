@@ -1,0 +1,118 @@
+{
+    "origin": "Debrecen",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 7980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 35520.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "TORTONA (Italy)",
+                        "lat": 44.899725,
+                        "lon": 8.861665
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "TORTONA (Italy)",
+                        "lat": 44.899725,
+                        "lon": 8.861665
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 2520.0
+                }
+            ],
+            "total_duration_s": 72060.0,
+            "total_distance_km": 1226.2020992186845
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "E95",
+                    "distance": 493.00084332362337
+                }
+            ],
+            "total_duration_s": "PT19H55M",
+            "total_distance_km": 1231.2106781220646
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "origin": "Hamburg",
+    "destination": "Cologne",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 13980.0
+                }
+            ],
+            "total_duration_s": 13980.0,
+            "total_distance_km": 347.4929581277945
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "CGN"
+                    },
+                    "aircraft": "320",
+                    "distance": 363.27917690254185
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 363.27917690254185
+        }
+    ]
+}

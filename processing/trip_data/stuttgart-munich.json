@@ -1,0 +1,43 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 8280.0
+                }
+            ],
+            "total_duration_s": 8280.0,
+            "total_distance_km": 189.29489753846636
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 192.49712975274866
+                }
+            ],
+            "total_duration_s": "PT45M",
+            "total_distance_km": 192.49712975274866
+        }
+    ]
+}

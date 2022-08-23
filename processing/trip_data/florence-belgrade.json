@@ -1,0 +1,131 @@
+{
+    "origin": "Florence",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11220.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 4920.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "DENDERLEEUW (Belgium)",
+                        "lat": 50.891665,
+                        "lon": 4.071664
+                    },
+                    "time_s": 1020.0
+                },
+                {
+                    "start": {
+                        "name": "DENDERLEEUW (Belgium)",
+                        "lat": 50.891665,
+                        "lon": 4.071664
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 1620.0
+                }
+            ],
+            "total_duration_s": 51960.0,
+            "total_distance_km": 1225.2473236316991
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "VIE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 632.6121715947314
+                },
+                {
+                    "start": {
+                        "name": "VIE"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "E95",
+                    "distance": 464.6542583229595
+                }
+            ],
+            "total_duration_s": "PT5H5M",
+            "total_distance_km": 1097.2664299176909
+        }
+    ]
+}

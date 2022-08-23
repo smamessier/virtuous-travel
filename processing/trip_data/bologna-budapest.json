@@ -1,0 +1,66 @@
+{
+    "origin": "Bologna",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 24300.0
+                }
+            ],
+            "total_duration_s": 47820.0,
+            "total_distance_km": 880.66886453801
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 988.4655326562598
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1169.2131617296138
+                }
+            ],
+            "total_duration_s": "PT4H50M",
+            "total_distance_km": 2157.6786943858738
+        }
+    ]
+}

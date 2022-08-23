@@ -1,0 +1,92 @@
+{
+    "origin": "Florence",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 7380.0
+                },
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "time_s": 13740.0
+                },
+                {
+                    "start": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 29460.0
+                }
+            ],
+            "total_duration_s": 66360.0,
+            "total_distance_km": 975.7343381216322
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "VIE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 632.6121715947314
+                },
+                {
+                    "start": {
+                        "name": "VIE"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "E95",
+                    "distance": 320.353276511317
+                }
+            ],
+            "total_duration_s": "PT19H25M",
+            "total_distance_km": 952.9654481060484
+        }
+    ]
+}

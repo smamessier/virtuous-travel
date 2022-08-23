@@ -1,0 +1,79 @@
+{
+    "origin": "Budapest",
+    "destination": "Turin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 35520.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "TORINO PORTA NUOVA (Italy)",
+                        "lat": 45.06056,
+                        "lon": 7.677498
+                    },
+                    "time_s": 13800.0
+                }
+            ],
+            "total_duration_s": 63000.0,
+            "total_distance_km": 1071.150540546168
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "320",
+                    "distance": 1247.8723101988132
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "TRN"
+                    },
+                    "aircraft": "E70",
+                    "distance": 573.0038939473278
+                }
+            ],
+            "total_duration_s": "PT23H25M",
+            "total_distance_km": 1820.876204146141
+        }
+    ]
+}

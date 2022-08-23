@@ -1,0 +1,92 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Pisa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 8280.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19320.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "time_s": 6420.0
+                }
+            ],
+            "total_duration_s": 43140.0,
+            "total_distance_km": 716.8147552363963
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 511.0070666852393
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "PSA"
+                    },
+                    "aircraft": "73G",
+                    "distance": 1045.7127477262484
+                }
+            ],
+            "total_duration_s": "PT7H10M",
+            "total_distance_km": 1556.7198144114877
+        }
+    ]
+}

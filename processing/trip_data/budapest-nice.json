@@ -1,0 +1,118 @@
+{
+    "origin": "Budapest",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 35520.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "TORTONA (Italy)",
+                        "lat": 44.899725,
+                        "lon": 8.861665
+                    },
+                    "time_s": 9060.0
+                },
+                {
+                    "start": {
+                        "name": "TORTONA (Italy)",
+                        "lat": 44.899725,
+                        "lon": 8.861665
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 2520.0
+                },
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 8400.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3480.0
+                }
+            ],
+            "total_duration_s": 77280.0,
+            "total_distance_km": 1185.3682256941072
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1857.070583271903
+                }
+            ],
+            "total_duration_s": "PT7H45M",
+            "total_distance_km": 3371.441587010842
+        }
+    ]
+}

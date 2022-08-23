@@ -1,0 +1,66 @@
+{
+    "origin": "Bologna",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 3900.0
+                }
+            ],
+            "total_duration_s": 29760.0,
+            "total_distance_km": 553.6676531466629
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1285.4079953406258
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "320",
+                    "distance": 1645.1184502036406
+                }
+            ],
+            "total_duration_s": "PT17H55M",
+            "total_distance_km": 2930.5264455442666
+        }
+    ]
+}

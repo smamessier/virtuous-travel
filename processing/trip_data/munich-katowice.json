@@ -1,0 +1,66 @@
+{
+    "origin": "Munich",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 17580.0
+                }
+            ],
+            "total_duration_s": 34440.0,
+            "total_distance_km": 657.0928105859152
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 777.3323245778482
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E75",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H55M",
+            "total_distance_km": 1006.5970718915122
+        }
+    ]
+}

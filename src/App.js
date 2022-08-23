@@ -32,7 +32,8 @@ function App() {
 
     const defaultSettings = {
         cityA: 'Paris',
-        cityB: 'Amsterdam'
+        cityB: 'Amsterdam',
+        travelDays: 5
     }
 
     const defaultText = "I'm a virtuous traveler";

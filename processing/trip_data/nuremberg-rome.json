@@ -1,0 +1,105 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Rome",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 3900.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19320.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "ROMA OSTIENSE (Italy)",
+                        "lat": 41.872779,
+                        "lon": 12.483886
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "ROMA OSTIENSE (Italy)",
+                        "lat": 41.872779,
+                        "lon": 12.483886
+                    },
+                    "end": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "time_s": 720.0
+                }
+            ],
+            "total_duration_s": 59340.0,
+            "total_distance_km": 870.874400768828
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E70",
+                    "distance": 620.9430969252229
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "321",
+                    "distance": 1100.6955098131953
+                }
+            ],
+            "total_duration_s": "PT15H10M",
+            "total_distance_km": 1721.6386067384183
+        }
+    ]
+}

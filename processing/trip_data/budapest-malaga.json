@@ -1,0 +1,118 @@
+{
+    "origin": "Budapest",
+    "destination": "Malaga",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 41100.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 9960.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 17820.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MALAGA MARIA ZAMBRANO (Spain)",
+                        "lat": 36.711946,
+                        "lon": -4.431943
+                    },
+                    "time_s": 10500.0
+                }
+            ],
+            "total_duration_s": 136500.0,
+            "total_distance_km": 2574.6632805024983
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "AGP"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2840.5374792406674
+                }
+            ],
+            "total_duration_s": "PT7H30M",
+            "total_distance_km": 4354.908482979607
+        }
+    ]
+}

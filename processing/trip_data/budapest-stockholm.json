@@ -1,0 +1,92 @@
+{
+    "origin": "Budapest",
+    "destination": "Stockholm",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 45240.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Stockholm Central (Sweden)",
+                        "lat": 59.330001,
+                        "lon": 18.058052
+                    },
+                    "time_s": 19080.0
+                }
+            ],
+            "total_duration_s": 96120.0,
+            "total_distance_km": 1767.8148257990724
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 384.52860285473133
+                }
+            ],
+            "total_duration_s": "PT5H",
+            "total_distance_km": 1898.8996065936703
+        }
+    ]
+}

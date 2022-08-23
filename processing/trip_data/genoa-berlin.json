@@ -1,0 +1,118 @@
+{
+    "origin": "Genoa",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 7740.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "ERFURT HBF (Germany)",
+                        "lat": 50.972496,
+                        "lon": 11.03861
+                    },
+                    "time_s": 10440.0
+                },
+                {
+                    "start": {
+                        "name": "ERFURT HBF (Germany)",
+                        "lat": 50.972496,
+                        "lon": 11.03861
+                    },
+                    "end": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "time_s": 6300.0
+                }
+            ],
+            "total_duration_s": 52020.0,
+            "total_distance_km": 1084.8922708598304
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GOA"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 493.00084332362337
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "320",
+                    "distance": 479.57554185086275
+                }
+            ],
+            "total_duration_s": "PT5H25M",
+            "total_distance_km": 972.5763851744862
+        }
+    ]
+}

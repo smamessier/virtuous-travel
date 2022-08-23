@@ -1,0 +1,79 @@
+{
+    "origin": "Hamburg",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 4080.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 20700.0,
+            "total_distance_km": 425.00751719237155
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "SAW"
+                    },
+                    "aircraft": "320",
+                    "distance": 2019.7426308042661
+                },
+                {
+                    "start": {
+                        "name": "SAW"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "320",
+                    "distance": 2169.3998052953457
+                }
+            ],
+            "total_duration_s": "PT19H35M",
+            "total_distance_km": 4189.142436099612
+        }
+    ]
+}

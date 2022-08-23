@@ -1,0 +1,92 @@
+{
+    "origin": "Milan",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11640.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 38280.0,
+            "total_distance_km": 1000.6776488149559
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "223",
+                    "distance": 598.2518943056699
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "320",
+                    "distance": 371.78334166513326
+                }
+            ],
+            "total_duration_s": "PT15H45M",
+            "total_distance_km": 970.0352359708031
+        }
+    ]
+}

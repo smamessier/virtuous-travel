@@ -1,0 +1,92 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Bordeaux",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 11520.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "time_s": 7380.0
+                }
+            ],
+            "total_duration_s": 26580.0,
+            "total_distance_km": 1044.1748730614604
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 489.33346193618945
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "BOD"
+                    },
+                    "aircraft": "321",
+                    "distance": 527.1426132576643
+                }
+            ],
+            "total_duration_s": "PT15H15M",
+            "total_distance_km": 1016.4760751938537
+        }
+    ]
+}

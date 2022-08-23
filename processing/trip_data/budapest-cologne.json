@@ -1,0 +1,69 @@
+{
+    "origin": "Budapest",
+    "destination": "Cologne",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 23640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 10380.0
+                }
+            ],
+            "total_duration_s": 57480.0,
+            "total_distance_km": 965.2922656238559
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "CGN"
+                    },
+                    "aircraft": "319",
+                    "distance": 959.1929602994111
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 959.1929602994111
+        }
+    ]
+}

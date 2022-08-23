@@ -1,0 +1,105 @@
+{
+    "origin": "Hamburg",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 24840.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "BIEL/BIENNE (Switzerland)",
+                        "lat": 47.132781,
+                        "lon": 7.24278
+                    },
+                    "time_s": 4020.0
+                },
+                {
+                    "start": {
+                        "name": "BIEL/BIENNE (Switzerland)",
+                        "lat": 47.132781,
+                        "lon": 7.24278
+                    },
+                    "end": {
+                        "name": "LAUSANNE (Switzerland)",
+                        "lat": 46.516669,
+                        "lon": 6.629167
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LAUSANNE (Switzerland)",
+                        "lat": 46.516669,
+                        "lon": 6.629167
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 3180.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 7680.0
+                }
+            ],
+            "total_duration_s": 62460.0,
+            "total_distance_km": 986.6822510024186
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 379.357426640726
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 732.365668537666
+                }
+            ],
+            "total_duration_s": "PT14H50M",
+            "total_distance_km": 1111.723095178392
+        }
+    ]
+}

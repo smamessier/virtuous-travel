@@ -1,0 +1,82 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 8280.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19320.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 33060.0
+                }
+            ],
+            "total_duration_s": 69780.0,
+            "total_distance_km": 1071.9098437263772
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "320",
+                    "distance": 954.9776531723278
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 954.9776531723278
+        }
+    ]
+}

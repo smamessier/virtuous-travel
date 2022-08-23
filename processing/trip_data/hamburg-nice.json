@@ -1,0 +1,95 @@
+{
+    "origin": "Hamburg",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 24840.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "CHIASSO (Switzerland)",
+                        "lat": 45.832221,
+                        "lon": 9.03139
+                    },
+                    "time_s": 12420.0
+                },
+                {
+                    "start": {
+                        "name": "CHIASSO (Switzerland)",
+                        "lat": 45.832221,
+                        "lon": 9.03139
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 4080.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 13440.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3480.0
+                }
+            ],
+            "total_duration_s": 80520.0,
+            "total_distance_km": 1206.3598108482838
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1127.1610798737934
+                }
+            ],
+            "total_duration_s": "PT2H5M",
+            "total_distance_km": 1127.1610798737934
+        }
+    ]
+}

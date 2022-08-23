@@ -1,0 +1,105 @@
+{
+    "origin": "Budapest",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 33840.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "time_s": 19380.0
+                },
+                {
+                    "start": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "end": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "time_s": 10740.0
+                },
+                {
+                    "start": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 14160.0
+                }
+            ],
+            "total_duration_s": 105120.0,
+            "total_distance_km": 2254.193787604561
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1247.8723101988132
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "321",
+                    "distance": 1064.5143609019738
+                }
+            ],
+            "total_duration_s": "PT7H5M",
+            "total_distance_km": 2312.3866711007868
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "origin": "Milan",
+    "destination": "Manchester",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11640.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "WARRINGTON BANK QUAY (United Kingdom)",
+                        "lat": 53.382504,
+                        "lon": -2.601388
+                    },
+                    "time_s": 6300.0
+                },
+                {
+                    "start": {
+                        "name": "WARRINGTON BANK QUAY (United Kingdom)",
+                        "lat": 53.382504,
+                        "lon": -2.601388
+                    },
+                    "end": {
+                        "name": "MANCHESTER OXFORD ROAD (United Kingdom)",
+                        "lat": 53.471111,
+                        "lon": -2.24111
+                    },
+                    "time_s": 1740.0
+                }
+            ],
+            "total_duration_s": 48600.0,
+            "total_distance_km": 1297.4985468691552
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1626.8981317683151
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "MAN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1110.960585870263
+                }
+            ],
+            "total_duration_s": "PT7H10M",
+            "total_distance_km": 2737.858717638578
+        }
+    ]
+}

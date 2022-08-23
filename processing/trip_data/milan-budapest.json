@@ -1,0 +1,105 @@
+{
+    "origin": "Milan",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "time_s": 5460.0
+                },
+                {
+                    "start": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "end": {
+                        "name": "BRENNERO BRENNER (Italy)",
+                        "lat": 47.001943,
+                        "lon": 11.505276
+                    },
+                    "time_s": 4800.0
+                },
+                {
+                    "start": {
+                        "name": "BRENNERO BRENNER (Italy)",
+                        "lat": 47.001943,
+                        "lon": 11.505276
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 24300.0
+                }
+            ],
+            "total_duration_s": 44220.0,
+            "total_distance_km": 922.6196841042897
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1626.8981317683151
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                }
+            ],
+            "total_duration_s": "PT21H30M",
+            "total_distance_km": 3141.269135507254
+        }
+    ]
+}

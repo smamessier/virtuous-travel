@@ -1,0 +1,66 @@
+{
+    "origin": "Cork",
+    "destination": "Dublin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CORK (Ireland)",
+                        "lat": 51.901801,
+                        "lon": -8.458202
+                    },
+                    "end": {
+                        "name": "MALLOW (Ireland)",
+                        "lat": 52.139601,
+                        "lon": -8.65521
+                    },
+                    "time_s": 1260.0
+                },
+                {
+                    "start": {
+                        "name": "MALLOW (Ireland)",
+                        "lat": 52.139601,
+                        "lon": -8.65521
+                    },
+                    "end": {
+                        "name": "DUBLIN HEUSTON (Ireland)",
+                        "lat": 53.346385,
+                        "lon": -6.294723
+                    },
+                    "time_s": 7440.0
+                }
+            ],
+            "total_duration_s": 10020.0,
+            "total_distance_km": 237.64091848515582
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ORK"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 906.1148319300846
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "DUB"
+                    },
+                    "aircraft": "E90",
+                    "distance": 750.1606155058155
+                }
+            ],
+            "total_duration_s": "PT26H10M",
+            "total_distance_km": 1656.2754474359
+        }
+    ]
+}

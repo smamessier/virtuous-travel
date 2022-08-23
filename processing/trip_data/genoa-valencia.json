@@ -1,0 +1,118 @@
+{
+    "origin": "Genoa",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 6960.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 9720.0
+                },
+                {
+                    "start": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "end": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "time_s": 5100.0
+                },
+                {
+                    "start": {
+                        "name": "NIMES (France)",
+                        "lat": 43.83222,
+                        "lon": 4.365836
+                    },
+                    "end": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "time_s": 10680.0
+                },
+                {
+                    "start": {
+                        "name": "GIRONA (VIAJEROS) (Spain)",
+                        "lat": 41.979166,
+                        "lon": 2.816941
+                    },
+                    "end": {
+                        "name": "VALENCIA JOAQUIN SOROLLA (Spain)",
+                        "lat": 39.459166,
+                        "lon": -0.383057
+                    },
+                    "time_s": 13260.0
+                }
+            ],
+            "total_duration_s": 94140.0,
+            "total_distance_km": 1044.6224295438283
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GOA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 927.6919610971468
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1481.1160342587075
+                }
+            ],
+            "total_duration_s": "PT25H15M",
+            "total_distance_km": 2408.8079953558545
+        }
+    ]
+}

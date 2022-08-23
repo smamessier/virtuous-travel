@@ -1,0 +1,92 @@
+{
+    "origin": "Shannon",
+    "destination": "Cork",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CARRICK ON SHANNON (Ireland)",
+                        "lat": 53.938334,
+                        "lon": -8.10667
+                    },
+                    "end": {
+                        "name": "DRUMCONDRA (Ireland)",
+                        "lat": 53.363204,
+                        "lon": -6.259081
+                    },
+                    "time_s": 7380.0
+                },
+                {
+                    "start": {
+                        "name": "DRUMCONDRA (Ireland)",
+                        "lat": 53.363204,
+                        "lon": -6.259081
+                    },
+                    "end": {
+                        "name": "CHERRY ORCHARD (Ireland)",
+                        "lat": 53.33389,
+                        "lon": -6.378611
+                    },
+                    "time_s": 960.0
+                },
+                {
+                    "start": {
+                        "name": "CHERRY ORCHARD (Ireland)",
+                        "lat": 53.33389,
+                        "lon": -6.378611
+                    },
+                    "end": {
+                        "name": "PORTLAOISE (Ireland)",
+                        "lat": 53.037102,
+                        "lon": -7.300859
+                    },
+                    "time_s": 3900.0
+                },
+                {
+                    "start": {
+                        "name": "PORTLAOISE (Ireland)",
+                        "lat": 53.037102,
+                        "lon": -7.300859
+                    },
+                    "end": {
+                        "name": "CORK (Ireland)",
+                        "lat": 51.901801,
+                        "lon": -8.458202
+                    },
+                    "time_s": 7200.0
+                }
+            ],
+            "total_duration_s": 22680.0,
+            "total_distance_km": 364.4585225578883
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "SNN"
+                    },
+                    "end": {
+                        "name": "LHR"
+                    },
+                    "aircraft": "320",
+                    "distance": 593.8464272976679
+                },
+                {
+                    "start": {
+                        "name": "LHR"
+                    },
+                    "end": {
+                        "name": "ORK"
+                    },
+                    "aircraft": "320",
+                    "distance": 555.1276824443839
+                }
+            ],
+            "total_duration_s": "PT6H35M",
+            "total_distance_km": 1148.974109742052
+        }
+    ]
+}

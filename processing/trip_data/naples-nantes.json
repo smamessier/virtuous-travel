@@ -1,0 +1,144 @@
+{
+    "origin": "Naples",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 22740.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 20820.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "LES AUBRAIS ORLEANS (France)",
+                        "lat": 47.926663,
+                        "lon": 1.906666
+                    },
+                    "time_s": 4140.0
+                },
+                {
+                    "start": {
+                        "name": "LES AUBRAIS ORLEANS (France)",
+                        "lat": 47.926663,
+                        "lon": 1.906666
+                    },
+                    "end": {
+                        "name": "TOURS (France)",
+                        "lat": 47.388056,
+                        "lon": 0.694444
+                    },
+                    "time_s": 8400.0
+                },
+                {
+                    "start": {
+                        "name": "TOURS (France)",
+                        "lat": 47.388056,
+                        "lon": 0.694444
+                    },
+                    "end": {
+                        "name": "SAUMUR (France)",
+                        "lat": 47.268886,
+                        "lon": -0.071392
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "SAUMUR (France)",
+                        "lat": 47.268886,
+                        "lon": -0.071392
+                    },
+                    "end": {
+                        "name": "ANGERS ST LAUD (France)",
+                        "lat": 47.464447,
+                        "lon": -0.556666
+                    },
+                    "time_s": 2160.0
+                },
+                {
+                    "start": {
+                        "name": "ANGERS ST LAUD (France)",
+                        "lat": 47.464447,
+                        "lon": -0.556666
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 3300.0
+                }
+            ],
+            "total_duration_s": 82920.0,
+            "total_distance_km": 1691.1393031488205
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 1289.6075912362753
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "320",
+                    "distance": 371.78334166513326
+                }
+            ],
+            "total_duration_s": "PT16H5M",
+            "total_distance_km": 1661.3909329014086
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Florence",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 8280.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19320.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "time_s": 6420.0
+                },
+                {
+                    "start": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 4920.0
+                }
+            ],
+            "total_duration_s": 49200.0,
+            "total_distance_km": 785.478596711313
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 489.33346193618945
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "FLR"
+                    },
+                    "aircraft": "319",
+                    "distance": 879.3473737244514
+                }
+            ],
+            "total_duration_s": "PT14H40M",
+            "total_distance_km": 1368.6808356606407
+        }
+    ]
+}

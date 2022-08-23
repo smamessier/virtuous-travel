@@ -1,0 +1,105 @@
+{
+    "origin": "Budapest",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 28200.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "BERN (Switzerland)",
+                        "lat": 46.948888,
+                        "lon": 7.439167
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "BERN (Switzerland)",
+                        "lat": 46.948888,
+                        "lon": 7.439167
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 6240.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 13380.0
+                }
+            ],
+            "total_duration_s": 81000.0,
+            "total_distance_km": 1358.5703733477537
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "223",
+                    "distance": 999.7722365156679
+                },
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "32A",
+                    "distance": 880.5772543741713
+                }
+            ],
+            "total_duration_s": "PT10H35M",
+            "total_distance_km": 1880.3494908898392
+        }
+    ]
+}

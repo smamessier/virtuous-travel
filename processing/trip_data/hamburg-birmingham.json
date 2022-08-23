@@ -1,0 +1,118 @@
+{
+    "origin": "Hamburg",
+    "destination": "Birmingham",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "BIRMINGHAM INTERNATIONAL (United Kingdom)",
+                        "lat": 52.449163,
+                        "lon": -1.723331
+                    },
+                    "time_s": 6780.0
+                }
+            ],
+            "total_duration_s": 44760.0,
+            "total_distance_km": 1002.5994130964984
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "32A",
+                    "distance": 339.6243907727215
+                },
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "BHX"
+                    },
+                    "aircraft": "320",
+                    "distance": 598.364427071855
+                }
+            ],
+            "total_duration_s": "PT5H30M",
+            "total_distance_km": 937.9888178445765
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "ERFURT HBF (Germany)",
+                        "lat": 50.972496,
+                        "lon": 11.03861
+                    },
+                    "time_s": 12900.0
+                },
+                {
+                    "start": {
+                        "name": "ERFURT HBF (Germany)",
+                        "lat": 50.972496,
+                        "lon": 11.03861
+                    },
+                    "end": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "time_s": 6300.0
+                }
+            ],
+            "total_duration_s": 19560.0,
+            "total_distance_km": 508.799504068876
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 156.65320284707025
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "321",
+                    "distance": 431.68306686036414
+                }
+            ],
+            "total_duration_s": "PT5H55M",
+            "total_distance_km": 588.3362697074344
+        }
+    ]
+}

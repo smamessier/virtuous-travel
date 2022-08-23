@@ -1,0 +1,144 @@
+{
+    "origin": "Hamburg",
+    "destination": "Manchester",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "end": {
+                        "name": "YORK (United Kingdom)",
+                        "lat": 53.955,
+                        "lon": -1.091668
+                    },
+                    "time_s": 8940.0
+                },
+                {
+                    "start": {
+                        "name": "YORK (United Kingdom)",
+                        "lat": 53.955,
+                        "lon": -1.091668
+                    },
+                    "end": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "time_s": 7860.0
+                },
+                {
+                    "start": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "end": {
+                        "name": "MANCHESTER OXFORD ROAD (United Kingdom)",
+                        "lat": 53.471111,
+                        "lon": -2.24111
+                    },
+                    "time_s": 120.0
+                }
+            ],
+            "total_duration_s": 58140.0,
+            "total_distance_km": 1223.0400630979057
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.9173532051217
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "MAN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1110.960585870263
+                }
+            ],
+            "total_duration_s": "PT6H45M",
+            "total_distance_km": 1843.8779390753848
+        }
+    ]
+}

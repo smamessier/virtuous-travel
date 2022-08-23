@@ -1,0 +1,102 @@
+{
+    "origin": "Genoa",
+    "destination": "Malm\u00f6",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 6120.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 26640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 14220.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "time_s": 26760.0
+                }
+            ],
+            "total_duration_s": 79620.0,
+            "total_distance_km": 1329.5125260091943
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GOA"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 493.00084332362337
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1317.3127831760917
+                },
+                {
+                    "start": {
+                        "name": "ARN"
+                    },
+                    "end": {
+                        "name": "MMX"
+                    },
+                    "aircraft": "32N",
+                    "distance": 531.4192384914018
+                }
+            ],
+            "total_duration_s": "PT8H50M",
+            "total_distance_km": 2341.732864991117
+        }
+    ]
+}

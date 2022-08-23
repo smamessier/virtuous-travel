@@ -1,0 +1,102 @@
+{
+    "origin": "Florence",
+    "destination": "Malm\u00f6",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 26640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 14220.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "time_s": 26760.0
+                }
+            ],
+            "total_duration_s": 80880.0,
+            "total_distance_km": 1458.1660182104306
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "CPH"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1317.0419673605113
+                },
+                {
+                    "start": {
+                        "name": "CPH"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "321",
+                    "distance": 546.7549418512806
+                },
+                {
+                    "start": {
+                        "name": "ARN"
+                    },
+                    "end": {
+                        "name": "MMX"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 531.4192384914018
+                }
+            ],
+            "total_duration_s": "PT20H50M",
+            "total_distance_km": 2395.2161477031937
+        }
+    ]
+}

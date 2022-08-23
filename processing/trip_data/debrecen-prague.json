@@ -1,0 +1,92 @@
+{
+    "origin": "Debrecen",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 7980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 16380.0
+                }
+            ],
+            "total_duration_s": 38160.0,
+            "total_distance_km": 662.8770282823657
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "E95",
+                    "distance": 264.56321691512125
+                }
+            ],
+            "total_duration_s": "PT4H5M",
+            "total_distance_km": 1002.7730517135624
+        }
+    ]
+}

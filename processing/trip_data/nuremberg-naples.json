@@ -1,0 +1,105 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 3900.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 19320.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "time_s": 17040.0
+                },
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 4320.0
+                }
+            ],
+            "total_duration_s": 65160.0,
+            "total_distance_km": 1053.0999589980586
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1149.563818314442
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1023.6097631901085
+                }
+            ],
+            "total_duration_s": "PT6H",
+            "total_distance_km": 2173.1735815045504
+        }
+    ]
+}

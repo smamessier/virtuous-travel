@@ -1,0 +1,53 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 8400.0
+                }
+            ],
+            "total_duration_s": 8400.0,
+            "total_distance_km": 156.70806401820357
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "319",
+                    "distance": 156.65320284707025
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 189.6409970646257
+                }
+            ],
+            "total_duration_s": "PT3H5M",
+            "total_distance_km": 346.29419991169596
+        }
+    ]
+}

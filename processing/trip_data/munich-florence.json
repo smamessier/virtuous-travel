@@ -1,0 +1,56 @@
+{
+    "origin": "Munich",
+    "destination": "Florence",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 2220.0
+                }
+            ],
+            "total_duration_s": 29100.0,
+            "total_distance_km": 485.9018331249101
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "FLR"
+                    },
+                    "aircraft": "E95",
+                    "distance": 507.22722838466433
+                }
+            ],
+            "total_duration_s": "PT1H15M",
+            "total_distance_km": 507.22722838466433
+        }
+    ]
+}

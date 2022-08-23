@@ -1,0 +1,95 @@
+{
+    "origin": "Munich",
+    "destination": "Madrid",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 11160.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 9360.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 34140.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                }
+            ],
+            "total_duration_s": 89880.0,
+            "total_distance_km": 1961.9879228983586
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1496.9722214743701
+                }
+            ],
+            "total_duration_s": "PT2H45M",
+            "total_distance_km": 1496.9722214743701
+        }
+    ]
+}

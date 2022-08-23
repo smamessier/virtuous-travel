@@ -1,0 +1,105 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 5280.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "time_s": 3240.0
+                },
+                {
+                    "start": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 1860.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 17460.0,
+            "total_distance_km": 409.15426401990214
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "SAW"
+                    },
+                    "aircraft": "320",
+                    "distance": 1798.5613623587965
+                },
+                {
+                    "start": {
+                        "name": "SAW"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "320",
+                    "distance": 2169.3998052953457
+                }
+            ],
+            "total_duration_s": "PT19H10M",
+            "total_distance_km": 3967.961167654142
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "origin": "Munich",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 13260.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 11220.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "time_s": 2460.0
+                },
+                {
+                    "start": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 30600.0,
+            "total_distance_km": 688.5456143073346
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1317.29505530038
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "73H",
+                    "distance": 324.7080661986591
+                }
+            ],
+            "total_duration_s": "PT4H40M",
+            "total_distance_km": 1642.003121499039
+        }
+    ]
+}

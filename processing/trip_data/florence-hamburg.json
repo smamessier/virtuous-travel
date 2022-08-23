@@ -1,0 +1,79 @@
+{
+    "origin": "Florence",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 26640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 14220.0
+                }
+            ],
+            "total_duration_s": 50220.0,
+            "total_distance_km": 1159.0165104898276
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 879.3473737244514
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "223",
+                    "distance": 727.8476267598029
+                }
+            ],
+            "total_duration_s": "PT7H",
+            "total_distance_km": 1607.1950004842543
+        }
+    ]
+}

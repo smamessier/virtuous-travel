@@ -1,0 +1,115 @@
+{
+    "origin": "Debrecen",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 7980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF GL.5-10 (Germany)",
+                        "lat": 48.140004,
+                        "lon": 11.555274
+                    },
+                    "time_s": 23760.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF GL.5-10 (Germany)",
+                        "lat": 48.140004,
+                        "lon": 11.555274
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 600.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 23400.0
+                }
+            ],
+            "total_duration_s": 62640.0,
+            "total_distance_km": 1242.9899720445271
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 299.0786454580804
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "319",
+                    "distance": 188.86835255443205
+                }
+            ],
+            "total_duration_s": "PT15H",
+            "total_distance_km": 1226.1568328109536
+        }
+    ]
+}

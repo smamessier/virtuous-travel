@@ -1,0 +1,92 @@
+{
+    "origin": "Naples",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 19200.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 6000.0
+                }
+            ],
+            "total_duration_s": 48600.0,
+            "total_distance_km": 1296.6544216189504
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "320",
+                    "distance": 891.224670790685
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "320",
+                    "distance": 1688.4720298404357
+                }
+            ],
+            "total_duration_s": "PT20H15M",
+            "total_distance_km": 2579.6967006311206
+        }
+    ]
+}

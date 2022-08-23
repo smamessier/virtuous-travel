@@ -1,0 +1,82 @@
+{
+    "origin": "Genoa",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 25260.0
+                }
+            ],
+            "total_duration_s": 51840.0,
+            "total_distance_km": 952.5960068193145
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GOA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 927.6919610971468
+                }
+            ],
+            "total_duration_s": "PT1H55M",
+            "total_distance_km": 927.6919610971468
+        }
+    ]
+}

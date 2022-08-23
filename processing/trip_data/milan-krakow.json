@@ -1,0 +1,79 @@
+{
+    "origin": "Milan",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 28200.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 27360.0
+                }
+            ],
+            "total_duration_s": 74160.0,
+            "total_distance_km": 1142.137103799974
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1626.8981317683151
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1250.583618299244
+                }
+            ],
+            "total_duration_s": "PT18H55M",
+            "total_distance_km": 2877.481750067559
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "origin": "Florence",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "time_s": 11700.0
+                },
+                {
+                    "start": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 20280.0
+                }
+            ],
+            "total_duration_s": 49500.0,
+            "total_distance_km": 786.6444102095231
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 879.3473737244514
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "320",
+                    "distance": 852.3721885810297
+                }
+            ],
+            "total_duration_s": "PT25H15M",
+            "total_distance_km": 1731.719562305481
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "origin": "Budapest",
+    "destination": "Southampton",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 33840.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "time_s": 4380.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON WATERLOO (United Kingdom)",
+                        "lat": 51.499444,
+                        "lon": -0.109722
+                    },
+                    "end": {
+                        "name": "SOUTHAMPTON AIRPORT (United Kingdom)",
+                        "lat": 50.948612,
+                        "lon": -1.362225
+                    },
+                    "time_s": 4080.0
+                }
+            ],
+            "total_duration_s": 76680.0,
+            "total_distance_km": 1701.982548021876
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1169.2131617296138
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "EDI"
+                    },
+                    "aircraft": "73H",
+                    "distance": 666.3640081397747
+                },
+                {
+                    "start": {
+                        "name": "EDI"
+                    },
+                    "end": {
+                        "name": "SOU"
+                    },
+                    "aircraft": "ER4",
+                    "distance": 571.6764399966488
+                }
+            ],
+            "total_duration_s": "PT10H5M",
+            "total_distance_km": 2407.253609866037
+        }
+    ]
+}

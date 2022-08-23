@@ -177,4 +177,4 @@ def endgame(input_file):
 
 if __name__ == "__main__":
     #gen_pairs()
-    endgame('./input_data/pairs_1.csv')
+    endgame('./input_data/pairs_3.csv')

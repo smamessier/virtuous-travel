@@ -1,0 +1,79 @@
+{
+    "origin": "Budapest",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 39300.0
+                },
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 12540.0
+                }
+            ],
+            "total_duration_s": 66780.0,
+            "total_distance_km": 1252.326468723095
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "320",
+                    "distance": 758.5399637945474
+                },
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "320",
+                    "distance": 954.9776531723278
+                }
+            ],
+            "total_duration_s": "PT4H40M",
+            "total_distance_km": 1713.5176169668753
+        }
+    ]
+}

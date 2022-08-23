@@ -1,0 +1,53 @@
+{
+    "origin": "Dublin",
+    "destination": "Belfast",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUBLIN CONNOLLY (Ireland)",
+                        "lat": 53.3531,
+                        "lon": -6.245912
+                    },
+                    "end": {
+                        "name": "BELFAST CENTRAL (Ireland)",
+                        "lat": 54.6123,
+                        "lon": -5.917437
+                    },
+                    "time_s": 7740.0
+                }
+            ],
+            "total_duration_s": 7740.0,
+            "total_distance_km": 141.65409307626518
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUB"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 750.1606155058155
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BHD"
+                    },
+                    "aircraft": "E90",
+                    "distance": 748.5794596602482
+                }
+            ],
+            "total_duration_s": "PT20H",
+            "total_distance_km": 1498.7400751660637
+        }
+    ]
+}

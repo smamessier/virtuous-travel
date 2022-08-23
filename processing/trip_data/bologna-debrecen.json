@@ -1,0 +1,92 @@
+{
+    "origin": "Bologna",
+    "destination": "Debrecen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 24300.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "end": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "time_s": 10320.0
+                }
+            ],
+            "total_duration_s": 60060.0,
+            "total_distance_km": 1078.4971038332856
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 426.2917419191245
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DEB"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                }
+            ],
+            "total_duration_s": "PT6H25M",
+            "total_distance_km": 1164.5015767175657
+        }
+    ]
+}

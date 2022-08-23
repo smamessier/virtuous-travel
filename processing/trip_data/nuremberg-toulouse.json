@@ -1,0 +1,92 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Toulouse",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 11520.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 9360.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "TOULOUSE MATABIAU (France)",
+                        "lat": 43.611113,
+                        "lon": 1.45361
+                    },
+                    "time_s": 30600.0
+                }
+            ],
+            "total_duration_s": 61260.0,
+            "total_distance_km": 1232.4239200311936
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 620.9430969252229
+                },
+                {
+                    "start": {
+                        "name": "ORY"
+                    },
+                    "end": {
+                        "name": "TLS"
+                    },
+                    "aircraft": "321",
+                    "distance": 571.8107439841826
+                }
+            ],
+            "total_duration_s": "PT8H35M",
+            "total_distance_km": 1192.7538409094054
+        }
+    ]
+}

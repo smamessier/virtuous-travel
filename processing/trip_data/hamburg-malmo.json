@@ -1,0 +1,66 @@
+{
+    "origin": "Hamburg",
+    "destination": "Malm\u00f6",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Malmo C (Sweden)",
+                        "lat": 55.609447,
+                        "lon": 13.000829
+                    },
+                    "time_s": 2580.0
+                }
+            ],
+            "total_duration_s": 20580.0,
+            "total_distance_km": 315.80108573447006
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 825.5052019805682
+                },
+                {
+                    "start": {
+                        "name": "ARN"
+                    },
+                    "end": {
+                        "name": "MMX"
+                    },
+                    "aircraft": "32N",
+                    "distance": 531.4192384914018
+                }
+            ],
+            "total_duration_s": "PT4H50M",
+            "total_distance_km": 1356.92444047197
+        }
+    ]
+}

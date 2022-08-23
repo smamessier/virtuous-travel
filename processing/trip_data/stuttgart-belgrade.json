@@ -1,0 +1,69 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 8040.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 20580.0,
+            "total_distance_km": 505.805684379342
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "319",
+                    "distance": 946.7771299522196
+                }
+            ],
+            "total_duration_s": "PT1H40M",
+            "total_distance_km": 946.7771299522196
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "origin": "Hamburg",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 2040.0
+                }
+            ],
+            "total_duration_s": 30780.0,
+            "total_distance_km": 623.1716226001877
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "32N",
+                    "distance": 2045.2237265943309
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "319",
+                    "distance": 2161.7806041876975
+                }
+            ],
+            "total_duration_s": "PT27H20M",
+            "total_distance_km": 4207.004330782029
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 23820.0
+                }
+            ],
+            "total_duration_s": 28260.0,
+            "total_distance_km": 735.672654929723
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 489.33346193618945
+                },
+                {
+                    "start": {
+                        "name": "ORY"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "318",
+                    "distance": 626.9987910335658
+                }
+            ],
+            "total_duration_s": "PT14H5M",
+            "total_distance_km": 1116.3322529697552
+        }
+    ]
+}

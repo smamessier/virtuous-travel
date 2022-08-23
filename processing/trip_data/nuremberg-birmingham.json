@@ -1,0 +1,118 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Birmingham",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 10380.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON EUSTON (United Kingdom)",
+                        "lat": 51.525836,
+                        "lon": -0.133058
+                    },
+                    "end": {
+                        "name": "BIRMINGHAM INTERNATIONAL (United Kingdom)",
+                        "lat": 52.449163,
+                        "lon": -1.723331
+                    },
+                    "time_s": 6780.0
+                }
+            ],
+            "total_duration_s": 42780.0,
+            "total_distance_km": 975.6718820820399
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 541.5968895724073
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BHX"
+                    },
+                    "aircraft": "73H",
+                    "distance": 442.13510441824076
+                }
+            ],
+            "total_duration_s": "PT3H30M",
+            "total_distance_km": 983.7319939906481
+        }
+    ]
+}

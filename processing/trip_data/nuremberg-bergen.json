@@ -1,0 +1,118 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Bergen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "time_s": 13200.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "time_s": 420.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 180.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "ATH (Belgium)",
+                        "lat": 50.626663,
+                        "lon": 3.777222
+                    },
+                    "end": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 26520.0,
+            "total_distance_km": 590.2305373034548
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 541.5968895724073
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BGO"
+                    },
+                    "aircraft": "73H",
+                    "distance": 888.3069671871147
+                }
+            ],
+            "total_duration_s": "PT7H",
+            "total_distance_km": 1429.9038567595221
+        }
+    ]
+}

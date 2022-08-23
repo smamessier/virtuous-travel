@@ -1,0 +1,105 @@
+{
+    "origin": "Genoa",
+    "destination": "Cologne",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 7740.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "time_s": 4800.0
+                }
+            ],
+            "total_duration_s": 39060.0,
+            "total_distance_km": 800.7752076932088
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GOA"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 493.00084332362337
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "CGN"
+                    },
+                    "aircraft": "319",
+                    "distance": 435.70095418874473
+                }
+            ],
+            "total_duration_s": "PT4H",
+            "total_distance_km": 928.7017975123681
+        }
+    ]
+}

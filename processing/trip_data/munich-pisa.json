@@ -1,0 +1,79 @@
+{
+    "origin": "Munich",
+    "destination": "Pisa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 2220.0
+                },
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "time_s": 4920.0
+                }
+            ],
+            "total_duration_s": 35280.0,
+            "total_distance_km": 554.5656745998268
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 664.1671918724076
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "PSA"
+                    },
+                    "aircraft": "73G",
+                    "distance": 1045.7127477262484
+                }
+            ],
+            "total_duration_s": "PT11H55M",
+            "total_distance_km": 1709.879939598656
+        }
+    ]
+}

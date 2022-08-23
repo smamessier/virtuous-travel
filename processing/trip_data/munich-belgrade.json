@@ -1,0 +1,69 @@
+{
+    "origin": "Munich",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 13260.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 11220.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 29220.0,
+            "total_distance_km": 653.7339309885036
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "319",
+                    "distance": 760.115379201916
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 760.115379201916
+        }
+    ]
+}

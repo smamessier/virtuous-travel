@@ -1,0 +1,128 @@
+{
+    "origin": "Debrecen",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "time_s": 8460.0
+                },
+                {
+                    "start": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 9660.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 33840.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "time_s": 7380.0
+                },
+                {
+                    "start": {
+                        "name": "MARNE LA VALLEE CHESSY (France)",
+                        "lat": 48.869721,
+                        "lon": 2.782503
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 6540.0
+                }
+            ],
+            "total_duration_s": 76980.0,
+            "total_distance_km": 1790.9279479635939
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "MLA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1406.9130797672979
+                },
+                {
+                    "start": {
+                        "name": "MLA"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "320",
+                    "distance": 1350.6095051534364
+                }
+            ],
+            "total_duration_s": "PT27H45M",
+            "total_distance_km": 3495.7324197191756
+        }
+    ]
+}

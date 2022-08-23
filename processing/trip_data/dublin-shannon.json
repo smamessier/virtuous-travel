@@ -1,0 +1,53 @@
+{
+    "origin": "Dublin",
+    "destination": "Shannon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUBLIN CONNOLLY (Ireland)",
+                        "lat": 53.3531,
+                        "lon": -6.245912
+                    },
+                    "end": {
+                        "name": "CARRICK ON SHANNON (Ireland)",
+                        "lat": 53.938334,
+                        "lon": -8.10667
+                    },
+                    "time_s": 7740.0
+                }
+            ],
+            "total_duration_s": 7740.0,
+            "total_distance_km": 138.83805451746704
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUB"
+                    },
+                    "end": {
+                        "name": "LGW"
+                    },
+                    "aircraft": "320",
+                    "distance": 484.4475458277352
+                },
+                {
+                    "start": {
+                        "name": "LHR"
+                    },
+                    "end": {
+                        "name": "SNN"
+                    },
+                    "aircraft": "320",
+                    "distance": 593.8464272976679
+                }
+            ],
+            "total_duration_s": "PT5H35M",
+            "total_distance_km": 1078.2939731254032
+        }
+    ]
+}

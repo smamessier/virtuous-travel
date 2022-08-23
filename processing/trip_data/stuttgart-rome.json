@@ -1,0 +1,108 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Rome",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 6240.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "end": {
+                        "name": "ROMA TIBURTINA (Italy)",
+                        "lat": 41.91056,
+                        "lon": 12.530558
+                    },
+                    "time_s": 27600.0
+                },
+                {
+                    "start": {
+                        "name": "ROMA TIBURTINA (Italy)",
+                        "lat": 41.91056,
+                        "lon": 12.530558
+                    },
+                    "end": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "time_s": 1560.0
+                }
+            ],
+            "total_duration_s": 58860.0,
+            "total_distance_km": 977.1847310795531
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "320",
+                    "distance": 801.5021897165299
+                }
+            ],
+            "total_duration_s": "PT1H40M",
+            "total_distance_km": 801.5021897165299
+        }
+    ]
+}

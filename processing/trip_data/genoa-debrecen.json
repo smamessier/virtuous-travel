@@ -1,0 +1,141 @@
+{
+    "origin": "Genoa",
+    "destination": "Debrecen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 8700.0
+                },
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 15660.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "time_s": 9540.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "end": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "end": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "time_s": 11520.0
+                }
+            ],
+            "total_duration_s": 79560.0,
+            "total_distance_km": 1199.9452371511984
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "GOA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 927.6919610971468
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 664.1671918724076
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DEB"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                }
+            ],
+            "total_duration_s": "PT50H25M",
+            "total_distance_km": 2330.0689877679956
+        }
+    ]
+}

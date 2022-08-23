@@ -1,0 +1,56 @@
+{
+    "origin": "Hamburg",
+    "destination": "Stockholm",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Stockholm Central (Sweden)",
+                        "lat": 59.330001,
+                        "lon": 18.058052
+                    },
+                    "time_s": 19320.0
+                }
+            ],
+            "total_duration_s": 38880.0,
+            "total_distance_km": 809.7524162992679
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "ARN"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 825.5052019805682
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 825.5052019805682
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "origin": "Munich",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 16260.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "time_s": 4920.0
+                },
+                {
+                    "start": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 30720.0
+                }
+            ],
+            "total_duration_s": 56520.0,
+            "total_distance_km": 1042.394581185941
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "319",
+                    "distance": 611.4223658187709
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 611.4223658187709
+        }
+    ]
+}

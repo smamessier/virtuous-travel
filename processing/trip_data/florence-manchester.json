@@ -1,0 +1,170 @@
+{
+    "origin": "Florence",
+    "destination": "Manchester",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 11220.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "end": {
+                        "name": "LEEDS (United Kingdom)",
+                        "lat": 53.792223,
+                        "lon": -1.547502
+                    },
+                    "time_s": 10560.0
+                },
+                {
+                    "start": {
+                        "name": "LEEDS (United Kingdom)",
+                        "lat": 53.792223,
+                        "lon": -1.547502
+                    },
+                    "end": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "time_s": 4980.0
+                },
+                {
+                    "start": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "end": {
+                        "name": "MANCHESTER OXFORD ROAD (United Kingdom)",
+                        "lat": 53.471111,
+                        "lon": -2.24111
+                    },
+                    "time_s": 120.0
+                }
+            ],
+            "total_duration_s": 73620.0,
+            "total_distance_km": 1597.9832234793498
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "VIE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 632.6121715947314
+                },
+                {
+                    "start": {
+                        "name": "VIE"
+                    },
+                    "end": {
+                        "name": "MAN"
+                    },
+                    "aircraft": "E95",
+                    "distance": 1443.1767958455762
+                }
+            ],
+            "total_duration_s": "PT19H",
+            "total_distance_km": 2075.7889674403077
+        }
+    ]
+}

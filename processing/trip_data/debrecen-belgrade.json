@@ -1,0 +1,131 @@
+{
+    "origin": "Debrecen",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "time_s": 8460.0
+                },
+                {
+                    "start": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELETI (Hungary)",
+                        "lat": 47.500278,
+                        "lon": 19.084171
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 9660.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "BONN HBF (Germany)",
+                        "lat": 50.731945,
+                        "lon": 7.097226
+                    },
+                    "time_s": 35100.0
+                },
+                {
+                    "start": {
+                        "name": "BONN HBF (Germany)",
+                        "lat": 50.731945,
+                        "lon": 7.097226
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 1440.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 2460.0
+                }
+            ],
+            "total_duration_s": 73620.0,
+            "total_distance_km": 1377.9971574095646
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "319",
+                    "distance": 760.115379201916
+                }
+            ],
+            "total_duration_s": "PT19H30M",
+            "total_distance_km": 1498.3252140003572
+        }
+    ]
+}
