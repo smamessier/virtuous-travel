@@ -1,0 +1,170 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Lisbon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 11520.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 9360.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 34140.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-CHAMARTIN (Spain)",
+                        "lat": 40.471109,
+                        "lon": -3.682782
+                    },
+                    "time_s": 2700.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-CHAMARTIN (Spain)",
+                        "lat": 40.471109,
+                        "lon": -3.682782
+                    },
+                    "end": {
+                        "name": "PONTEVEDRA (Spain)",
+                        "lat": 42.421948,
+                        "lon": -8.635559
+                    },
+                    "time_s": 15240.0
+                },
+                {
+                    "start": {
+                        "name": "PONTEVEDRA (Spain)",
+                        "lat": 42.421948,
+                        "lon": -8.635559
+                    },
+                    "end": {
+                        "name": "VIGO GUIXAR (Spain)",
+                        "lat": 42.239718,
+                        "lon": -8.711114
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "VIGO GUIXAR (Spain)",
+                        "lat": 42.239718,
+                        "lon": -8.711114
+                    },
+                    "end": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "time_s": 4920.0
+                },
+                {
+                    "start": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "end": {
+                        "name": "LISBON - ORIENTE (Portugal)",
+                        "lat": 38.767779,
+                        "lon": -9.098054
+                    },
+                    "time_s": 11640.0
+                }
+            ],
+            "total_duration_s": 173460.0,
+            "total_distance_km": 2796.9473367195724
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 541.5968895724073
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1846.2997101355468
+                }
+            ],
+            "total_duration_s": "PT6H15M",
+            "total_distance_km": 2387.896599707954
+        }
+    ]
+}

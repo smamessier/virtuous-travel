@@ -1,0 +1,66 @@
+{
+    "origin": "Shannon",
+    "destination": "Belfast",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CARRICK ON SHANNON (Ireland)",
+                        "lat": 53.938334,
+                        "lon": -8.10667
+                    },
+                    "end": {
+                        "name": "DUBLIN CONNOLLY (Ireland)",
+                        "lat": 53.3531,
+                        "lon": -6.245912
+                    },
+                    "time_s": 8040.0
+                },
+                {
+                    "start": {
+                        "name": "DUBLIN CONNOLLY (Ireland)",
+                        "lat": 53.3531,
+                        "lon": -6.245912
+                    },
+                    "end": {
+                        "name": "BELFAST CENTRAL (Ireland)",
+                        "lat": 54.6123,
+                        "lon": -5.917437
+                    },
+                    "time_s": 8100.0
+                }
+            ],
+            "total_duration_s": 22140.0,
+            "total_distance_km": 280.4921475937322
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "SNN"
+                    },
+                    "end": {
+                        "name": "LHR"
+                    },
+                    "aircraft": "320",
+                    "distance": 593.8464272976679
+                },
+                {
+                    "start": {
+                        "name": "LHR"
+                    },
+                    "end": {
+                        "name": "BHD"
+                    },
+                    "aircraft": "320",
+                    "distance": 503.0362555376511
+                }
+            ],
+            "total_duration_s": "PT3H50M",
+            "total_distance_km": 1096.882682835319
+        }
+    ]
+}

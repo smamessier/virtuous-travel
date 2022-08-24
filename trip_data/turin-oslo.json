@@ -1,0 +1,170 @@
+{
+    "origin": "Turin",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 31680.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "NEUMUENSTER (Germany)",
+                        "lat": 54.075833,
+                        "lon": 9.979725
+                    },
+                    "time_s": 3240.0
+                },
+                {
+                    "start": {
+                        "name": "NEUMUENSTER (Germany)",
+                        "lat": 54.075833,
+                        "lon": 9.979725
+                    },
+                    "end": {
+                        "name": "FLENSBURG (Germany)",
+                        "lat": 54.774169,
+                        "lon": 9.43639
+                    },
+                    "time_s": 4080.0
+                },
+                {
+                    "start": {
+                        "name": "FLENSBURG (Germany)",
+                        "lat": 54.774169,
+                        "lon": 9.43639
+                    },
+                    "end": {
+                        "name": "FREDERICIA (Denmark)",
+                        "lat": 55.56806,
+                        "lon": 9.740558
+                    },
+                    "time_s": 5160.0
+                },
+                {
+                    "start": {
+                        "name": "FREDERICIA (Denmark)",
+                        "lat": 55.56806,
+                        "lon": 9.740558
+                    },
+                    "end": {
+                        "name": "CPH LUFTHAVN (Denmark)",
+                        "lat": 55.629169,
+                        "lon": 12.648892
+                    },
+                    "time_s": 7320.0
+                },
+                {
+                    "start": {
+                        "name": "CPH LUFTHAVN (Denmark)",
+                        "lat": 55.629169,
+                        "lon": 12.648892
+                    },
+                    "end": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "time_s": 13080.0
+                },
+                {
+                    "start": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "end": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "time_s": 9120.0
+                },
+                {
+                    "start": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 10560.0
+                }
+            ],
+            "total_duration_s": 120840.0,
+            "total_distance_km": 2061.731732923879
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 1053.2781760350933
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "320",
+                    "distance": 2414.7696994581743
+                }
+            ],
+            "total_duration_s": "PT19H15M",
+            "total_distance_km": 3468.0478754932674
+        }
+    ]
+}

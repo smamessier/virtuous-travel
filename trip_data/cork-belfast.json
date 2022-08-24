@@ -1,0 +1,92 @@
+{
+    "origin": "Cork",
+    "destination": "Belfast",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "CORK (Ireland)",
+                        "lat": 51.901801,
+                        "lon": -8.458202
+                    },
+                    "end": {
+                        "name": "DUBLIN HEUSTON (Ireland)",
+                        "lat": 53.346385,
+                        "lon": -6.294723
+                    },
+                    "time_s": 9300.0
+                },
+                {
+                    "start": {
+                        "name": "DUBLIN HEUSTON (Ireland)",
+                        "lat": 53.346385,
+                        "lon": -6.294723
+                    },
+                    "end": {
+                        "name": "CHERRY ORCHARD (Ireland)",
+                        "lat": 53.33389,
+                        "lon": -6.378611
+                    },
+                    "time_s": 360.0
+                },
+                {
+                    "start": {
+                        "name": "CHERRY ORCHARD (Ireland)",
+                        "lat": 53.33389,
+                        "lon": -6.378611
+                    },
+                    "end": {
+                        "name": "DUBLIN CONNOLLY (Ireland)",
+                        "lat": 53.3531,
+                        "lon": -6.245912
+                    },
+                    "time_s": 1320.0
+                },
+                {
+                    "start": {
+                        "name": "DUBLIN CONNOLLY (Ireland)",
+                        "lat": 53.3531,
+                        "lon": -6.245912
+                    },
+                    "end": {
+                        "name": "BELFAST CENTRAL (Ireland)",
+                        "lat": 54.6123,
+                        "lon": -5.917437
+                    },
+                    "time_s": 8100.0
+                }
+            ],
+            "total_duration_s": 22200.0,
+            "total_distance_km": 373.5297965790712
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ORK"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 906.1148319300846
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BHD"
+                    },
+                    "aircraft": "E90",
+                    "distance": 748.5794596602482
+                }
+            ],
+            "total_duration_s": "PT23H35M",
+            "total_distance_km": 1654.6942915903328
+        }
+    ]
+}

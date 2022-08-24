@@ -1,0 +1,79 @@
+{
+    "origin": "Budapest",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "PADOVA (Italy)",
+                        "lat": 45.417774,
+                        "lon": 11.880557
+                    },
+                    "time_s": 34440.0
+                },
+                {
+                    "start": {
+                        "name": "PADOVA (Italy)",
+                        "lat": 45.417774,
+                        "lon": 11.880557
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 1980.0
+                }
+            ],
+            "total_duration_s": 49680.0,
+            "total_distance_km": 701.3601000884079
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1635.3869427000589
+                }
+            ],
+            "total_duration_s": "PT24H50M",
+            "total_distance_km": 3149.757946438998
+        }
+    ]
+}

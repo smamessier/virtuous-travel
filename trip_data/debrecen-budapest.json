@@ -1,0 +1,53 @@
+{
+    "origin": "Debrecen",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 7980.0
+                }
+            ],
+            "total_duration_s": 7980.0,
+            "total_distance_km": 186.36670445635426
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "320",
+                    "distance": 566.4855918491334
+                }
+            ],
+            "total_duration_s": "PT19H15M",
+            "total_distance_km": 1304.6954266475745
+        }
+    ]
+}

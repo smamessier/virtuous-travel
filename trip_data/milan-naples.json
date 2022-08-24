@@ -1,0 +1,53 @@
+{
+    "origin": "Milan",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 18420.0
+                }
+            ],
+            "total_duration_s": 18420.0,
+            "total_distance_km": 652.5820253116536
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "321",
+                    "distance": 720.795265287506
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1023.6097631901085
+                }
+            ],
+            "total_duration_s": "PT15H15M",
+            "total_distance_km": 1744.4050284776145
+        }
+    ]
+}

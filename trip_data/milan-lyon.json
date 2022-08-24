@@ -1,0 +1,66 @@
+{
+    "origin": "Milan",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 14460.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 7020.0
+                }
+            ],
+            "total_duration_s": 21720.0,
+            "total_distance_km": 361.48925947756663
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "LIS"
+                    },
+                    "aircraft": "32Q",
+                    "distance": 1651.709369009739
+                },
+                {
+                    "start": {
+                        "name": "LIS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1398.717219384863
+                }
+            ],
+            "total_duration_s": "PT5H55M",
+            "total_distance_km": 3050.426588394602
+        }
+    ]
+}

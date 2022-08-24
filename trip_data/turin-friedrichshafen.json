@@ -1,0 +1,157 @@
+{
+    "origin": "Turin",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BELLINZONA (Switzerland)",
+                        "lat": 46.195556,
+                        "lon": 9.02944
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "BELLINZONA (Switzerland)",
+                        "lat": 46.195556,
+                        "lon": 9.02944
+                    },
+                    "end": {
+                        "name": "BELLINZONA, STAZIONE (Switzerland)",
+                        "lat": 46.19472,
+                        "lon": 9.028334
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "BELLINZONA, STAZIONE (Switzerland)",
+                        "lat": 46.19472,
+                        "lon": 9.028334
+                    },
+                    "end": {
+                        "name": "CHUR, POSTAUTOSTATION (Switzerland)",
+                        "lat": 46.852776,
+                        "lon": 9.527496
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "CHUR, POSTAUTOSTATION (Switzerland)",
+                        "lat": 46.852776,
+                        "lon": 9.527496
+                    },
+                    "end": {
+                        "name": "CHUR (Switzerland)",
+                        "lat": 46.853054,
+                        "lon": 9.528889
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "CHUR (Switzerland)",
+                        "lat": 46.853054,
+                        "lon": 9.528889
+                    },
+                    "end": {
+                        "name": "ST. MARGRETHEN SG (Switzerland)",
+                        "lat": 47.453336,
+                        "lon": 9.638333
+                    },
+                    "time_s": 3720.0
+                },
+                {
+                    "start": {
+                        "name": "ST. MARGRETHEN SG (Switzerland)",
+                        "lat": 47.453336,
+                        "lon": 9.638333
+                    },
+                    "end": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "end": {
+                        "name": "LINDAU-REUTIN (Germany)",
+                        "lat": 47.552496,
+                        "lon": 9.703334
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "LINDAU-REUTIN (Germany)",
+                        "lat": 47.552496,
+                        "lon": 9.703334
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 27420.0,
+            "total_distance_km": 394.84019262476596
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "E95",
+                    "distance": 541.7570742962085
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT3H15M",
+            "total_distance_km": 813.2703749653335
+        }
+    ]
+}

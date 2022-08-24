@@ -1,0 +1,69 @@
+{
+    "origin": "Hamburg",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 21480.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "PADOVA (Italy)",
+                        "lat": 45.417774,
+                        "lon": 11.880557
+                    },
+                    "time_s": 31620.0
+                },
+                {
+                    "start": {
+                        "name": "PADOVA (Italy)",
+                        "lat": 45.417774,
+                        "lon": 11.880557
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 1980.0
+                }
+            ],
+            "total_duration_s": 56340.0,
+            "total_distance_km": 943.6041631036413
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "319",
+                    "distance": 919.2733373341899
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 919.2733373341899
+        }
+    ]
+}

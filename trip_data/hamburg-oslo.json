@@ -1,0 +1,95 @@
+{
+    "origin": "Hamburg",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16920.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Hassleholm C (Sweden)",
+                        "lat": 56.157501,
+                        "lon": 13.76306
+                    },
+                    "time_s": 5280.0
+                },
+                {
+                    "start": {
+                        "name": "Hassleholm C (Sweden)",
+                        "lat": 56.157501,
+                        "lon": 13.76306
+                    },
+                    "end": {
+                        "name": "Nassjo C (Sweden)",
+                        "lat": 57.652218,
+                        "lon": 14.693893
+                    },
+                    "time_s": 6180.0
+                },
+                {
+                    "start": {
+                        "name": "Nassjo C (Sweden)",
+                        "lat": 57.652218,
+                        "lon": 14.693893
+                    },
+                    "end": {
+                        "name": "Hallsberg (Sweden)",
+                        "lat": 59.066941,
+                        "lon": 15.110274
+                    },
+                    "time_s": 9960.0
+                },
+                {
+                    "start": {
+                        "name": "Hallsberg (Sweden)",
+                        "lat": 59.066941,
+                        "lon": 15.110274
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 14280.0
+                }
+            ],
+            "total_duration_s": 72900.0,
+            "total_distance_km": 977.4137894278626
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.9173532051217
+                }
+            ],
+            "total_duration_s": "PT1H25M",
+            "total_distance_km": 732.9173532051217
+        }
+    ]
+}

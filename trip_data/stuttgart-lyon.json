@@ -1,0 +1,56 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 17040.0
+                }
+            ],
+            "total_duration_s": 21480.0,
+            "total_distance_km": 509.16654711998973
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "BEH",
+                    "distance": 454.2806287215321
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 454.2806287215321
+        }
+    ]
+}

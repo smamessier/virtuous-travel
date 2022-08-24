@@ -1,0 +1,131 @@
+{
+    "origin": "Florence",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 7980.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "ROMANSHORN (Switzerland)",
+                        "lat": 47.565557,
+                        "lon": 9.379444
+                    },
+                    "time_s": 4020.0
+                },
+                {
+                    "start": {
+                        "name": "ROMANSHORN (Switzerland)",
+                        "lat": 47.565557,
+                        "lon": 9.379444
+                    },
+                    "end": {
+                        "name": "ROMANSHORN AUTOQUAI (Switzerland)",
+                        "lat": 47.564721,
+                        "lon": 9.381107
+                    },
+                    "time_s": 360.0
+                },
+                {
+                    "start": {
+                        "name": "ROMANSHORN AUTOQUAI (Switzerland)",
+                        "lat": 47.564721,
+                        "lon": 9.381107
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN FAEHRE (Germany)",
+                        "lat": 47.651108,
+                        "lon": 9.484168
+                    },
+                    "time_s": 2640.0
+                },
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN FAEHRE (Germany)",
+                        "lat": 47.651108,
+                        "lon": 9.484168
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN HAFEN (Germany)",
+                        "lat": 47.651108,
+                        "lon": 9.482775
+                    },
+                    "time_s": 300.0
+                },
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN HAFEN (Germany)",
+                        "lat": 47.651108,
+                        "lon": 9.482775
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 120.0
+                }
+            ],
+            "total_duration_s": 33960.0,
+            "total_distance_km": 545.6908324153316
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "E95",
+                    "distance": 720.2251798554155
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT14H",
+            "total_distance_km": 991.7384805245404
+        }
+    ]
+}

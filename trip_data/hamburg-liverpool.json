@@ -1,0 +1,144 @@
+{
+    "origin": "Hamburg",
+    "destination": "Liverpool",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "time_s": 3060.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON KINGS CROSS (United Kingdom)",
+                        "lat": 51.528335,
+                        "lon": -0.12139
+                    },
+                    "end": {
+                        "name": "LEEDS (United Kingdom)",
+                        "lat": 53.792223,
+                        "lon": -1.547502
+                    },
+                    "time_s": 10560.0
+                },
+                {
+                    "start": {
+                        "name": "LEEDS (United Kingdom)",
+                        "lat": 53.792223,
+                        "lon": -1.547502
+                    },
+                    "end": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "time_s": 4980.0
+                },
+                {
+                    "start": {
+                        "name": "MANCHESTER PICCADILLY (United Kingdom)",
+                        "lat": 53.473888,
+                        "lon": -2.2275
+                    },
+                    "end": {
+                        "name": "LIVERPOOL LIME STREET (United Kingdom)",
+                        "lat": 53.404447,
+                        "lon": -2.976391
+                    },
+                    "time_s": 3960.0
+                }
+            ],
+            "total_duration_s": 63060.0,
+            "total_distance_km": 1229.3456615736857
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "777",
+                    "distance": 411.6459401461768
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "LPL"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 867.3535342196461
+                }
+            ],
+            "total_duration_s": "PT3H55M",
+            "total_distance_km": 1278.999474365823
+        }
+    ]
+}

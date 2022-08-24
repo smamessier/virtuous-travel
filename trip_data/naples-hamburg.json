@@ -1,0 +1,92 @@
+{
+    "origin": "Naples",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 19200.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BRIG (Switzerland)",
+                        "lat": 46.319446,
+                        "lon": 7.988057
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRIG (Switzerland)",
+                        "lat": 46.319446,
+                        "lon": 7.988057
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 8040.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "time_s": 26340.0
+                }
+            ],
+            "total_duration_s": 64020.0,
+            "total_distance_km": 1609.1904171526216
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "223",
+                    "distance": 1292.5718777802028
+                },
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "32N",
+                    "distance": 339.6243907727215
+                }
+            ],
+            "total_duration_s": "PT6H35M",
+            "total_distance_km": 1632.1962685529243
+        }
+    ]
+}

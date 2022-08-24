@@ -1,0 +1,69 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Hanover",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 10200.0
+                },
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 9900.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "HANNOVER MESSE/LAATZEN (Germany)",
+                        "lat": 52.316941,
+                        "lon": 9.792777
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 32160.0,
+            "total_distance_km": 430.65053483885856
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "HAJ"
+                    },
+                    "aircraft": "E90",
+                    "distance": 334.35866504006316
+                }
+            ],
+            "total_duration_s": "PT55M",
+            "total_distance_km": 334.35866504006316
+        }
+    ]
+}

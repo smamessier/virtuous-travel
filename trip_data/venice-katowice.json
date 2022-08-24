@@ -1,0 +1,79 @@
+{
+    "origin": "Venice",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "time_s": 13740.0
+                },
+                {
+                    "start": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 25620.0
+                }
+            ],
+            "total_duration_s": 54120.0,
+            "total_distance_km": 740.5949381660897
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32N",
+                    "distance": 577.2026554906591
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 748.1663164839514
+                }
+            ],
+            "total_duration_s": "PT7H40M",
+            "total_distance_km": 1325.3689719746105
+        }
+    ]
+}

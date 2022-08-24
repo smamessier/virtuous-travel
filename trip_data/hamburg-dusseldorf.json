@@ -1,0 +1,43 @@
+{
+    "origin": "Hamburg",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 12300.0
+                }
+            ],
+            "total_duration_s": 12300.0,
+            "total_distance_km": 330.07553448472214
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "319",
+                    "distance": 339.6243907727215
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 339.6243907727215
+        }
+    ]
+}

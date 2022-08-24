@@ -1,0 +1,118 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "time_s": 14940.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "end": {
+                        "name": "DRESDEN-NEUSTADT (Germany)",
+                        "lat": 51.065831,
+                        "lon": 13.74083
+                    },
+                    "time_s": 16080.0
+                },
+                {
+                    "start": {
+                        "name": "DRESDEN-NEUSTADT (Germany)",
+                        "lat": 51.065831,
+                        "lon": 13.74083
+                    },
+                    "end": {
+                        "name": "GOERLITZ (Germany)",
+                        "lat": 51.146671,
+                        "lon": 14.979166
+                    },
+                    "time_s": 5280.0
+                },
+                {
+                    "start": {
+                        "name": "GOERLITZ (Germany)",
+                        "lat": 51.146671,
+                        "lon": 14.979166
+                    },
+                    "end": {
+                        "name": "ZGORZELEC (Poland)",
+                        "lat": 51.14028,
+                        "lon": 15.004165
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "ZGORZELEC (Poland)",
+                        "lat": 51.14028,
+                        "lon": 15.004165
+                    },
+                    "end": {
+                        "name": "WROCLAW GLOWNY (Poland)",
+                        "lat": 51.098057,
+                        "lon": 17.036392
+                    },
+                    "time_s": 8640.0
+                },
+                {
+                    "start": {
+                        "name": "WROCLAW GLOWNY (Poland)",
+                        "lat": 51.098057,
+                        "lon": 17.036392
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 9180.0
+                }
+            ],
+            "total_duration_s": 78300.0,
+            "total_distance_km": 1144.301912071611
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 1101.1715249816768
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E75",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H45M",
+            "total_distance_km": 1330.4362722953408
+        }
+    ]
+}

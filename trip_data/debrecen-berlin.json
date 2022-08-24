@@ -1,0 +1,92 @@
+{
+    "origin": "Debrecen",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 7980.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "end": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "time_s": 39720.0
+                }
+            ],
+            "total_duration_s": 62220.0,
+            "total_distance_km": 934.118534704552
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "320",
+                    "distance": 479.57554185086275
+                }
+            ],
+            "total_duration_s": "PT4H5M",
+            "total_distance_km": 1217.785376649304
+        }
+    ]
+}

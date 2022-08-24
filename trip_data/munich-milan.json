@@ -1,0 +1,56 @@
+{
+    "origin": "Munich",
+    "destination": "Milan",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF GL.27-36 (Germany)",
+                        "lat": 48.141667,
+                        "lon": 11.556667
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 12720.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 11820.0
+                }
+            ],
+            "total_duration_s": 28500.0,
+            "total_distance_km": 457.3197028089605
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "MXP"
+                    },
+                    "aircraft": "E95",
+                    "distance": 381.35856067341507
+                }
+            ],
+            "total_duration_s": "PT1H5M",
+            "total_distance_km": 381.35856067341507
+        }
+    ]
+}

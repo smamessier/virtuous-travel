@@ -1,0 +1,92 @@
+{
+    "origin": "Venice",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "time_s": 13740.0
+                },
+                {
+                    "start": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "end": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "time_s": 5520.0
+                },
+                {
+                    "start": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 12900.0
+                }
+            ],
+            "total_duration_s": 68520.0,
+            "total_distance_km": 748.4136141727464
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 936.9106557034461
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 705.00895445239
+                }
+            ],
+            "total_duration_s": "PT26H20M",
+            "total_distance_km": 1641.919610155836
+        }
+    ]
+}

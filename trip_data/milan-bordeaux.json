@@ -1,0 +1,92 @@
+{
+    "origin": "Milan",
+    "destination": "Bordeaux",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "LAUSANNE (Switzerland)",
+                        "lat": 46.516669,
+                        "lon": 6.629167
+                    },
+                    "time_s": 12120.0
+                },
+                {
+                    "start": {
+                        "name": "LAUSANNE (Switzerland)",
+                        "lat": 46.516669,
+                        "lon": 6.629167
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 13320.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS MONTPARNASSE 1 ET 2 (France)",
+                        "lat": 48.839724,
+                        "lon": 2.318615
+                    },
+                    "end": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "time_s": 7380.0
+                }
+            ],
+            "total_duration_s": 39240.0,
+            "total_distance_km": 1140.9238399473152
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "LUX"
+                    },
+                    "aircraft": "DH4",
+                    "distance": 482.50357873628946
+                },
+                {
+                    "start": {
+                        "name": "LUX"
+                    },
+                    "end": {
+                        "name": "BOD"
+                    },
+                    "aircraft": "DH4",
+                    "distance": 745.9571967799163
+                }
+            ],
+            "total_duration_s": "PT12H20M",
+            "total_distance_km": 1228.4607755162058
+        }
+    ]
+}

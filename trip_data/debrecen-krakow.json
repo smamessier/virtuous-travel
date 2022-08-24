@@ -1,0 +1,92 @@
+{
+    "origin": "Debrecen",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "MISKOLC TISZAI (Hungary)",
+                        "lat": 48.098609,
+                        "lon": 20.811385
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "MISKOLC TISZAI (Hungary)",
+                        "lat": 48.098609,
+                        "lon": 20.811385
+                    },
+                    "end": {
+                        "name": "KOSICE (Slovakia)",
+                        "lat": 48.721669,
+                        "lon": 21.267498
+                    },
+                    "time_s": 5340.0
+                },
+                {
+                    "start": {
+                        "name": "KOSICE (Slovakia)",
+                        "lat": 48.721669,
+                        "lon": 21.267498
+                    },
+                    "end": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "time_s": 18060.0
+                },
+                {
+                    "start": {
+                        "name": "BOHUMIN (Czech Republic)",
+                        "lat": 49.899166,
+                        "lon": 18.356944
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 8880.0
+                }
+            ],
+            "total_duration_s": 46380.0,
+            "total_distance_km": 529.2451750422338
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "320",
+                    "distance": 611.4223658187709
+                }
+            ],
+            "total_duration_s": "PT6H25M",
+            "total_distance_km": 1349.6322006172122
+        }
+    ]
+}

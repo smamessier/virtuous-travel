@@ -1,0 +1,66 @@
+{
+    "origin": "Budapest",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 14760.0
+                }
+            ],
+            "total_duration_s": 27180.0,
+            "total_distance_km": 625.078214434576
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1247.8723101988132
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 620.9430969252229
+                }
+            ],
+            "total_duration_s": "PT9H50M",
+            "total_distance_km": 1868.815407124036
+        }
+    ]
+}

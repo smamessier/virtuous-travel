@@ -1,0 +1,134 @@
+{
+    "origin": "Venice",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 8100.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "time_s": 3180.0
+                },
+                {
+                    "start": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "end": {
+                        "name": "ROTTWEIL (Germany)",
+                        "lat": 48.165282,
+                        "lon": 8.639164
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "ROTTWEIL (Germany)",
+                        "lat": 48.165282,
+                        "lon": 8.639164
+                    },
+                    "end": {
+                        "name": "BAHNHOF, ROTTWEIL (Germany)",
+                        "lat": 48.165003,
+                        "lon": 8.64
+                    },
+                    "time_s": 180.0
+                },
+                {
+                    "start": {
+                        "name": "BAHNHOF, ROTTWEIL (Germany)",
+                        "lat": 48.165003,
+                        "lon": 8.64
+                    },
+                    "end": {
+                        "name": "KALKOFENSTRASSE, HERRENBERG (Germany)",
+                        "lat": 48.594166,
+                        "lon": 8.861386
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "KALKOFENSTRASSE, HERRENBERG (Germany)",
+                        "lat": 48.594166,
+                        "lon": 8.861386
+                    },
+                    "end": {
+                        "name": "HERRENBERG (Germany)",
+                        "lat": 48.593887,
+                        "lon": 8.86278
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "HERRENBERG (Germany)",
+                        "lat": 48.593887,
+                        "lon": 8.86278
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 2280.0
+                }
+            ],
+            "total_duration_s": 37440.0,
+            "total_distance_km": 630.1570667349295
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "320",
+                    "distance": 425.97696163829687
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 425.97696163829687
+        }
+    ]
+}

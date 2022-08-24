@@ -1,0 +1,92 @@
+{
+    "origin": "Hamburg",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 6360.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "POZNAN GLOWNY (Poland)",
+                        "lat": 52.401385,
+                        "lon": 16.911667
+                    },
+                    "time_s": 10200.0
+                },
+                {
+                    "start": {
+                        "name": "POZNAN GLOWNY (Poland)",
+                        "lat": 52.401385,
+                        "lon": 16.911667
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 16740.0
+                }
+            ],
+            "total_duration_s": 34860.0,
+            "total_distance_km": 772.1474474450883
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 753.399372514192
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E70",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H10M",
+            "total_distance_km": 982.664119827856
+        }
+    ]
+}

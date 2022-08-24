@@ -1,0 +1,66 @@
+{
+    "origin": "Budapest",
+    "destination": "Berlin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "end": {
+                        "name": "BERLIN SUEDKREUZ (Germany)",
+                        "lat": 52.474998,
+                        "lon": 13.365279
+                    },
+                    "time_s": 39720.0
+                }
+            ],
+            "total_duration_s": 52140.0,
+            "total_distance_km": 738.0207917184179
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 834.901702357353
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "TXL"
+                    },
+                    "aircraft": "321",
+                    "distance": 431.68306686036414
+                }
+            ],
+            "total_duration_s": "PT5H55M",
+            "total_distance_km": 1266.5847692177172
+        }
+    ]
+}

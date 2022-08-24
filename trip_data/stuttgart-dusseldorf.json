@@ -1,0 +1,79 @@
+{
+    "origin": "Stuttgart",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 5280.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 1320.0
+                }
+            ],
+            "total_duration_s": 9600.0,
+            "total_distance_km": 320.9729151972912
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "BER"
+                    },
+                    "aircraft": "320",
+                    "distance": 506.73756306468556
+                },
+                {
+                    "start": {
+                        "name": "BER"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "32N",
+                    "distance": 477.01494353877274
+                }
+            ],
+            "total_duration_s": "PT3H35M",
+            "total_distance_km": 983.7525066034583
+        }
+    ]
+}

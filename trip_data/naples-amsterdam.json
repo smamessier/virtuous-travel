@@ -1,0 +1,170 @@
+{
+    "origin": "Naples",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 19200.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BRIG (Switzerland)",
+                        "lat": 46.319446,
+                        "lon": 7.988057
+                    },
+                    "time_s": 6840.0
+                },
+                {
+                    "start": {
+                        "name": "BRIG (Switzerland)",
+                        "lat": 46.319446,
+                        "lon": 7.988057
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 8040.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 7860.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "end": {
+                        "name": "GRONAU(WESTF) (Germany)",
+                        "lat": 52.215003,
+                        "lon": 7.022499
+                    },
+                    "time_s": 3420.0
+                },
+                {
+                    "start": {
+                        "name": "GRONAU(WESTF) (Germany)",
+                        "lat": 52.215003,
+                        "lon": 7.022499
+                    },
+                    "end": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "end": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "time_s": 3900.0
+                },
+                {
+                    "start": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "end": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1200.0
+                }
+            ],
+            "total_duration_s": 88620.0,
+            "total_distance_km": 1641.7595430376182
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2158.1379206318193
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 959.1844590087999
+                }
+            ],
+            "total_duration_s": "PT10H30M",
+            "total_distance_km": 3117.322379640619
+        }
+    ]
+}

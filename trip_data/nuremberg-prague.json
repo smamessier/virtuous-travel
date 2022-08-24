@@ -1,0 +1,66 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "CHEB (Czech Republic)",
+                        "lat": 50.074168,
+                        "lon": 12.380277
+                    },
+                    "time_s": 6660.0
+                },
+                {
+                    "start": {
+                        "name": "CHEB (Czech Republic)",
+                        "lat": 50.074168,
+                        "lon": 12.380277
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 9900.0
+                }
+            ],
+            "total_duration_s": 17400.0,
+            "total_distance_km": 263.1218812816604
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 541.5968895724073
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 705.00895445239
+                }
+            ],
+            "total_duration_s": "PT22H25M",
+            "total_distance_km": 1246.6058440247973
+        }
+    ]
+}

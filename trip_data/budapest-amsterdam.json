@@ -1,0 +1,82 @@
+{
+    "origin": "Budapest",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 23640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "UTRECHT CENTRAAL (Netherlands)",
+                        "lat": 52.08972,
+                        "lon": 5.111114
+                    },
+                    "time_s": 21780.0
+                },
+                {
+                    "start": {
+                        "name": "UTRECHT CENTRAAL (Netherlands)",
+                        "lat": 52.08972,
+                        "lon": 5.111114
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1560.0
+                }
+            ],
+            "total_duration_s": 70800.0,
+            "total_distance_km": 1180.0597952078401
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1169.2131617296138
+                }
+            ],
+            "total_duration_s": "PT2H5M",
+            "total_distance_km": 1169.2131617296138
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "origin": "Rome",
+    "destination": "Bologna",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 8580.0,
+            "total_distance_km": 304.6127502067903
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "BLQ"
+                    },
+                    "aircraft": "319",
+                    "distance": 313.7364220096007
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 313.7364220096007
+        }
+    ]
+}

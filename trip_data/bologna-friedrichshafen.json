@@ -1,0 +1,92 @@
+{
+    "origin": "Bologna",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "time_s": 9000.0
+                },
+                {
+                    "start": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "end": {
+                        "name": "LINDAU-REUTIN (Germany)",
+                        "lat": 47.552496,
+                        "lon": 9.703334
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "LINDAU-REUTIN (Germany)",
+                        "lat": 47.552496,
+                        "lon": 9.703334
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 31320.0,
+            "total_distance_km": 461.11491613078033
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 644.6919857273069
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT7H10M",
+            "total_distance_km": 916.2052863964318
+        }
+    ]
+}

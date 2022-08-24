@@ -1,0 +1,69 @@
+{
+    "origin": "Hamburg",
+    "destination": "Milan",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 24840.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "CHIASSO (Switzerland)",
+                        "lat": 45.832221,
+                        "lon": 9.03139
+                    },
+                    "time_s": 12420.0
+                },
+                {
+                    "start": {
+                        "name": "CHIASSO (Switzerland)",
+                        "lat": 45.832221,
+                        "lon": 9.03139
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 4080.0
+                }
+            ],
+            "total_duration_s": 58800.0,
+            "total_distance_km": 950.0404479916584
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "MXP"
+                    },
+                    "aircraft": "319",
+                    "distance": 894.1177454070908
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 894.1177454070908
+        }
+    ]
+}

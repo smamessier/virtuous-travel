@@ -1,0 +1,79 @@
+{
+    "origin": "Turin",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA NUOVA (Italy)",
+                        "lat": 45.06056,
+                        "lon": 7.677498
+                    },
+                    "end": {
+                        "name": "SAVONA (Italy)",
+                        "lat": 44.306671,
+                        "lon": 8.470275
+                    },
+                    "time_s": 7860.0
+                },
+                {
+                    "start": {
+                        "name": "SAVONA (Italy)",
+                        "lat": 44.306671,
+                        "lon": 8.470275
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3660.0
+                }
+            ],
+            "total_duration_s": 21480.0,
+            "total_distance_km": 223.72265989545326
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 1053.2781760350933
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 956.7979317945806
+                }
+            ],
+            "total_duration_s": "PT11H45M",
+            "total_distance_km": 2010.076107829674
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Cologne",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 9720.0
+                },
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "time_s": 1620.0
+                }
+            ],
+            "total_duration_s": 11820.0,
+            "total_distance_km": 216.67003228419836
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "319",
+                    "distance": 379.357426640726
+                },
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "CGN"
+                    },
+                    "aircraft": "73H",
+                    "distance": 363.27917690254185
+                }
+            ],
+            "total_duration_s": "PT12H10M",
+            "total_distance_km": 742.6366035432678
+        }
+    ]
+}
