@@ -1,0 +1,147 @@
+{
+    "origin": "Venice",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 8100.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "time_s": 360.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 10200.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "time_s": 17340.0
+                },
+                {
+                    "start": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "end": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "end": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "end": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1200.0
+                }
+            ],
+            "total_duration_s": 75120.0,
+            "total_distance_km": 1213.7001054463342
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 936.9106557034461
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 936.9106557034461
+        }
+    ]
+}

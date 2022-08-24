@@ -1,0 +1,79 @@
+{
+    "origin": "Venice",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 8100.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 13440.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3480.0
+                }
+            ],
+            "total_duration_s": 30180.0,
+            "total_distance_km": 492.3288381027831
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "ATH"
+                    },
+                    "aircraft": "32N",
+                    "distance": 1275.9589878972522
+                },
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "320",
+                    "distance": 1541.5592955220914
+                }
+            ],
+            "total_duration_s": "PT7H15M",
+            "total_distance_km": 2817.518283419344
+        }
+    ]
+}

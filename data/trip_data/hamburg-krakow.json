@@ -1,0 +1,92 @@
+{
+    "origin": "Hamburg",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 6360.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "time_s": 21360.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 11400.0
+                }
+            ],
+            "total_duration_s": 45300.0,
+            "total_distance_km": 1018.2252608735629
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.9173532051217
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1250.583618299244
+                }
+            ],
+            "total_duration_s": "PT18H30M",
+            "total_distance_km": 1983.5009715043657
+        }
+    ]
+}

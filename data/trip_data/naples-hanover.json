@@ -1,0 +1,92 @@
+{
+    "origin": "Naples",
+    "destination": "Hanover",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 21960.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "HANNOVER MESSE/LAATZEN (Germany)",
+                        "lat": 52.316941,
+                        "lon": 9.792777
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 63960.0,
+            "total_distance_km": 1371.878626974005
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1023.6097631901085
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "HAJ"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1367.6037020213953
+                }
+            ],
+            "total_duration_s": "PT6H10M",
+            "total_distance_km": 2391.2134652115037
+        }
+    ]
+}

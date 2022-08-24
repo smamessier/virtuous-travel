@@ -1,0 +1,53 @@
+{
+    "origin": "Nuremberg",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 14700.0
+                }
+            ],
+            "total_duration_s": 14700.0,
+            "total_distance_km": 362.664381075127
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 189.6409970646257
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "319",
+                    "distance": 188.86835255443205
+                }
+            ],
+            "total_duration_s": "PT2H20M",
+            "total_distance_km": 378.50934961905773
+        }
+    ]
+}

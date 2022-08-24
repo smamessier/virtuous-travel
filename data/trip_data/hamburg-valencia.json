@@ -1,0 +1,118 @@
+{
+    "origin": "Hamburg",
+    "destination": "Valencia",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "OFFENBURG (Germany)",
+                        "lat": 48.476389,
+                        "lon": 7.946671
+                    },
+                    "time_s": 31440.0
+                },
+                {
+                    "start": {
+                        "name": "OFFENBURG (Germany)",
+                        "lat": 48.476389,
+                        "lon": 7.946671
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 2040.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 6960.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 3000.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "time_s": 24240.0
+                },
+                {
+                    "start": {
+                        "name": "BARCELONA-SANTS (Spain)",
+                        "lat": 41.379442,
+                        "lon": 2.140556
+                    },
+                    "end": {
+                        "name": "VALENCIA JOAQUIN SOROLLA (Spain)",
+                        "lat": 39.459166,
+                        "lon": -0.383057
+                    },
+                    "time_s": 10020.0
+                }
+            ],
+            "total_duration_s": 86280.0,
+            "total_distance_km": 2123.2423241684637
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "32A",
+                    "distance": 551.9432395226985
+                },
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "VLC"
+                    },
+                    "aircraft": "320",
+                    "distance": 1281.2626452163115
+                }
+            ],
+            "total_duration_s": "PT6H25M",
+            "total_distance_km": 1833.20588473901
+        }
+    ]
+}

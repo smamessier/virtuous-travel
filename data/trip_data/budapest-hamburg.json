@@ -1,0 +1,69 @@
+{
+    "origin": "Budapest",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF GL.5-10 (Germany)",
+                        "lat": 48.140004,
+                        "lon": 11.555274
+                    },
+                    "time_s": 23760.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF GL.5-10 (Germany)",
+                        "lat": 48.140004,
+                        "lon": 11.555274
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 600.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "time_s": 27840.0
+                }
+            ],
+            "total_duration_s": 53340.0,
+            "total_distance_km": 1163.7600923359805
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "319",
+                    "distance": 949.8167636443949
+                }
+            ],
+            "total_duration_s": "PT1H40M",
+            "total_distance_km": 949.8167636443949
+        }
+    ]
+}

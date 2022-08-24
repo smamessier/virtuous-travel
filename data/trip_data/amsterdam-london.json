@@ -1,0 +1,56 @@
+{
+    "origin": "Amsterdam",
+    "destination": "London",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 11400.0
+                }
+            ],
+            "total_duration_s": 13500.0,
+            "total_distance_km": 357.02023747538954
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "LHR"
+                    },
+                    "aircraft": "73W",
+                    "distance": 370.44934051681514
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 370.44934051681514
+        }
+    ]
+}

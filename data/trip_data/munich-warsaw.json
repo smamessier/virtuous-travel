@@ -1,0 +1,95 @@
+{
+    "origin": "Munich",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 16440.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "time_s": 21060.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "end": {
+                        "name": "WARSZAWA WSCHODNIA (Poland)",
+                        "lat": 52.251113,
+                        "lon": 21.052503
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA WSCHODNIA (Poland)",
+                        "lat": 52.251113,
+                        "lon": 21.052503
+                    },
+                    "end": {
+                        "name": "WARSZAWA SRODMIESCIE (Poland)",
+                        "lat": 52.22944,
+                        "lon": 21.007782
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 41580.0,
+            "total_distance_km": 1030.184231255621
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E70",
+                    "distance": 777.3323245778482
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 777.3323245778482
+        }
+    ]
+}

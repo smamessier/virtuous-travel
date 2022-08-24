@@ -1,0 +1,128 @@
+{
+    "origin": "Turin",
+    "destination": "Cardiff",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 20460.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 4620.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "end": {
+                        "name": "CARDIFF CENTRAL (United Kingdom)",
+                        "lat": 51.472782,
+                        "lon": -3.176392
+                    },
+                    "time_s": 6900.0
+                }
+            ],
+            "total_duration_s": 66900.0,
+            "total_distance_km": 1139.7640809269194
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 817.9997703198069
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "EDI"
+                    },
+                    "aircraft": "73H",
+                    "distance": 666.3640081397747
+                },
+                {
+                    "start": {
+                        "name": "EDI"
+                    },
+                    "end": {
+                        "name": "CWL"
+                    },
+                    "aircraft": "ER4",
+                    "distance": 506.30807550171346
+                }
+            ],
+            "total_duration_s": "PT10H30M",
+            "total_distance_km": 1990.6718539612953
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "origin": "Pisa",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 17160.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "time_s": 9000.0
+                },
+                {
+                    "start": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "end": {
+                        "name": "LINDAU-REUTIN (Germany)",
+                        "lat": 47.552496,
+                        "lon": 9.703334
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "LINDAU-REUTIN (Germany)",
+                        "lat": 47.552496,
+                        "lon": 9.703334
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 2100.0
+                }
+            ],
+            "total_duration_s": 41520.0,
+            "total_distance_km": 577.5598635556324
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PSA"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "E95",
+                    "distance": 719.430419211815
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT11H45M",
+            "total_distance_km": 990.9437198809399
+        }
+    ]
+}

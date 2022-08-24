@@ -1,0 +1,79 @@
+{
+    "origin": "Rome",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 8580.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "ROSENHEIM (Germany)",
+                        "lat": 47.850003,
+                        "lon": 12.119167
+                    },
+                    "time_s": 21300.0
+                },
+                {
+                    "start": {
+                        "name": "ROSENHEIM (Germany)",
+                        "lat": 47.850003,
+                        "lon": 12.119167
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 32340.0
+                }
+            ],
+            "total_duration_s": 71520.0,
+            "total_distance_km": 1199.6372128119942
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2046.7568413605381
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                }
+            ],
+            "total_duration_s": "PT15H10M",
+            "total_distance_km": 3561.127845099477
+        }
+    ]
+}

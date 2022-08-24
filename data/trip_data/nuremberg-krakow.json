@@ -1,0 +1,92 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 12000.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "time_s": 4920.0
+                },
+                {
+                    "start": {
+                        "name": "RZEPIN (Poland)",
+                        "lat": 52.350003,
+                        "lon": 14.815275
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 30720.0
+                }
+            ],
+            "total_duration_s": 52260.0,
+            "total_distance_km": 916.1399330605125
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 541.5968895724073
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "E90",
+                    "distance": 1073.596156575139
+                }
+            ],
+            "total_duration_s": "PT25H20M",
+            "total_distance_km": 1615.1930461475463
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "origin": "Bergen",
+    "destination": "Cologne",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "end": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "time_s": 7560.0
+                },
+                {
+                    "start": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 3660.0
+                }
+            ],
+            "total_duration_s": 12960.0,
+            "total_distance_km": 220.4109601990474
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BGO"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 324.7080661986591
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "VIE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 1388.8720211348395
+                },
+                {
+                    "start": {
+                        "name": "VIE"
+                    },
+                    "end": {
+                        "name": "CGN"
+                    },
+                    "aircraft": "E95",
+                    "distance": 745.9899815657448
+                }
+            ],
+            "total_duration_s": "PT20H35M",
+            "total_distance_km": 2459.5700688992433
+        }
+    ]
+}

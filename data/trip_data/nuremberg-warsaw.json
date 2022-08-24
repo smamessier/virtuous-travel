@@ -1,0 +1,105 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (TIEF) (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "time_s": 21060.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "end": {
+                        "name": "WARSZAWA WSCHODNIA (Poland)",
+                        "lat": 52.251113,
+                        "lon": 21.052503
+                    },
+                    "time_s": 540.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA WSCHODNIA (Poland)",
+                        "lat": 52.251113,
+                        "lon": 21.052503
+                    },
+                    "end": {
+                        "name": "WARSZAWA SRODMIESCIE (Poland)",
+                        "lat": 52.22944,
+                        "lon": 21.007782
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 37440.0,
+            "total_distance_km": 903.9295831301923
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "E90",
+                    "distance": 189.6409970646257
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E95",
+                    "distance": 896.244194309191
+                }
+            ],
+            "total_duration_s": "PT5H55M",
+            "total_distance_km": 1085.8851913738167
+        }
+    ]
+}

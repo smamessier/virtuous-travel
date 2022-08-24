@@ -1,0 +1,170 @@
+{
+    "origin": "Turin",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BELLINZONA (Switzerland)",
+                        "lat": 46.195556,
+                        "lon": 9.02944
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "BELLINZONA (Switzerland)",
+                        "lat": 46.195556,
+                        "lon": 9.02944
+                    },
+                    "end": {
+                        "name": "BELLINZONA, STAZIONE (Switzerland)",
+                        "lat": 46.19472,
+                        "lon": 9.028334
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "BELLINZONA, STAZIONE (Switzerland)",
+                        "lat": 46.19472,
+                        "lon": 9.028334
+                    },
+                    "end": {
+                        "name": "CHUR, POSTAUTOSTATION (Switzerland)",
+                        "lat": 46.852776,
+                        "lon": 9.527496
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "CHUR, POSTAUTOSTATION (Switzerland)",
+                        "lat": 46.852776,
+                        "lon": 9.527496
+                    },
+                    "end": {
+                        "name": "CHUR (Switzerland)",
+                        "lat": 46.853054,
+                        "lon": 9.528889
+                    },
+                    "time_s": 240.0
+                },
+                {
+                    "start": {
+                        "name": "CHUR (Switzerland)",
+                        "lat": 46.853054,
+                        "lon": 9.528889
+                    },
+                    "end": {
+                        "name": "ST. MARGRETHEN SG (Switzerland)",
+                        "lat": 47.453336,
+                        "lon": 9.638333
+                    },
+                    "time_s": 3720.0
+                },
+                {
+                    "start": {
+                        "name": "ST. MARGRETHEN SG (Switzerland)",
+                        "lat": 47.453336,
+                        "lon": 9.638333
+                    },
+                    "end": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "BREGENZ (Austria)",
+                        "lat": 47.503055,
+                        "lon": 9.739722
+                    },
+                    "end": {
+                        "name": "BUCHLOE (Germany)",
+                        "lat": 48.033608,
+                        "lon": 10.716113
+                    },
+                    "time_s": 4800.0
+                },
+                {
+                    "start": {
+                        "name": "BUCHLOE (Germany)",
+                        "lat": 48.033608,
+                        "lon": 10.716113
+                    },
+                    "end": {
+                        "name": "AUGSBURG HBF (Germany)",
+                        "lat": 48.365552,
+                        "lon": 10.885559
+                    },
+                    "time_s": 1980.0
+                },
+                {
+                    "start": {
+                        "name": "AUGSBURG HBF (Germany)",
+                        "lat": 48.365552,
+                        "lon": 10.885559
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 6240.0
+                }
+            ],
+            "total_duration_s": 40980.0,
+            "total_distance_km": 621.9465723662516
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 541.7570742962085
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "E90",
+                    "distance": 189.6409970646257
+                }
+            ],
+            "total_duration_s": "PT5H50M",
+            "total_distance_km": 731.3980713608343
+        }
+    ]
+}

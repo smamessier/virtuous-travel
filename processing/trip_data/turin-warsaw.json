@@ -1,0 +1,131 @@
+{
+    "origin": "Turin",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 25380.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "time_s": 10560.0
+                },
+                {
+                    "start": {
+                        "name": "BERLIN HBF (Germany)",
+                        "lat": 52.525553,
+                        "lon": 13.369441
+                    },
+                    "end": {
+                        "name": "KUTNO (Poland)",
+                        "lat": 52.227498,
+                        "lon": 19.347222
+                    },
+                    "time_s": 16440.0
+                },
+                {
+                    "start": {
+                        "name": "KUTNO (Poland)",
+                        "lat": 52.227498,
+                        "lon": 19.347222
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA ZACHODNIA (Poland)",
+                        "lat": 52.220001,
+                        "lon": 20.965281
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 87540.0,
+            "total_distance_km": 1671.5599613186978
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 541.7570742962085
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "32N",
+                    "distance": 896.244194309191
+                }
+            ],
+            "total_duration_s": "PT10H25M",
+            "total_distance_km": 1438.0012686053997
+        }
+    ]
+}

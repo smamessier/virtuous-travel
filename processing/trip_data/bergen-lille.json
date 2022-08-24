@@ -1,0 +1,76 @@
+{
+    "origin": "Bergen",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "end": {
+                        "name": "TOURNAI (Belgium)",
+                        "lat": 50.613053,
+                        "lon": 3.396664
+                    },
+                    "time_s": 1740.0
+                },
+                {
+                    "start": {
+                        "name": "TOURNAI (Belgium)",
+                        "lat": 50.613053,
+                        "lon": 3.396664
+                    },
+                    "end": {
+                        "name": "LILLE FLANDRES (France)",
+                        "lat": 50.636389,
+                        "lon": 3.070275
+                    },
+                    "time_s": 1860.0
+                }
+            ],
+            "total_duration_s": 3960.0,
+            "total_distance_km": 65.62732800904868
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BGO"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 888.3069671871147
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                }
+            ],
+            "total_duration_s": "PT10H45M",
+            "total_distance_km": 2178.531136648754
+        }
+    ]
+}

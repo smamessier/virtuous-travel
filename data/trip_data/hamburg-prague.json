@@ -1,0 +1,53 @@
+{
+    "origin": "Hamburg",
+    "destination": "Prague",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "PRAGUE HLAVNI NADRAZI (Czech Republic)",
+                        "lat": 50.081386,
+                        "lon": 14.435274
+                    },
+                    "time_s": 24240.0
+                }
+            ],
+            "total_duration_s": 24240.0,
+            "total_distance_km": 491.38452111589766
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.9173532051217
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "PRG"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1139.7883016909382
+                }
+            ],
+            "total_duration_s": "PT19H15M",
+            "total_distance_km": 1872.70565489606
+        }
+    ]
+}

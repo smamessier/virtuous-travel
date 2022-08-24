@@ -1,0 +1,56 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Hamburg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "OSNABRUECK HBF (Germany)",
+                        "lat": 52.272777,
+                        "lon": 8.06167
+                    },
+                    "time_s": 11160.0
+                },
+                {
+                    "start": {
+                        "name": "OSNABRUECK HBF (Germany)",
+                        "lat": 52.272777,
+                        "lon": 8.06167
+                    },
+                    "end": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "time_s": 5880.0
+                }
+            ],
+            "total_duration_s": 18060.0,
+            "total_distance_km": 399.73739461785834
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "HAM"
+                    },
+                    "aircraft": "E90",
+                    "distance": 379.357426640726
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 379.357426640726
+        }
+    ]
+}

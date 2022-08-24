@@ -1,0 +1,56 @@
+{
+    "origin": "Rome",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "RAPALLO (Italy)",
+                        "lat": 44.351392,
+                        "lon": 9.231391
+                    },
+                    "time_s": 16380.0
+                },
+                {
+                    "start": {
+                        "name": "RAPALLO (Italy)",
+                        "lat": 44.351392,
+                        "lon": 9.231391
+                    },
+                    "end": {
+                        "name": "GENOVA NERVI (Italy)",
+                        "lat": 44.381389,
+                        "lon": 9.039723
+                    },
+                    "time_s": 1320.0
+                }
+            ],
+            "total_duration_s": 18420.0,
+            "total_distance_km": 395.93646772761724
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "319",
+                    "distance": 400.76366988733935
+                }
+            ],
+            "total_duration_s": "PT1H5M",
+            "total_distance_km": 400.76366988733935
+        }
+    ]
+}

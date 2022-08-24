@@ -1,0 +1,118 @@
+{
+    "origin": "Rome",
+    "destination": "Friedrichshafen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "time_s": 13200.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "time_s": 3180.0
+                },
+                {
+                    "start": {
+                        "name": "SINGEN(HOHENTWIEL) (Germany)",
+                        "lat": 47.758331,
+                        "lon": 8.84028
+                    },
+                    "end": {
+                        "name": "RADOLFZELL (Germany)",
+                        "lat": 47.735831,
+                        "lon": 8.968888
+                    },
+                    "time_s": 420.0
+                },
+                {
+                    "start": {
+                        "name": "RADOLFZELL (Germany)",
+                        "lat": 47.735831,
+                        "lon": 8.968888
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 3540.0
+                }
+            ],
+            "total_duration_s": 36840.0,
+            "total_distance_km": 791.9543349162859
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 958.1376400399946
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "FDH"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 271.51330066912493
+                }
+            ],
+            "total_duration_s": "PT4H25M",
+            "total_distance_km": 1229.6509407091196
+        }
+    ]
+}

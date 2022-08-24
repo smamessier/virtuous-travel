@@ -1,0 +1,95 @@
+{
+    "origin": "Venice",
+    "destination": "Warsaw",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "time_s": 13740.0
+                },
+                {
+                    "start": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 25620.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "time_s": 9840.0
+                },
+                {
+                    "start": {
+                        "name": "WARSZAWA GDANSKA (Poland)",
+                        "lat": 52.258888,
+                        "lon": 20.99472
+                    },
+                    "end": {
+                        "name": "WARSZAWA ZACHODNIA P8 (Poland)",
+                        "lat": 52.2225,
+                        "lon": 20.961388
+                    },
+                    "time_s": 600.0
+                }
+            ],
+            "total_duration_s": 67800.0,
+            "total_distance_km": 1006.8637426012119
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 971.3211270565396
+                }
+            ],
+            "total_duration_s": "PT1H50M",
+            "total_distance_km": 971.3211270565396
+        }
+    ]
+}

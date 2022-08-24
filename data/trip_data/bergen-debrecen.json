@@ -1,0 +1,128 @@
+{
+    "origin": "Bergen",
+    "destination": "Debrecen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "end": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "time_s": 7560.0
+                },
+                {
+                    "start": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "end": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "time_s": 7380.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 14220.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 34920.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBANYA-KISPEST (Hungary)",
+                        "lat": 47.463889,
+                        "lon": 19.149442
+                    },
+                    "end": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "time_s": 8040.0
+                }
+            ],
+            "total_duration_s": 83520.0,
+            "total_distance_km": 1401.172981155375
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BGO"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "320",
+                    "distance": 324.7080661986591
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1317.29505530038
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DEB"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                }
+            ],
+            "total_duration_s": "PT44H15M",
+            "total_distance_km": 2380.21295629748
+        }
+    ]
+}

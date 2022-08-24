@@ -1,0 +1,66 @@
+{
+    "origin": "Budapest",
+    "destination": "Florence",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "time_s": 39300.0
+                }
+            ],
+            "total_duration_s": 51780.0,
+            "total_distance_km": 843.0500439082027
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "320",
+                    "distance": 1247.8723101988132
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "FLR"
+                    },
+                    "aircraft": "319",
+                    "distance": 879.3473737244514
+                }
+            ],
+            "total_duration_s": "PT26H45M",
+            "total_distance_km": 2127.2196839232647
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "origin": "Bergen",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "end": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "time_s": 7560.0
+                },
+                {
+                    "start": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 3660.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 1800.0
+                }
+            ],
+            "total_duration_s": 15720.0,
+            "total_distance_km": 253.27136248960667
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BGO"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 324.7080661986591
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1026.0599999817823
+                }
+            ],
+            "total_duration_s": "PT4H30M",
+            "total_distance_km": 1350.7680661804413
+        }
+    ]
+}

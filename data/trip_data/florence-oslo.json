@@ -1,0 +1,144 @@
+{
+    "origin": "Florence",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 7680.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 26640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 14220.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "time_s": 46080.0
+                },
+                {
+                    "start": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "end": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "time_s": 1500.0
+                },
+                {
+                    "start": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "end": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "time_s": 6060.0
+                },
+                {
+                    "start": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "end": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "time_s": 6540.0
+                },
+                {
+                    "start": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 125940.0,
+            "total_distance_km": 2241.0252400409126
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "319",
+                    "distance": 879.3473737244514
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "319",
+                    "distance": 1357.1919924698102
+                }
+            ],
+            "total_duration_s": "PT7H55M",
+            "total_distance_km": 2236.5393661942617
+        }
+    ]
+}

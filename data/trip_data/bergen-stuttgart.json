@@ -1,0 +1,79 @@
+{
+    "origin": "Bergen",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "end": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "time_s": 7560.0
+                },
+                {
+                    "start": {
+                        "name": "LIEGE-GUILLEMINS (Belgium)",
+                        "lat": 50.624443,
+                        "lon": 5.566669
+                    },
+                    "end": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "time_s": 7380.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 4440.0
+                }
+            ],
+            "total_duration_s": 21540.0,
+            "total_distance_km": 486.614904596118
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BGO"
+                    },
+                    "end": {
+                        "name": "CPH"
+                    },
+                    "aircraft": "E95",
+                    "distance": 679.5049826203726
+                },
+                {
+                    "start": {
+                        "name": "CPH"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 804.9418701817117
+                }
+            ],
+            "total_duration_s": "PT3H30M",
+            "total_distance_km": 1484.4468528020843
+        }
+    ]
+}

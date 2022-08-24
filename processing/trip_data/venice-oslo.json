@@ -1,0 +1,144 @@
+{
+    "origin": "Venice",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "time_s": 4500.0
+                },
+                {
+                    "start": {
+                        "name": "VERONA PORTA NUOVA (Italy)",
+                        "lat": 45.428336,
+                        "lon": 10.98222
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 12900.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 43380.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "KOEBENHAVN H (Denmark)",
+                        "lat": 55.673054,
+                        "lon": 12.565553
+                    },
+                    "end": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "Goteborg C (Sweden)",
+                        "lat": 57.708886,
+                        "lon": 11.973335
+                    },
+                    "end": {
+                        "name": "Kil (Sweden)",
+                        "lat": 59.505003,
+                        "lon": 13.316108
+                    },
+                    "time_s": 7800.0
+                },
+                {
+                    "start": {
+                        "name": "Kil (Sweden)",
+                        "lat": 59.505003,
+                        "lon": 13.316108
+                    },
+                    "end": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "time_s": 5880.0
+                },
+                {
+                    "start": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 4500.0
+                }
+            ],
+            "total_duration_s": 149580.0,
+            "total_distance_km": 1922.9892818405062
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "AT7",
+                    "distance": 628.2718982337477
+                },
+                {
+                    "start": {
+                        "name": "BEG"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "319",
+                    "distance": 1815.6691873555872
+                }
+            ],
+            "total_duration_s": "PT10H25M",
+            "total_distance_km": 2443.9410855893348
+        }
+    ]
+}

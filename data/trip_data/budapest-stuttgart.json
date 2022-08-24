@@ -1,0 +1,56 @@
+{
+    "origin": "Budapest",
+    "destination": "Stuttgart",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "time_s": 8040.0
+                }
+            ],
+            "total_duration_s": 32640.0,
+            "total_distance_km": 751.4111946024187
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "STR"
+                    },
+                    "aircraft": "320",
+                    "distance": 758.5399637945474
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 758.5399637945474
+        }
+    ]
+}

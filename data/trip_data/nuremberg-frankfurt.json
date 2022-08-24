@@ -1,0 +1,43 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 8940.0
+                }
+            ],
+            "total_duration_s": 8940.0,
+            "total_distance_km": 188.6389121536678
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "E90",
+                    "distance": 189.6409970646257
+                }
+            ],
+            "total_duration_s": "PT45M",
+            "total_distance_km": 189.6409970646257
+        }
+    ]
+}

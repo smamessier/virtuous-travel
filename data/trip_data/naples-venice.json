@@ -1,0 +1,43 @@
+{
+    "origin": "Naples",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 18840.0
+                }
+            ],
+            "total_duration_s": 18840.0,
+            "total_distance_km": 540.6222368410452
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "320",
+                    "distance": 537.1061483745923
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 537.1061483745923
+        }
+    ]
+}

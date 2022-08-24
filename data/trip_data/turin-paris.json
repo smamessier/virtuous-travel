@@ -1,0 +1,43 @@
+{
+    "origin": "Turin",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "PARIS GARE DE LYON (France)",
+                        "lat": 48.845001,
+                        "lon": 2.373611
+                    },
+                    "time_s": 20280.0
+                }
+            ],
+            "total_duration_s": 20280.0,
+            "total_distance_km": 580.4066444928617
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 573.0038939473278
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 573.0038939473278
+        }
+    ]
+}

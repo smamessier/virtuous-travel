@@ -1,0 +1,56 @@
+{
+    "origin": "Munich",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 15960.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 10980.0
+                }
+            ],
+            "total_duration_s": 27300.0,
+            "total_distance_km": 419.1745746294455
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 319.6374931488725
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 319.6374931488725
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "origin": "Dublin",
+    "destination": "Cork",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUBLIN HEUSTON (Ireland)",
+                        "lat": 53.346385,
+                        "lon": -6.294723
+                    },
+                    "end": {
+                        "name": "CORK (Ireland)",
+                        "lat": 51.901801,
+                        "lon": -8.458202
+                    },
+                    "time_s": 9420.0
+                }
+            ],
+            "total_duration_s": 9420.0,
+            "total_distance_km": 217.07111511464907
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DUB"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 750.1606155058155
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "ORK"
+                    },
+                    "aircraft": "E90",
+                    "distance": 906.1148319300846
+                }
+            ],
+            "total_duration_s": "PT19H55M",
+            "total_distance_km": 1656.2754474359
+        }
+    ]
+}

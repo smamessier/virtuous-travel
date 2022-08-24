@@ -1,0 +1,43 @@
+{
+    "origin": "Hamburg",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 14340.0
+                }
+            ],
+            "total_duration_s": 14340.0,
+            "total_distance_km": 394.0690079094763
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "321",
+                    "distance": 411.6459401461768
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 411.6459401461768
+        }
+    ]
+}

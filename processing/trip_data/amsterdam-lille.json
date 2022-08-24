@@ -1,0 +1,79 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "ANVERS-CENTRAL (Belgium)",
+                        "lat": 51.21694,
+                        "lon": 4.420832
+                    },
+                    "time_s": 4500.0
+                },
+                {
+                    "start": {
+                        "name": "ANVERS-CENTRAL (Belgium)",
+                        "lat": 51.21694,
+                        "lon": 4.420832
+                    },
+                    "end": {
+                        "name": "COURTRAI (Belgium)",
+                        "lat": 50.824444,
+                        "lon": 3.264442
+                    },
+                    "time_s": 5040.0
+                },
+                {
+                    "start": {
+                        "name": "COURTRAI (Belgium)",
+                        "lat": 50.824444,
+                        "lon": 3.264442
+                    },
+                    "end": {
+                        "name": "LILLE FLANDRES (France)",
+                        "lat": 50.636389,
+                        "lon": 3.070275
+                    },
+                    "time_s": 2280.0
+                }
+            ],
+            "total_duration_s": 12960.0,
+            "total_distance_km": 250.2088251756424
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "73H",
+                    "distance": 732.365668537666
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                }
+            ],
+            "total_duration_s": "PT5H30M",
+            "total_distance_km": 1290.2241694616391
+        }
+    ]
+}

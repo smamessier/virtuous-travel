@@ -1,0 +1,105 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Bordeaux",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "time_s": 11520.0
+                },
+                {
+                    "start": {
+                        "name": "KARLSRUHE HBF (Germany)",
+                        "lat": 48.993611,
+                        "lon": 8.402226
+                    },
+                    "end": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "time_s": 9360.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS EST (France)",
+                        "lat": 48.877497,
+                        "lon": 2.358886
+                    },
+                    "end": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "PARIS AUSTERLITZ (France)",
+                        "lat": 48.841387,
+                        "lon": 2.366392
+                    },
+                    "end": {
+                        "name": "MONTAUBAN VILLE BOURBON (France)",
+                        "lat": 44.014441,
+                        "lon": 1.341388
+                    },
+                    "time_s": 27720.0
+                },
+                {
+                    "start": {
+                        "name": "MONTAUBAN VILLE BOURBON (France)",
+                        "lat": 44.014441,
+                        "lon": 1.341388
+                    },
+                    "end": {
+                        "name": "BORDEAUX ST JEAN (France)",
+                        "lat": 44.825834,
+                        "lon": -0.556387
+                    },
+                    "time_s": 6300.0
+                }
+            ],
+            "total_duration_s": 68340.0,
+            "total_distance_km": 1364.7213520197595
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E70",
+                    "distance": 620.9430969252229
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "BOD"
+                    },
+                    "aircraft": "321",
+                    "distance": 527.1426132576643
+                }
+            ],
+            "total_duration_s": "PT15H55M",
+            "total_distance_km": 1148.0857101828872
+        }
+    ]
+}

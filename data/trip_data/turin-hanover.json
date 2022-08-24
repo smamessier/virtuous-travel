@@ -1,0 +1,92 @@
+{
+    "origin": "Turin",
+    "destination": "Hanover",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 9240.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 21960.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "HANNOVER MESSE/LAATZEN (Germany)",
+                        "lat": 52.316941,
+                        "lon": 9.792777
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 59760.0,
+            "total_distance_km": 1197.1113263874556
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 573.0038939473278
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "HAJ"
+                    },
+                    "aircraft": "E70",
+                    "distance": 631.2943795950838
+                }
+            ],
+            "total_duration_s": "PT4H20M",
+            "total_distance_km": 1204.2982735424116
+        }
+    ]
+}

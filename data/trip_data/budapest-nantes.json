@@ -1,0 +1,92 @@
+{
+    "origin": "Budapest",
+    "destination": "Nantes",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "time_s": 33840.0
+                },
+                {
+                    "start": {
+                        "name": "STRASBOURG (France)",
+                        "lat": 48.584997,
+                        "lon": 7.734723
+                    },
+                    "end": {
+                        "name": "MASSY TGV (France)",
+                        "lat": 48.725831,
+                        "lon": 2.261389
+                    },
+                    "time_s": 10260.0
+                },
+                {
+                    "start": {
+                        "name": "MASSY TGV (France)",
+                        "lat": 48.725831,
+                        "lon": 2.261389
+                    },
+                    "end": {
+                        "name": "NANTES (France)",
+                        "lat": 47.217504,
+                        "lon": -1.541947
+                    },
+                    "time_s": 7800.0
+                }
+            ],
+            "total_duration_s": 68100.0,
+            "total_distance_km": 1583.6389205681141
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "320",
+                    "distance": 1247.8723101988132
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "NTE"
+                    },
+                    "aircraft": "320",
+                    "distance": 371.78334166513326
+                }
+            ],
+            "total_duration_s": "PT13H50M",
+            "total_distance_km": 1619.6556518639466
+        }
+    ]
+}

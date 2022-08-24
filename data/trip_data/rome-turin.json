@@ -1,0 +1,43 @@
+{
+    "origin": "Rome",
+    "destination": "Turin",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 17940.0
+                }
+            ],
+            "total_duration_s": 17940.0,
+            "total_distance_km": 525.8106713272108
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "TRN"
+                    },
+                    "aircraft": "319",
+                    "distance": 528.9695626718749
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 528.9695626718749
+        }
+    ]
+}

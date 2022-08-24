@@ -1,0 +1,43 @@
+{
+    "origin": "Turin",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 22920.0
+                }
+            ],
+            "total_duration_s": 22920.0,
+            "total_distance_km": 713.1739198142398
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "320",
+                    "distance": 721.6764210296257
+                }
+            ],
+            "total_duration_s": "PT1H30M",
+            "total_distance_km": 721.6764210296257
+        }
+    ]
+}

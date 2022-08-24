@@ -1,0 +1,66 @@
+{
+    "origin": "Budapest",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-NYUGATI (Hungary)",
+                        "lat": 47.510831,
+                        "lon": 19.0575
+                    },
+                    "end": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "time_s": 12240.0
+                },
+                {
+                    "start": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 13980.0
+                }
+            ],
+            "total_duration_s": 26580.0,
+            "total_distance_km": 438.31355737946467
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "WAW"
+                    },
+                    "aircraft": "E75",
+                    "distance": 540.6200386656922
+                },
+                {
+                    "start": {
+                        "name": "WAW"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E75",
+                    "distance": 229.264747313664
+                }
+            ],
+            "total_duration_s": "PT3H10M",
+            "total_distance_km": 769.8847859793561
+        }
+    ]
+}

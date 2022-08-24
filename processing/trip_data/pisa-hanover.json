@@ -1,0 +1,92 @@
+{
+    "origin": "Pisa",
+    "destination": "Hanover",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 23820.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "time_s": 21960.0
+                },
+                {
+                    "start": {
+                        "name": "HANNOVER HBF (Germany)",
+                        "lat": 52.376665,
+                        "lon": 9.741107
+                    },
+                    "end": {
+                        "name": "HANNOVER MESSE/LAATZEN (Germany)",
+                        "lat": 52.316941,
+                        "lon": 9.792777
+                    },
+                    "time_s": 420.0
+                }
+            ],
+            "total_duration_s": 60060.0,
+            "total_distance_km": 1016.7835384840241
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PSA"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73G",
+                    "distance": 1045.7127477262484
+                },
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "HAJ"
+                    },
+                    "aircraft": "E90",
+                    "distance": 334.35866504006316
+                }
+            ],
+            "total_duration_s": "PT12H15M",
+            "total_distance_km": 1380.0714127663116
+        }
+    ]
+}

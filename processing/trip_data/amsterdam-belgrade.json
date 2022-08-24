@@ -1,0 +1,69 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6780.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "DENDERLEEUW (Belgium)",
+                        "lat": 50.891665,
+                        "lon": 4.071664
+                    },
+                    "time_s": 1080.0
+                },
+                {
+                    "start": {
+                        "name": "DENDERLEEUW (Belgium)",
+                        "lat": 50.891665,
+                        "lon": 4.071664
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 1620.0
+                }
+            ],
+            "total_duration_s": 11280.0,
+            "total_distance_km": 214.93696906737208
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "295",
+                    "distance": 1410.2168665429149
+                }
+            ],
+            "total_duration_s": "PT2H20M",
+            "total_distance_km": 1410.2168665429149
+        }
+    ]
+}

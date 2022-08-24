@@ -1,0 +1,69 @@
+{
+    "origin": "Munich",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "SALERNO (Italy)",
+                        "lat": 40.674723,
+                        "lon": 14.772774
+                    },
+                    "time_s": 29820.0
+                },
+                {
+                    "start": {
+                        "name": "SALERNO (Italy)",
+                        "lat": 40.674723,
+                        "lon": 14.772774
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 63060.0,
+            "total_distance_km": 961.147798099321
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "32A",
+                    "distance": 853.5879384029391
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 853.5879384029391
+        }
+    ]
+}

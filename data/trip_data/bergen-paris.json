@@ -1,0 +1,79 @@
+{
+    "origin": "Bergen",
+    "destination": "Paris",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MONS (Belgium)",
+                        "lat": 50.453612,
+                        "lon": 3.942498
+                    },
+                    "end": {
+                        "name": "TOURNAI (Belgium)",
+                        "lat": 50.613053,
+                        "lon": 3.396664
+                    },
+                    "time_s": 1740.0
+                },
+                {
+                    "start": {
+                        "name": "TOURNAI (Belgium)",
+                        "lat": 50.613053,
+                        "lon": 3.396664
+                    },
+                    "end": {
+                        "name": "LILLE FLANDRES (France)",
+                        "lat": 50.636389,
+                        "lon": 3.070275
+                    },
+                    "time_s": 1860.0
+                },
+                {
+                    "start": {
+                        "name": "LILLE FLANDRES (France)",
+                        "lat": 50.636389,
+                        "lon": 3.070275
+                    },
+                    "end": {
+                        "name": "PARIS NORD (France)",
+                        "lat": 48.880275,
+                        "lon": 2.355282
+                    },
+                    "time_s": 3720.0
+                }
+            ],
+            "total_duration_s": 10680.0,
+            "total_distance_km": 267.53735208712044
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BGO"
+                    },
+                    "end": {
+                        "name": "CPH"
+                    },
+                    "aircraft": "73H",
+                    "distance": 679.5049826203726
+                },
+                {
+                    "start": {
+                        "name": "CPH"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "7M8",
+                    "distance": 1003.7018705035496
+                }
+            ],
+            "total_duration_s": "PT6H15M",
+            "total_distance_km": 1683.2068531239222
+        }
+    ]
+}

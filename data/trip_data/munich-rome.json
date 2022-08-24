@@ -1,0 +1,56 @@
+{
+    "origin": "Munich",
+    "destination": "Rome",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "time_s": 24120.0
+                },
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "time_s": 8580.0
+                }
+            ],
+            "total_duration_s": 35460.0,
+            "total_distance_km": 709.0234600446996
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "FCO"
+                    },
+                    "aircraft": "32S",
+                    "distance": 729.5826418274182
+                }
+            ],
+            "total_duration_s": "PT1H35M",
+            "total_distance_km": 729.5826418274182
+        }
+    ]
+}

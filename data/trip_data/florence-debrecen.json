@@ -1,0 +1,118 @@
+{
+    "origin": "Florence",
+    "destination": "Debrecen",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "time_s": 11700.0
+                },
+                {
+                    "start": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "end": {
+                        "name": "BRENNERO BRENNER (Italy)",
+                        "lat": 47.001943,
+                        "lon": 11.505276
+                    },
+                    "time_s": 4800.0
+                },
+                {
+                    "start": {
+                        "name": "BRENNERO BRENNER (Italy)",
+                        "lat": 47.001943,
+                        "lon": 11.505276
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 24300.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "ZUGLO (Hungary)",
+                        "lat": 47.511388,
+                        "lon": 19.101385
+                    },
+                    "end": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "time_s": 10320.0
+                }
+            ],
+            "total_duration_s": 57000.0,
+            "total_distance_km": 1161.8944567615204
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 507.22722838466433
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "DEB"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                }
+            ],
+            "total_duration_s": "PT6H30M",
+            "total_distance_km": 1245.4370631831055
+        }
+    ]
+}

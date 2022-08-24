@@ -1,0 +1,131 @@
+{
+    "origin": "Milan",
+    "destination": "Nuremberg",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ARTH-GOLDAU (Switzerland)",
+                        "lat": 47.049163,
+                        "lon": 8.549443
+                    },
+                    "time_s": 10860.0
+                },
+                {
+                    "start": {
+                        "name": "ARTH-GOLDAU (Switzerland)",
+                        "lat": 47.049163,
+                        "lon": 8.549443
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "SCHAFFHAUSEN (Switzerland)",
+                        "lat": 47.698337,
+                        "lon": 8.632782
+                    },
+                    "end": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "time_s": 4320.0
+                },
+                {
+                    "start": {
+                        "name": "FRIEDRICHSHAFEN STADT (Germany)",
+                        "lat": 47.653337,
+                        "lon": 9.473893
+                    },
+                    "end": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "time_s": 4020.0
+                },
+                {
+                    "start": {
+                        "name": "ULM HBF (Germany)",
+                        "lat": 48.399442,
+                        "lon": 9.982224
+                    },
+                    "end": {
+                        "name": "DONAUWOERTH (Germany)",
+                        "lat": 48.713893,
+                        "lon": 10.771387
+                    },
+                    "time_s": 3480.0
+                },
+                {
+                    "start": {
+                        "name": "DONAUWOERTH (Germany)",
+                        "lat": 48.713893,
+                        "lon": 10.771387
+                    },
+                    "end": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "time_s": 3300.0
+                }
+            ],
+            "total_duration_s": 35340.0,
+            "total_distance_km": 560.3727252116685
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "319",
+                    "distance": 910.6802525030171
+                },
+                {
+                    "start": {
+                        "name": "BEG"
+                    },
+                    "end": {
+                        "name": "NUE"
+                    },
+                    "aircraft": "319",
+                    "distance": 869.598414511658
+                }
+            ],
+            "total_duration_s": "PT10H5M",
+            "total_distance_km": 1780.2786670146752
+        }
+    ]
+}

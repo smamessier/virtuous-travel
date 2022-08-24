@@ -1,0 +1,115 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Lille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "time_s": 13200.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "time_s": 420.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ (Germany)",
+                        "lat": 50.940836,
+                        "lon": 6.975
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 180.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 6720.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "LILLE EUROPE (France)",
+                        "lat": 50.639446,
+                        "lon": 3.07556
+                    },
+                    "time_s": 2040.0
+                }
+            ],
+            "total_duration_s": 26160.0,
+            "total_distance_km": 613.389053854281
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 620.9430969252229
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "321",
+                    "distance": 412.18284884671124
+                },
+                {
+                    "start": {
+                        "name": "LYS"
+                    },
+                    "end": {
+                        "name": "LIL"
+                    },
+                    "aircraft": "E70",
+                    "distance": 557.858500923973
+                }
+            ],
+            "total_duration_s": "PT9H55M",
+            "total_distance_km": 1590.984446695907
+        }
+    ]
+}

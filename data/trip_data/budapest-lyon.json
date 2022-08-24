@@ -1,0 +1,105 @@
+{
+    "origin": "Budapest",
+    "destination": "Lyon",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "time_s": 8760.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN HBF (Austria)",
+                        "lat": 48.185004,
+                        "lon": 16.375829
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 28200.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "BERN (Switzerland)",
+                        "lat": 46.948888,
+                        "lon": 7.439167
+                    },
+                    "time_s": 3600.0
+                },
+                {
+                    "start": {
+                        "name": "BERN (Switzerland)",
+                        "lat": 46.948888,
+                        "lon": 7.439167
+                    },
+                    "end": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "time_s": 7020.0
+                },
+                {
+                    "start": {
+                        "name": "GENEVE (Switzerland)",
+                        "lat": 46.210281,
+                        "lon": 6.1425
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 7680.0
+                }
+            ],
+            "total_duration_s": 73620.0,
+            "total_distance_km": 1140.802531032678
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "223",
+                    "distance": 999.7722365156679
+                },
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "LYS"
+                    },
+                    "aircraft": "32A",
+                    "distance": 630.9761525701733
+                }
+            ],
+            "total_duration_s": "PT10H50M",
+            "total_distance_km": 1630.7483890858412
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "origin": "Rome",
+    "destination": "Naples",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "time_s": 4500.0
+                }
+            ],
+            "total_duration_s": 4500.0,
+            "total_distance_km": 188.1553552094368
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "LIN"
+                    },
+                    "aircraft": "32S",
+                    "distance": 470.13907720651235
+                },
+                {
+                    "start": {
+                        "name": "LIN"
+                    },
+                    "end": {
+                        "name": "NAP"
+                    },
+                    "aircraft": "319",
+                    "distance": 649.6159426127651
+                }
+            ],
+            "total_duration_s": "PT3H35M",
+            "total_distance_km": 1119.7550198192775
+        }
+    ]
+}

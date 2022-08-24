@@ -1,0 +1,105 @@
+{
+    "origin": "Naples",
+    "destination": "Nice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAPOLI CENTRALE (Italy)",
+                        "lat": 40.85306,
+                        "lon": 14.272776
+                    },
+                    "end": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "time_s": 18540.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "end": {
+                        "name": "PAVIA (Italy)",
+                        "lat": 45.18889,
+                        "lon": 9.144448
+                    },
+                    "time_s": 1200.0
+                },
+                {
+                    "start": {
+                        "name": "PAVIA (Italy)",
+                        "lat": 45.18889,
+                        "lon": 9.144448
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 3720.0
+                },
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 8400.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3480.0
+                }
+            ],
+            "total_duration_s": 41880.0,
+            "total_distance_km": 923.6221557395819
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NAP"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 2158.1379206318193
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "NCE"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1857.070583271903
+                }
+            ],
+            "total_duration_s": "PT9H30M",
+            "total_distance_km": 4015.208503903722
+        }
+    ]
+}

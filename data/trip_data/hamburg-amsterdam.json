@@ -1,0 +1,95 @@
+{
+    "origin": "Hamburg",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG-HARBURG (Germany)",
+                        "lat": 53.455829,
+                        "lon": 9.991663
+                    },
+                    "end": {
+                        "name": "BREMEN HBF (Germany)",
+                        "lat": 53.083613,
+                        "lon": 8.813887
+                    },
+                    "time_s": 2640.0
+                },
+                {
+                    "start": {
+                        "name": "BREMEN HBF (Germany)",
+                        "lat": 53.083613,
+                        "lon": 8.813887
+                    },
+                    "end": {
+                        "name": "LEER(OSTFRIESL) (Germany)",
+                        "lat": 53.231665,
+                        "lon": 7.465281
+                    },
+                    "time_s": 4860.0
+                },
+                {
+                    "start": {
+                        "name": "LEER(OSTFRIESL) (Germany)",
+                        "lat": 53.231665,
+                        "lon": 7.465281
+                    },
+                    "end": {
+                        "name": "GRONINGEN (Netherlands)",
+                        "lat": 53.210837,
+                        "lon": 6.563887
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "GRONINGEN (Netherlands)",
+                        "lat": 53.210837,
+                        "lon": 6.563887
+                    },
+                    "end": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "time_s": 5880.0
+                },
+                {
+                    "start": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1200.0
+                }
+            ],
+            "total_duration_s": 21300.0,
+            "total_distance_km": 391.32425497373123
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "73W",
+                    "distance": 379.357426640726
+                }
+            ],
+            "total_duration_s": "PT1H5M",
+            "total_distance_km": 379.357426640726
+        }
+    ]
+}

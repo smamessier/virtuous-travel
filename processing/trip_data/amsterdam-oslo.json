@@ -1,0 +1,121 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "OSNABRUECK HBF (Germany)",
+                        "lat": 52.272777,
+                        "lon": 8.06167
+                    },
+                    "time_s": 10560.0
+                },
+                {
+                    "start": {
+                        "name": "OSNABRUECK HBF (Germany)",
+                        "lat": 52.272777,
+                        "lon": 8.06167
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 6660.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "time_s": 46080.0
+                },
+                {
+                    "start": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "end": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "time_s": 1500.0
+                },
+                {
+                    "start": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "end": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "time_s": 6060.0
+                },
+                {
+                    "start": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "end": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "time_s": 6540.0
+                },
+                {
+                    "start": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 96360.0,
+            "total_distance_km": 1490.1675933894721
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 959.1844590087999
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 959.1844590087999
+        }
+    ]
+}

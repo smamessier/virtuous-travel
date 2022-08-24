@@ -1,0 +1,79 @@
+{
+    "origin": "Budapest",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-NYUGATI (Hungary)",
+                        "lat": 47.510831,
+                        "lon": 19.0575
+                    },
+                    "end": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "time_s": 12240.0
+                },
+                {
+                    "start": {
+                        "name": "BRECLAV (Czech Republic)",
+                        "lat": 48.758057,
+                        "lon": 16.896943
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 13980.0
+                },
+                {
+                    "start": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 4200.0
+                }
+            ],
+            "total_duration_s": 50160.0,
+            "total_distance_km": 507.8377239257516
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1514.371003738939
+                },
+                {
+                    "start": {
+                        "name": "OSL"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1250.583618299244
+                }
+            ],
+            "total_duration_s": "PT20H45M",
+            "total_distance_km": 2764.954622038183
+        }
+    ]
+}

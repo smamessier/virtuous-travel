@@ -1,0 +1,144 @@
+{
+    "origin": "Venice",
+    "destination": "Eindhoven",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 8100.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "time_s": 360.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL BAD BF (Germany)",
+                        "lat": 47.56722,
+                        "lon": 7.607778
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 10200.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 11220.0
+                },
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "time_s": 2040.0
+                },
+                {
+                    "start": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 1860.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                }
+            ],
+            "total_duration_s": 67320.0,
+            "total_distance_km": 1072.3752247198975
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "SAW"
+                    },
+                    "aircraft": "320",
+                    "distance": 1463.3464022194585
+                },
+                {
+                    "start": {
+                        "name": "SAW"
+                    },
+                    "end": {
+                        "name": "EIN"
+                    },
+                    "aircraft": "320",
+                    "distance": 2169.3998052953457
+                }
+            ],
+            "total_duration_s": "PT22H35M",
+            "total_distance_km": 3632.746207514804
+        }
+    ]
+}

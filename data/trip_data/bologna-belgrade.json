@@ -1,0 +1,121 @@
+{
+    "origin": "Bologna",
+    "destination": "Belgrade",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 5820.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "time_s": 900.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO P.GARIBALDI (Italy)",
+                        "lat": 45.484725,
+                        "lon": 9.187776
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 17460.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "time_s": 10380.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(M) FLUGHAFEN FERNBF (Germany)",
+                        "lat": 50.053052,
+                        "lon": 8.57028
+                    },
+                    "end": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "time_s": 10380.0
+                },
+                {
+                    "start": {
+                        "name": "BRUXELLES-MIDI (Belgium)",
+                        "lat": 50.835554,
+                        "lon": 4.336387
+                    },
+                    "end": {
+                        "name": "ENGHIEN (Belgium)",
+                        "lat": 50.697219,
+                        "lon": 4.047222
+                    },
+                    "time_s": 1260.0
+                },
+                {
+                    "start": {
+                        "name": "ENGHIEN (Belgium)",
+                        "lat": 50.697219,
+                        "lon": 4.047222
+                    },
+                    "end": {
+                        "name": "GRAMMONT (Belgium)",
+                        "lat": 50.771111,
+                        "lon": 3.87222
+                    },
+                    "time_s": 1140.0
+                }
+            ],
+            "total_duration_s": 51660.0,
+            "total_distance_km": 1101.679235490021
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "BEG"
+                    },
+                    "aircraft": "AT7",
+                    "distance": 713.5601475602799
+                }
+            ],
+            "total_duration_s": "PT2H5M",
+            "total_distance_km": 713.5601475602799
+        }
+    ]
+}

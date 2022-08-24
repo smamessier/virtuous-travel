@@ -1,0 +1,147 @@
+{
+    "origin": "Turin",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 3300.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "time_s": 11820.0
+                },
+                {
+                    "start": {
+                        "name": "ZUERICH HB (Switzerland)",
+                        "lat": 47.37806,
+                        "lon": 8.540274
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "time_s": 12300.0
+                },
+                {
+                    "start": {
+                        "name": "MUENSTER(WESTF)HBF (Germany)",
+                        "lat": 51.956671,
+                        "lon": 7.635833
+                    },
+                    "end": {
+                        "name": "GRONAU(WESTF) (Germany)",
+                        "lat": 52.215003,
+                        "lon": 7.022499
+                    },
+                    "time_s": 3420.0
+                },
+                {
+                    "start": {
+                        "name": "GRONAU(WESTF) (Germany)",
+                        "lat": 52.215003,
+                        "lon": 7.022499
+                    },
+                    "end": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "time_s": 660.0
+                },
+                {
+                    "start": {
+                        "name": "ENSCHEDE (Netherlands)",
+                        "lat": 52.222221,
+                        "lon": 6.890555
+                    },
+                    "end": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "time_s": 3900.0
+                },
+                {
+                    "start": {
+                        "name": "ZWOLLE (Netherlands)",
+                        "lat": 52.505552,
+                        "lon": 6.090003
+                    },
+                    "end": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "ALMERE CENTRUM (Netherlands)",
+                        "lat": 52.375002,
+                        "lon": 5.219164
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1200.0
+                }
+            ],
+            "total_duration_s": 73920.0,
+            "total_distance_km": 1065.522645584224
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "TRN"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "E90",
+                    "distance": 817.9997703198069
+                }
+            ],
+            "total_duration_s": "PT1H55M",
+            "total_distance_km": 817.9997703198069
+        }
+    ]
+}

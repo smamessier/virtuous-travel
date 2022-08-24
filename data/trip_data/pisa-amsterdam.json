@@ -1,0 +1,92 @@
+{
+    "origin": "Pisa",
+    "destination": "Amsterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PISA CENTRALE (Italy)",
+                        "lat": 43.708052,
+                        "lon": 10.398056
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 16800.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 15120.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "UTRECHT CENTRAAL (Netherlands)",
+                        "lat": 52.08972,
+                        "lon": 5.111114
+                    },
+                    "time_s": 35400.0
+                },
+                {
+                    "start": {
+                        "name": "UTRECHT CENTRAAL (Netherlands)",
+                        "lat": 52.08972,
+                        "lon": 5.111114
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 1560.0
+                }
+            ],
+            "total_duration_s": 73020.0,
+            "total_distance_km": 1050.0653871439627
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "PSA"
+                    },
+                    "end": {
+                        "name": "ZRH"
+                    },
+                    "aircraft": "320",
+                    "distance": 444.1839380465783
+                },
+                {
+                    "start": {
+                        "name": "ZRH"
+                    },
+                    "end": {
+                        "name": "AMS"
+                    },
+                    "aircraft": "295",
+                    "distance": 602.8337311587474
+                }
+            ],
+            "total_duration_s": "PT12H15M",
+            "total_distance_km": 1047.0176692053255
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 9720.0
+                },
+                {
+                    "start": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 6000.0
+                }
+            ],
+            "total_duration_s": 16800.0,
+            "total_distance_km": 363.9086710686273
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "73W",
+                    "distance": 366.57375472178785
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 366.57375472178785
+        }
+    ]
+}

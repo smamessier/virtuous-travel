@@ -1,0 +1,144 @@
+{
+    "origin": "Bologna",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 5340.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 26640.0
+                },
+                {
+                    "start": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 14220.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "time_s": 46080.0
+                },
+                {
+                    "start": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "end": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "time_s": 1500.0
+                },
+                {
+                    "start": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "end": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "time_s": 6060.0
+                },
+                {
+                    "start": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "end": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "time_s": 6540.0
+                },
+                {
+                    "start": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 123600.0,
+            "total_distance_km": 2191.7870682901066
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "CRK",
+                    "distance": 1296.3004610589287
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "320",
+                    "distance": 2414.7696994581743
+                }
+            ],
+            "total_duration_s": "PT18H30M",
+            "total_distance_km": 3711.070160517103
+        }
+    ]
+}

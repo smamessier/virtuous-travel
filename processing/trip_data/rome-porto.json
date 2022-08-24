@@ -1,0 +1,157 @@
+{
+    "origin": "Rome",
+    "destination": "Porto",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ROMA TERMINI (Italy)",
+                        "lat": 41.900555,
+                        "lon": 12.501667
+                    },
+                    "end": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "time_s": 17940.0
+                },
+                {
+                    "start": {
+                        "name": "TORINO PORTA SUSA (Italy)",
+                        "lat": 45.07417,
+                        "lon": 7.666945
+                    },
+                    "end": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "time_s": 9420.0
+                },
+                {
+                    "start": {
+                        "name": "CHAMBERY CHALLES LES EAUX (France)",
+                        "lat": 45.570554,
+                        "lon": 5.919999
+                    },
+                    "end": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "time_s": 5760.0
+                },
+                {
+                    "start": {
+                        "name": "LYON PART DIEU (France)",
+                        "lat": 45.760281,
+                        "lon": 4.858885
+                    },
+                    "end": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "time_s": 11340.0
+                },
+                {
+                    "start": {
+                        "name": "NARBONNE (France)",
+                        "lat": 43.190552,
+                        "lon": 3.005552
+                    },
+                    "end": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "time_s": 18720.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-PUERTA DE ATOCHA (Spain)",
+                        "lat": 40.406386,
+                        "lon": -3.690836
+                    },
+                    "end": {
+                        "name": "MADRID-CHAMARTIN (Spain)",
+                        "lat": 40.471109,
+                        "lon": -3.682782
+                    },
+                    "time_s": 2700.0
+                },
+                {
+                    "start": {
+                        "name": "MADRID-CHAMARTIN (Spain)",
+                        "lat": 40.471109,
+                        "lon": -3.682782
+                    },
+                    "end": {
+                        "name": "PONTEVEDRA (Spain)",
+                        "lat": 42.421948,
+                        "lon": -8.635559
+                    },
+                    "time_s": 15240.0
+                },
+                {
+                    "start": {
+                        "name": "PONTEVEDRA (Spain)",
+                        "lat": 42.421948,
+                        "lon": -8.635559
+                    },
+                    "end": {
+                        "name": "VIGO GUIXAR (Spain)",
+                        "lat": 42.239718,
+                        "lon": -8.711114
+                    },
+                    "time_s": 1800.0
+                },
+                {
+                    "start": {
+                        "name": "VIGO GUIXAR (Spain)",
+                        "lat": 42.239718,
+                        "lon": -8.711114
+                    },
+                    "end": {
+                        "name": "PORTO - CAMPANHA (Portugal)",
+                        "lat": 41.149722,
+                        "lon": -8.585552
+                    },
+                    "time_s": 4920.0
+                }
+            ],
+            "total_duration_s": 166200.0,
+            "total_distance_km": 2331.1725739719777
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FCO"
+                    },
+                    "end": {
+                        "name": "MAD"
+                    },
+                    "aircraft": "73H",
+                    "distance": 1329.632236273754
+                },
+                {
+                    "start": {
+                        "name": "MAD"
+                    },
+                    "end": {
+                        "name": "OPO"
+                    },
+                    "aircraft": "E90",
+                    "distance": 438.97256247481624
+                }
+            ],
+            "total_duration_s": "PT5H45M",
+            "total_distance_km": 1768.6047987485701
+        }
+    ]
+}

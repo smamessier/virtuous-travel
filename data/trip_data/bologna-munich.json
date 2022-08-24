@@ -1,0 +1,43 @@
+{
+    "origin": "Bologna",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BOLOGNA CENTRALE (Italy)",
+                        "lat": 44.506393,
+                        "lon": 11.341942
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 24120.0
+                }
+            ],
+            "total_duration_s": 24120.0,
+            "total_distance_km": 404.41070983790934
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BLQ"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 426.2917419191245
+                }
+            ],
+            "total_duration_s": "PT1H5M",
+            "total_distance_km": 426.2917419191245
+        }
+    ]
+}

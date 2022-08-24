@@ -1,0 +1,95 @@
+{
+    "origin": "Milan",
+    "destination": "Marseille",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MILANO ROGOREDO (Italy)",
+                        "lat": 45.433891,
+                        "lon": 9.239167
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 5400.0
+                },
+                {
+                    "start": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "end": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "time_s": 8400.0
+                },
+                {
+                    "start": {
+                        "name": "VENTIMIGLIA (Italy)",
+                        "lat": 43.792218,
+                        "lon": 7.610277
+                    },
+                    "end": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "time_s": 3480.0
+                },
+                {
+                    "start": {
+                        "name": "NICE VILLE (France)",
+                        "lat": 43.704448,
+                        "lon": 7.261945
+                    },
+                    "end": {
+                        "name": "TOULON (France)",
+                        "lat": 43.128329,
+                        "lon": 5.929168
+                    },
+                    "time_s": 6600.0
+                },
+                {
+                    "start": {
+                        "name": "TOULON (France)",
+                        "lat": 43.128329,
+                        "lon": 5.929168
+                    },
+                    "end": {
+                        "name": "MARSEILLE ST CHARLES (France)",
+                        "lat": 43.302774,
+                        "lon": 5.380278
+                    },
+                    "time_s": 3660.0
+                }
+            ],
+            "total_duration_s": 33540.0,
+            "total_distance_km": 444.79230041625783
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "MXP"
+                    },
+                    "end": {
+                        "name": "MRS"
+                    },
+                    "aircraft": "BEH",
+                    "distance": 369.5662860197609
+                }
+            ],
+            "total_duration_s": "PT1H10M",
+            "total_distance_km": 369.5662860197609
+        }
+    ]
+}

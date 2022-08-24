@@ -1,0 +1,79 @@
+{
+    "origin": "Venice",
+    "destination": "Krak\u00f3w",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "time_s": 13740.0
+                },
+                {
+                    "start": {
+                        "name": "WIENER NEUSTADT HBF (Austria)",
+                        "lat": 47.810558,
+                        "lon": 16.233053
+                    },
+                    "end": {
+                        "name": "KRAKOW GLOWNY (Poland)",
+                        "lat": 50.068334,
+                        "lon": 19.947504
+                    },
+                    "time_s": 29460.0
+                }
+            ],
+            "total_duration_s": 57960.0,
+            "total_distance_km": 770.749201632337
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "320",
+                    "distance": 763.499940146877
+                },
+                {
+                    "start": {
+                        "name": "DUS"
+                    },
+                    "end": {
+                        "name": "KRK"
+                    },
+                    "aircraft": "32A",
+                    "distance": 925.747095343136
+                }
+            ],
+            "total_duration_s": "PT4H10M",
+            "total_distance_km": 1689.2470354900129
+        }
+    ]
+}

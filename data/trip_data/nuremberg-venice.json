@@ -1,0 +1,92 @@
+{
+    "origin": "Nuremberg",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUERNBERG HBF (Germany)",
+                        "lat": 49.445552,
+                        "lon": 11.083052
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 4140.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "time_s": 15960.0
+                },
+                {
+                    "start": {
+                        "name": "VILLACH HBF (Austria)",
+                        "lat": 46.618607,
+                        "lon": 13.848611
+                    },
+                    "end": {
+                        "name": "UDINE (Italy)",
+                        "lat": 46.055558,
+                        "lon": 13.241668
+                    },
+                    "time_s": 5640.0
+                },
+                {
+                    "start": {
+                        "name": "UDINE (Italy)",
+                        "lat": 46.055558,
+                        "lon": 13.241668
+                    },
+                    "end": {
+                        "name": "VENEZIA S. LUCIA (Italy)",
+                        "lat": 45.441667,
+                        "lon": 12.320552
+                    },
+                    "time_s": 5940.0
+                }
+            ],
+            "total_duration_s": 35100.0,
+            "total_distance_km": 567.703635155525
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "NUE"
+                    },
+                    "end": {
+                        "name": "CDG"
+                    },
+                    "aircraft": "E90",
+                    "distance": 620.9430969252229
+                },
+                {
+                    "start": {
+                        "name": "CDG"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "319",
+                    "distance": 835.343363244979
+                }
+            ],
+            "total_duration_s": "PT5H25M",
+            "total_distance_km": 1456.2864601702017
+        }
+    ]
+}

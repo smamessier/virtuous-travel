@@ -1,0 +1,92 @@
+{
+    "origin": "Hamburg",
+    "destination": "Genoa",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "time_s": 24840.0
+                },
+                {
+                    "start": {
+                        "name": "BASEL SBB (Switzerland)",
+                        "lat": 47.547498,
+                        "lon": 7.58944
+                    },
+                    "end": {
+                        "name": "CHIASSO (Switzerland)",
+                        "lat": 45.832221,
+                        "lon": 9.03139
+                    },
+                    "time_s": 12420.0
+                },
+                {
+                    "start": {
+                        "name": "CHIASSO (Switzerland)",
+                        "lat": 45.832221,
+                        "lon": 9.03139
+                    },
+                    "end": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "time_s": 4080.0
+                },
+                {
+                    "start": {
+                        "name": "MILANO CENTRALE (Italy)",
+                        "lat": 45.486388,
+                        "lon": 9.204163
+                    },
+                    "end": {
+                        "name": "GENOVA P.ZA PRINCIPE (Italy)",
+                        "lat": 44.417778,
+                        "lon": 8.920553
+                    },
+                    "time_s": 5640.0
+                }
+            ],
+            "total_duration_s": 67380.0,
+            "total_distance_km": 1070.942139067472
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "HAM"
+                    },
+                    "end": {
+                        "name": "BCN"
+                    },
+                    "aircraft": "32A",
+                    "distance": 1492.5656923321042
+                },
+                {
+                    "start": {
+                        "name": "BCN"
+                    },
+                    "end": {
+                        "name": "GOA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 650.5311779758703
+                }
+            ],
+            "total_duration_s": "PT22H",
+            "total_distance_km": 2143.0968703079743
+        }
+    ]
+}

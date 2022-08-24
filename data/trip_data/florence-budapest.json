@@ -1,0 +1,92 @@
+{
+    "origin": "Florence",
+    "destination": "Budapest",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FIRENZE S.M.N. (Italy)",
+                        "lat": 43.776667,
+                        "lon": 11.247501
+                    },
+                    "end": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "time_s": 11700.0
+                },
+                {
+                    "start": {
+                        "name": "BOLZANO BOZEN (Italy)",
+                        "lat": 46.496389,
+                        "lon": 11.358329
+                    },
+                    "end": {
+                        "name": "BRENNERO BRENNER (Italy)",
+                        "lat": 47.001943,
+                        "lon": 11.505276
+                    },
+                    "time_s": 4800.0
+                },
+                {
+                    "start": {
+                        "name": "BRENNERO BRENNER (Italy)",
+                        "lat": 47.001943,
+                        "lon": 11.505276
+                    },
+                    "end": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "time_s": 2400.0
+                },
+                {
+                    "start": {
+                        "name": "INNSBRUCK HBF (Austria)",
+                        "lat": 47.263331,
+                        "lon": 11.40056
+                    },
+                    "end": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "time_s": 24300.0
+                }
+            ],
+            "total_duration_s": 44760.0,
+            "total_distance_km": 964.0662174662448
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "FLR"
+                    },
+                    "end": {
+                        "name": "VIE"
+                    },
+                    "aircraft": "E95",
+                    "distance": 632.6121715947314
+                },
+                {
+                    "start": {
+                        "name": "VIE"
+                    },
+                    "end": {
+                        "name": "BUD"
+                    },
+                    "aircraft": "E95",
+                    "distance": 214.89055303628882
+                }
+            ],
+            "total_duration_s": "PT16H20M",
+            "total_distance_km": 847.5027246310202
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "origin": "Venice",
+    "destination": "Munich",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 23940.0
+                }
+            ],
+            "total_duration_s": 23940.0,
+            "total_distance_km": 299.9980112284764
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "VCE"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "E95",
+                    "distance": 319.6374931488725
+                }
+            ],
+            "total_duration_s": "PT1H",
+            "total_distance_km": 319.6374931488725
+        }
+    ]
+}

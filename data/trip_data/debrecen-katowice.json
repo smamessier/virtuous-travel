@@ -1,0 +1,76 @@
+{
+    "origin": "Debrecen",
+    "destination": "Katowice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEBRECEN (Hungary)",
+                        "lat": 47.520279,
+                        "lon": 21.628613
+                    },
+                    "end": {
+                        "name": "BUDAPEST-NYUGATI (Hungary)",
+                        "lat": 47.510831,
+                        "lon": 19.0575
+                    },
+                    "time_s": 9000.0
+                },
+                {
+                    "start": {
+                        "name": "BUDAPEST-NYUGATI (Hungary)",
+                        "lat": 47.510831,
+                        "lon": 19.0575
+                    },
+                    "end": {
+                        "name": "KATOWICE (Poland)",
+                        "lat": 50.257503,
+                        "lon": 19.017219
+                    },
+                    "time_s": 32520.0
+                }
+            ],
+            "total_duration_s": 45300.0,
+            "total_distance_km": 498.5153560906575
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "DEB"
+                    },
+                    "end": {
+                        "name": "MUC"
+                    },
+                    "aircraft": "CR9",
+                    "distance": 738.2098347984412
+                },
+                {
+                    "start": {
+                        "name": "MUC"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32Q",
+                    "distance": 299.0786454580804
+                },
+                {
+                    "start": {
+                        "name": "FRA"
+                    },
+                    "end": {
+                        "name": "KTW"
+                    },
+                    "aircraft": "E90",
+                    "distance": 748.1663164839514
+                }
+            ],
+            "total_duration_s": "PT23H30M",
+            "total_distance_km": 1785.4547967404728
+        }
+    ]
+}

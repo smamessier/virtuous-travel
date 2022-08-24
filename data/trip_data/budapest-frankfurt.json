@@ -1,0 +1,56 @@
+{
+    "origin": "Budapest",
+    "destination": "Frankfurt",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUDAPEST-KELENFOELD (Hungary)",
+                        "lat": 47.464447,
+                        "lon": 19.019997
+                    },
+                    "end": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "time_s": 9600.0
+                },
+                {
+                    "start": {
+                        "name": "WIEN MEIDLING (Austria)",
+                        "lat": 48.174442,
+                        "lon": 16.333058
+                    },
+                    "end": {
+                        "name": "FRANKFURT(MAIN)HBF (Germany)",
+                        "lat": 50.107221,
+                        "lon": 8.663893
+                    },
+                    "time_s": 23640.0
+                }
+            ],
+            "total_duration_s": 36060.0,
+            "total_distance_km": 813.082540643195
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "BUD"
+                    },
+                    "end": {
+                        "name": "FRA"
+                    },
+                    "aircraft": "32A",
+                    "distance": 834.901702357353
+                }
+            ],
+            "total_duration_s": "PT1H40M",
+            "total_distance_km": 834.901702357353
+        }
+    ]
+}

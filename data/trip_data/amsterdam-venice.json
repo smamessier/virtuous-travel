@@ -1,0 +1,82 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Venice",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "time_s": 11280.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN MESSE/DEUTZ GL.11-12 (Germany)",
+                        "lat": 50.941663,
+                        "lon": 6.974164
+                    },
+                    "end": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "time_s": 17340.0
+                },
+                {
+                    "start": {
+                        "name": "MUENCHEN HBF (Germany)",
+                        "lat": 48.140274,
+                        "lon": 11.55833
+                    },
+                    "end": {
+                        "name": "TREVISO CENTRALE (Italy)",
+                        "lat": 45.65944,
+                        "lon": 12.245834
+                    },
+                    "time_s": 30180.0
+                },
+                {
+                    "start": {
+                        "name": "TREVISO CENTRALE (Italy)",
+                        "lat": 45.65944,
+                        "lon": 12.245834
+                    },
+                    "end": {
+                        "name": "VENEZIA MESTRE (Italy)",
+                        "lat": 45.481948,
+                        "lon": 12.231667
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 65280.0,
+            "total_distance_km": 969.1382104459356
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "VCE"
+                    },
+                    "aircraft": "73H",
+                    "distance": 936.9106557034461
+                }
+            ],
+            "total_duration_s": "PT1H45M",
+            "total_distance_km": 936.9106557034461
+        }
+    ]
+}

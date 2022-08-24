@@ -1,0 +1,82 @@
+{
+    "origin": "Amsterdam",
+    "destination": "Cardiff",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "time_s": 2100.0
+                },
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "time_s": 11400.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON ST PANCRAS INTL (United Kingdom)",
+                        "lat": 51.530555,
+                        "lon": -0.125274
+                    },
+                    "end": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "time_s": 5700.0
+                },
+                {
+                    "start": {
+                        "name": "LONDON PADDINGTON (United Kingdom)",
+                        "lat": 51.513889,
+                        "lon": -0.175281
+                    },
+                    "end": {
+                        "name": "CARDIFF CENTRAL (United Kingdom)",
+                        "lat": 51.472782,
+                        "lon": -3.176392
+                    },
+                    "time_s": 6660.0
+                }
+            ],
+            "total_duration_s": 26820.0,
+            "total_distance_km": 568.7497947314771
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "CWL"
+                    },
+                    "aircraft": "E75",
+                    "distance": 565.673671116523
+                }
+            ],
+            "total_duration_s": "PT1H20M",
+            "total_distance_km": 565.673671116523
+        }
+    ]
+}

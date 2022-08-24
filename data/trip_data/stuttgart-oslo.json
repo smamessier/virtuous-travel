@@ -1,0 +1,118 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Oslo",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "time_s": 19860.0
+                },
+                {
+                    "start": {
+                        "name": "HAMBURG HBF (Germany)",
+                        "lat": 53.552778,
+                        "lon": 10.006945
+                    },
+                    "end": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "time_s": 46080.0
+                },
+                {
+                    "start": {
+                        "name": "Norrkoping C (Sweden)",
+                        "lat": 58.596391,
+                        "lon": 16.183334
+                    },
+                    "end": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "time_s": 1500.0
+                },
+                {
+                    "start": {
+                        "name": "Katrineholm C (Sweden)",
+                        "lat": 58.996393,
+                        "lon": 16.208054
+                    },
+                    "end": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "time_s": 6060.0
+                },
+                {
+                    "start": {
+                        "name": "Karlstad C (Sweden)",
+                        "lat": 59.377779,
+                        "lon": 13.498885
+                    },
+                    "end": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "time_s": 6540.0
+                },
+                {
+                    "start": {
+                        "name": "KONGSVINGER (Norway)",
+                        "lat": 60.187779,
+                        "lon": 12.003889
+                    },
+                    "end": {
+                        "name": "OSLO S (Norway)",
+                        "lat": 59.910282,
+                        "lon": 10.755279
+                    },
+                    "time_s": 4620.0
+                }
+            ],
+            "total_duration_s": 95580.0,
+            "total_distance_km": 1615.357219544539
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "RIX"
+                    },
+                    "aircraft": "223",
+                    "distance": 1344.3092802739573
+                },
+                {
+                    "start": {
+                        "name": "RIX"
+                    },
+                    "end": {
+                        "name": "OSL"
+                    },
+                    "aircraft": "223",
+                    "distance": 828.5335596945472
+                }
+            ],
+            "total_duration_s": "PT4H25M",
+            "total_distance_km": 2172.8428399685044
+        }
+    ]
+}

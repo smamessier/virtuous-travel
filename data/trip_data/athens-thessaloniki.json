@@ -1,0 +1,43 @@
+{
+    "origin": "Athens",
+    "destination": "Thessaloniki",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "Athens (Greece)",
+                        "lat": 37.992504,
+                        "lon": 23.720834
+                    },
+                    "end": {
+                        "name": "Thessaloniki (Greece)",
+                        "lat": 40.644169,
+                        "lon": 22.92972
+                    },
+                    "time_s": 15180.0
+                }
+            ],
+            "total_duration_s": 15180.0,
+            "total_distance_km": 302.6000164385163
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "ATH"
+                    },
+                    "end": {
+                        "name": "SKG"
+                    },
+                    "aircraft": "32N",
+                    "distance": 299.23518588790336
+                }
+            ],
+            "total_duration_s": "PT53M",
+            "total_distance_km": 299.23518588790336
+        }
+    ]
+}

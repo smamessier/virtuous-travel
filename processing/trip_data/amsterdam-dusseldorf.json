@@ -1,0 +1,43 @@
+{
+    "origin": "Amsterdam",
+    "destination": "D\u00fcsseldorf",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMSTERDAM CENTRAAL (Netherlands)",
+                        "lat": 52.378607,
+                        "lon": 4.900829
+                    },
+                    "end": {
+                        "name": "DUESSELDORF HBF (Germany)",
+                        "lat": 51.219996,
+                        "lon": 6.794443
+                    },
+                    "time_s": 9720.0
+                }
+            ],
+            "total_duration_s": 9720.0,
+            "total_distance_km": 183.1641698512199
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "AMS"
+                    },
+                    "end": {
+                        "name": "DUS"
+                    },
+                    "aircraft": "E75",
+                    "distance": 178.3437495562394
+                }
+            ],
+            "total_duration_s": "PT50M",
+            "total_distance_km": 178.3437495562394
+        }
+    ]
+}

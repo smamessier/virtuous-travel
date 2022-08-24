@@ -1,0 +1,144 @@
+{
+    "origin": "Stuttgart",
+    "destination": "Rotterdam",
+    "alternatives": [
+        {
+            "type": "rail",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STUTTGART HBF (Germany)",
+                        "lat": 48.784171,
+                        "lon": 9.181663
+                    },
+                    "end": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "time_s": 2280.0
+                },
+                {
+                    "start": {
+                        "name": "MANNHEIM HBF (Germany)",
+                        "lat": 49.479442,
+                        "lon": 8.46889
+                    },
+                    "end": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "time_s": 5280.0
+                },
+                {
+                    "start": {
+                        "name": "KOELN HBF (Germany)",
+                        "lat": 50.943056,
+                        "lon": 6.958613
+                    },
+                    "end": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "time_s": 3240.0
+                },
+                {
+                    "start": {
+                        "name": "MOENCHENGLADBACH HBF (Germany)",
+                        "lat": 51.196669,
+                        "lon": 6.446111
+                    },
+                    "end": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "time_s": 1860.0
+                },
+                {
+                    "start": {
+                        "name": "VENLO (Netherlands)",
+                        "lat": 51.365001,
+                        "lon": 6.17194
+                    },
+                    "end": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "time_s": 2340.0
+                },
+                {
+                    "start": {
+                        "name": "EINDHOVEN CENTRAAL (Netherlands)",
+                        "lat": 51.442218,
+                        "lon": 5.480274
+                    },
+                    "end": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "time_s": 1920.0
+                },
+                {
+                    "start": {
+                        "name": "BOXTEL (Netherlands)",
+                        "lat": 51.584724,
+                        "lon": 5.319448
+                    },
+                    "end": {
+                        "name": "BREDA (Netherlands)",
+                        "lat": 51.594999,
+                        "lon": 4.780275
+                    },
+                    "time_s": 1920.0
+                },
+                {
+                    "start": {
+                        "name": "BREDA (Netherlands)",
+                        "lat": 51.594999,
+                        "lon": 4.780275
+                    },
+                    "end": {
+                        "name": "ROTTERDAM CENTRAAL (Netherlands)",
+                        "lat": 51.925002,
+                        "lon": 4.469724
+                    },
+                    "time_s": 1380.0
+                }
+            ],
+            "total_duration_s": 24420.0,
+            "total_distance_km": 508.2492189013301
+        },
+        {
+            "type": "air",
+            "legs": [
+                {
+                    "start": {
+                        "name": "STR"
+                    },
+                    "end": {
+                        "name": "ADB"
+                    },
+                    "aircraft": "737",
+                    "distance": 1844.0583583540465
+                },
+                {
+                    "start": {
+                        "name": "ADB"
+                    },
+                    "end": {
+                        "name": "RTM"
+                    },
+                    "aircraft": "737",
+                    "distance": 2324.6815253939562
+                }
+            ],
+            "total_duration_s": "PT22H50M",
+            "total_distance_km": 4168.739883748003
+        }
+    ]
+}
