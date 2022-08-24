@@ -7,6 +7,7 @@ import { Preview } from './preview';
 import { templates, genText } from './templates';
 
 import city_list from './data/cities.json';
+import vtLogo from './logo.png';
 
 import { Chip, Button, Divider } from '@mui/material';
 import { Container, Stack, Box} from '@mui/material';
@@ -71,11 +72,12 @@ function App() {
     return (
         <Container>
             <Box container>
-                <Box>
-                    <p>
+                <Box style={{ textAlign: "center"}}>
+                <img src={vtLogo} width="80%" style={{maxWidth:600}}/>
+        {/*<p>
                         <h1>Virtuous Travel</h1>
                         <h4>Survival kit for the virtuous traveler</h4>
-                    </p>
+                    </p>*/}
                 </Box>
                 <Divider style={{width:'100%'}}><Chip label="Your travel cities"></Chip></Divider>
                 <Box className="form-item">
