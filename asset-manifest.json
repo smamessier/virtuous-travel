@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.68c86366.css",
-    "main.js": "/static/js/main.c3b13b4b.js",
+    "main.js": "/static/js/main.21e5387b.js",
     "static/js/787.2bb3426a.chunk.js": "/static/js/787.2bb3426a.chunk.js",
     "stations.csv": "/stations.csv",
+    "static/media/logo.png": "/static/media/logo.538fbaa0dcf6317e00cb.png",
     "cities.json": "/cities.json",
     "trip_data/naples-liverpool.json": "/trip_data/naples-liverpool.json",
     "trip_data/naples-stavanger.json": "/trip_data/naples-stavanger.json",
@@ -1612,11 +1613,11 @@
     "index.html": "/index.html",
     "README.md": "/README.md",
     "main.68c86366.css.map": "/static/css/main.68c86366.css.map",
-    "main.c3b13b4b.js.map": "/static/js/main.c3b13b4b.js.map",
+    "main.21e5387b.js.map": "/static/js/main.21e5387b.js.map",
     "787.2bb3426a.chunk.js.map": "/static/js/787.2bb3426a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68c86366.css",
-    "static/js/main.c3b13b4b.js"
+    "static/js/main.21e5387b.js"
   ]
 }
