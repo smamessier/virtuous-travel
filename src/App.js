@@ -32,8 +32,8 @@ const pairs = city_list.pairs;
 function App() {
 
     const defaultSettings = {
-        cityA: 'Paris',
-        cityB: 'Amsterdam',
+        cityA: 'Genoa',
+        cityB: 'Stockholm',
         travelDays: 5,
         templateId: 'default'
     }
