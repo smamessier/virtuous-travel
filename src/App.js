@@ -10,6 +10,7 @@ import city_list from './data/cities.json';
 
 import { Chip, Button, Divider } from '@mui/material';
 import { Container, Stack, Box} from '@mui/material';
+import { FormControl, FormControlLabel, RadioGroup, Radio, FormLabel} from '@mui/material';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 
 import { styled } from '@mui/material/styles';
@@ -33,7 +34,8 @@ function App() {
     const defaultSettings = {
         cityA: 'Paris',
         cityB: 'Amsterdam',
-        travelDays: 5
+        travelDays: 5,
+        templateId: 'default'
     }
 
     const defaultText = "I'm a virtuous traveler";
@@ -41,6 +43,12 @@ function App() {
     const [settings, setSettings] = useState(defaultSettings);
     const [text, setText] = useState(defaultText);
     const [tripData, setTripData] = useState({});
+
+    function handleTemplateChange(e, value){
+        const newSettings = {...settings}
+        newSettings.templateId = value
+        setSettings(newSettings)
+    }
 
     useEffect(() => {
         let templateId = settings.templateId || 'default';
@@ -74,6 +82,20 @@ function App() {
                     <Form cities={pairs} settings={settings} setSettings={setSettings}/>
                 </Box>
                 <Divider style={{width:'100%'}}><Chip label="Your social media post"></Chip></Divider>
+                    <FormControl>
+                        <FormLabel id="demo-radio-buttons-group-label">Style</FormLabel>
+                        <RadioGroup
+                            aria-labelledby="demo-radio-buttons-group-label"
+                            defaultValue="classic"
+                            name="radio-buttons-group"
+                            value={settings.templateId}
+                            onChange={handleTemplateChange}
+                        >
+                            <FormControlLabel value='default' control={<Radio />} label="Virtuous Classic" />
+                            <FormControlLabel value='friends' control={<Radio />} label="Lonely friend" />
+                        </RadioGroup>
+                    </FormControl>
+
                 <Preview text={text}/>
                 <Divider style={{width:'100%'}}><Chip label="Show the world"></Chip></Divider>
                 <Box className="form-item">

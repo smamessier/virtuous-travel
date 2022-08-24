@@ -1,6 +1,6 @@
 function Preview(props){
     return (
-        <div style={{whiteSpace:"pre"}}>
+        <div width="100%" style={{whiteSpace:"pre-line"}}>
             {props.text}
         </div>
     )
