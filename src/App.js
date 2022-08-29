@@ -19,15 +19,6 @@ import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import axios from 'axios';
 
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-    borderTop: 'none' 
-}));
-
 const cities = city_list.cities;
 const pairs = city_list.pairs;
 
@@ -64,7 +55,7 @@ function App() {
             return `${bias}: I work in the Aeronautics industry`
         }
         if (bias > 1.2){
-            return `${bias}: The planet matters more than data accuracy`
+            return `${bias}: Planet matters more than data accuracy`
         }
         return bias.toFixed(1)
     }
@@ -106,7 +97,7 @@ function App() {
                 <Divider style={{width:'100%'}}><Chip label="Your custom settings"></Chip></Divider>
                 <FormControl>
                 <Stack direction={{xs: "column", md: "row"}} spacing={2}>
-                    <Box sx={{ padding:2, borderRight: '1px dashed grey' }}>
+                    <Box sx={{ padding:2, borderRight: [0,0,'1px dashed grey'] }}>
                         <FormLabel id="style-radio-group-label">Style</FormLabel>
                         <RadioGroup
                             aria-labelledby="style-radio-group-label"
@@ -119,12 +110,11 @@ function App() {
                             <FormControlLabel value='friends' control={<Radio />} label="Lonely friend" />
                         </RadioGroup>
                     </Box>
-                    <Box sx={{ padding:2, width:200}}>
-                        <FormLabel id="truth-radio-group-label">Data bias: {settings.bias}</FormLabel>
+                    <Box sx={{ padding:2, width:['80%',400]}}>
+                        <FormLabel id="truth-radio-group-label">Data bias: {biasDescription(settings.bias)}</FormLabel>
                         <Slider name="truthBias"
                                 aria-label="Bias factor" value={settings.bias}
                                 onChange={handleBiasChange}
-                                valueLabelFormat={biasDescription}
                                 valueLabelDisplay='auto'
                                 defaultValue={1.0} step={0.1} marks min={0.5} max={1.5}/>
                         { (settings.bias == 1.0) && <p><b>
