@@ -10,8 +10,9 @@ import city_list from './data/cities.json';
 import vtLogo from './logo.png';
 
 import { Chip, Button, Divider } from '@mui/material';
-import { Container, Stack, Box} from '@mui/material';
-import { FormControl, FormControlLabel, RadioGroup, Radio, FormLabel} from '@mui/material';
+import { Container, Stack, Box } from '@mui/material';
+import { FormControl, FormControlLabel, FormLabel, RadioGroup } from '@mui/material';
+import { Radio, Slider } from '@mui/material';
 import ContentCopyOutlinedIcon from '@mui/icons-material/ContentCopyOutlined';
 
 import { styled } from '@mui/material/styles';
@@ -36,7 +37,8 @@ function App() {
         cityA: 'Genoa',
         cityB: 'Stockholm',
         travelDays: 5,
-        templateId: 'default'
+        templateId: 'default',
+        bias: 1.0
     }
 
     const defaultText = "I'm a virtuous traveler";
@@ -50,6 +52,23 @@ function App() {
         newSettings.templateId = value
         setSettings(newSettings)
     }
+
+    function handleBiasChange(e, value){
+        const newSettings = {...settings}
+        newSettings.bias = value
+        setSettings(newSettings)
+    }
+
+    function biasDescription(bias){
+        if (bias < 0.8){
+            return `${bias}: I work in the Aeronautics industry`
+        }
+        if (bias > 1.2){
+            return `${bias}: The planet matters more than data accuracy`
+        }
+        return bias.toFixed(1)
+    }
+
 
     useEffect(() => {
         let templateId = settings.templateId || 'default';
@@ -83,11 +102,14 @@ function App() {
                 <Box className="form-item">
                     <Form cities={pairs} settings={settings} setSettings={setSettings}/>
                 </Box>
-                <Divider style={{width:'100%'}}><Chip label="Your social media post"></Chip></Divider>
-                    <FormControl>
-                        <FormLabel id="demo-radio-buttons-group-label">Style</FormLabel>
+
+                <Divider style={{width:'100%'}}><Chip label="Your custom settings"></Chip></Divider>
+                <FormControl>
+                <Stack direction={{xs: "column", md: "row"}} spacing={2}>
+                    <Box sx={{ padding:2, borderRight: '1px dashed grey' }}>
+                        <FormLabel id="style-radio-group-label">Style</FormLabel>
                         <RadioGroup
-                            aria-labelledby="demo-radio-buttons-group-label"
+                            aria-labelledby="style-radio-group-label"
                             defaultValue="classic"
                             name="radio-buttons-group"
                             value={settings.templateId}
@@ -96,8 +118,30 @@ function App() {
                             <FormControlLabel value='default' control={<Radio />} label="Virtuous Classic" />
                             <FormControlLabel value='friends' control={<Radio />} label="Lonely friend" />
                         </RadioGroup>
-                    </FormControl>
+                    </Box>
+                    <Box sx={{ padding:2, width:200}}>
+                        <FormLabel id="truth-radio-group-label">Data bias: {settings.bias}</FormLabel>
+                        <Slider name="truthBias"
+                                aria-label="Bias factor" value={settings.bias}
+                                onChange={handleBiasChange}
+                                valueLabelFormat={biasDescription}
+                                valueLabelDisplay='auto'
+                                defaultValue={1.0} step={0.1} marks min={0.5} max={1.5}/>
+                        { (settings.bias == 1.0) && <p><b>
+                            CO2 emissions are calculated with a politically neutral model.
+                            </b></p>}
+                        { (settings.bias < 1) && <p><b>
+                            CO2 emissions of air travel will be underestimated by {((1-settings.bias)*100).toFixed(0)}%
+                            </b></p>}
+                        { (settings.bias > 1) && <p><b>
+                            CO2 emissions of air travel will be overestimated by {((settings.bias-1)*100).toFixed(0)}%
+                            </b></p>}
 
+                    </Box>
+                </Stack>
+                </FormControl>
+
+                <Divider style={{width:'100%'}}><Chip label="Your social media post"></Chip></Divider>
                 <Preview text={text}/>
                 <Divider style={{width:'100%'}}><Chip label="Show the world"></Chip></Divider>
                 <Box className="form-item">
