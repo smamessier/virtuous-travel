@@ -68,7 +68,7 @@ function default_template(settings, data){
 `
 "A ${bolden(data.rail_km + 'km')} and ${bolden(data.total_rail_time_h + 'h')} train ride to go from ${bolden(settings.cityA)} to ${bolden(settings.cityB)}? why would you infict this to youself?" is a typical reaction when I hint at my recent travel. Had I taken the plane, I would have traveled ${data.air_km} km and burnt ${data.air_co2} kg of CO2 into the atmosphere.
 Instead, I decided to take the train and traveled ${data.rail_km} km only emitting ${data.rail_co2} kg of carbon dioxide in the thin layer protecting our dear precious Earth. 
-Why fly over all these great european cities instead of exploring them between train legs? 
+Why fly over all these great European cities instead of exploring them between train legs? 
 ` 
 
 + (data.train_legs.length > 1 ? 

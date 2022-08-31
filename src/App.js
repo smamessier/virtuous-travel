@@ -52,10 +52,10 @@ function App() {
 
     function biasDescription(bias){
         if (bias < 0.8){
-            return `${bias}: I work in the Aeronautics industry`
+            return `${bias}. I work in the Aeronautics industry`
         }
         if (bias > 1.2){
-            return `${bias}: Planet matters more than data accuracy`
+            return `${bias}. Planet matters more than data accuracy`
         }
         return bias.toFixed(1)
     }
@@ -98,7 +98,7 @@ function App() {
                 <FormControl>
                 <Stack direction={{xs: "column", md: "row"}} spacing={2}>
                     <Box sx={{ padding:2, borderRight: [0,0,'1px dashed grey'] }}>
-                        <FormLabel id="style-radio-group-label">Style</FormLabel>
+                        <FormLabel id="style-radio-group-label">Social style</FormLabel>
                         <RadioGroup
                             aria-labelledby="style-radio-group-label"
                             defaultValue="classic"
@@ -106,12 +106,12 @@ function App() {
                             value={settings.templateId}
                             onChange={handleTemplateChange}
                         >
-                            <FormControlLabel value='default' control={<Radio />} label="Virtuous Classic" />
-                            <FormControlLabel value='friends' control={<Radio />} label="Lonely friend" />
+                            <FormControlLabel value='default' control={<Radio />} label="Classic virtous" />
+                            <FormControlLabel value='friends' control={<Radio />} label="Virtuous loner" />
                         </RadioGroup>
                     </Box>
                     <Box sx={{ padding:2, width:['80%',400]}}>
-                        <FormLabel id="truth-radio-group-label">Data bias: {biasDescription(settings.bias)}</FormLabel>
+                        <FormLabel id="truth-radio-group-label">Air emission bias: {biasDescription(settings.bias)}</FormLabel>
                         <Slider name="truthBias"
                                 aria-label="Bias factor" value={settings.bias}
                                 onChange={handleBiasChange}
@@ -135,6 +135,8 @@ function App() {
                 <Preview text={text}/>
                 <Divider style={{width:'100%'}}><Chip label="Show the world"></Chip></Divider>
                 <Box className="form-item">
+                    <p>Share your virtuous travel post with the world! This feature is compatible with all social media platforms including
+                       Twitter, LinkedIn, Facebook, Tiktok, Instagram and ... Google+.</p>
                     <Button variant="contained"
                             onClick={() => {navigator.clipboard.writeText(text)}}
                             endIcon={<ContentCopyOutlinedIcon/>}>Copy to clipboard</Button>

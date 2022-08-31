@@ -66,7 +66,7 @@ function Form(props) {
             <FormControl>
                 <FormLabel>Number of days traveled: {props.settings.travelDays}</FormLabel>
                 <Slider name="travelDays"
-                        aria-label="Number of travel days" value={props.settings.travelDays}
+                        aria-label="Trip duration" value={props.settings.travelDays}
                         onChange={handleDayChange}
                         defaultValue={5} step={1} marks min={1} max={30}/>
             </FormControl>
