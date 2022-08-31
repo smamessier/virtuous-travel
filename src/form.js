@@ -7,6 +7,20 @@ import { Fragment } from 'react';
 
 function Form(props) {
 
+    function handleChangeFromCity(e, newFromCity){
+        let toCity = props.settings.cityB;
+        let options = props.cities[newFromCity]
+
+        let newSettings = {...props.settings};
+        newSettings.cityA = newFromCity; 
+        
+        // If cityB not available in data, switch to first in list
+        if (!options.includes(toCity)){
+            newSettings.cityB = props.cities[newFromCity][0];
+        }
+        props.setSettings(newSettings);
+    }
+
     function handleChange(e, newValue){
         let field = e.target.id.split('-')[0]
         if (!field){
@@ -31,7 +45,7 @@ function Form(props) {
             <Autocomplete
                 id="cityA"
                 value={props.settings.cityA}
-                onChange={handleChange}
+                onChange={handleChangeFromCity}
                 options={Object.keys(props.cities)}
                 sx={{ width: 300 }}
                 renderInput={(params) => <TextField {...params} label="From" name="cityA" />}
