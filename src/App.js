@@ -7,7 +7,7 @@ import { Preview } from './preview';
 import { templates, genText } from './templates';
 
 import city_list from './data/cities.json';
-import vtLogo from './logo.png';
+import vtLogo from './logo2.png';
 
 import { Chip, Button, Divider } from '@mui/material';
 import { Container, Stack, Box } from '@mui/material';
@@ -38,8 +38,7 @@ function App() {
     const [text, setText] = useState(defaultText);
     const [tripData, setTripData] = useState({});
 
-    function handleTemplateChange(e, value){
-        const newSettings = {...settings}
+    function handleTemplateChange(e, value){ const newSettings = {...settings}
         newSettings.templateId = value
         setSettings(newSettings)
     }
@@ -82,8 +81,8 @@ function App() {
     return (
         <Container>
             <Box container>
-                <Box style={{ textAlign: "center"}}>
-                <img src={vtLogo} width="80%" style={{maxWidth:600}}/>
+                <Box style={{ textAlign: "center", marginBottom: 10}}>
+                <img src={vtLogo} width="60%" style={{maxWidth:300}}/>
         {/*<p>
                         <h1>Virtuous Travel</h1>
                         <h4>Survival kit for the virtuous traveler</h4>
@@ -106,8 +105,9 @@ function App() {
                             value={settings.templateId}
                             onChange={handleTemplateChange}
                         >
-                            <FormControlLabel value='default' control={<Radio />} label="Classic virtous" />
+                            <FormControlLabel value='default' control={<Radio />} label="Classic virtuous" />
                             <FormControlLabel value='friends' control={<Radio />} label="Virtuous loner" />
+                            <FormControlLabel value='business' control={<Radio />} label="Work in the train" />
                         </RadioGroup>
                     </Box>
                     <Box sx={{ padding:2, width:['80%',400]}}>

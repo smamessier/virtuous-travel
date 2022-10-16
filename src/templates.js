@@ -91,7 +91,6 @@ ${emoji.righthand} Believe me, it's not that easy to resist to a week-end in ${s
 ${emoji.earth} Get out of your comfort bubble and take the right decision for the planet.
 
 `
-
     return tpl
 }
 
@@ -119,13 +118,26 @@ ${emoji.city} ${data.train_legs.length + 1} citie(s) explored.
 ${emoji.earth} ${data.air_co2 - data.rail_co2} kg CO2 saved.
 
 `
+    return tpl
+}
 
+function business_template(settings, data){
+    const tpl =
+`
+    My decision to stop business travelling with plane was easy when I realized my impact. But this was made easier as my wonderful and progressive company <replace with company name> accepted it right away. My business journey from ${settings.cityA} to ${settings.cityB} is longer: ${bolden(data.total_rail_time_h)} h but:
+        - I can work on my computer during those ${bolden(data.total_rail_time_h)} h (with breaks to admire the landscape, stretch my legs,..). Let's not lie to ourselves, when flying you are lucky if you can work more than 45 min altogether. 
+        - The ride is less stressful and more comfortable with ${emoji.train}.
+        - I can feel more virtuous as I'm only emitting ${bolden(data.rail_co2)} kg of CO2 instead of ${bolden(data.air_co2)} kg.
+
+    Often people ask how I can work with a crappy internet connection for so long. My answer is simple: "I get organized!". That day, I work on offline stuff and I still sync my emails whenever we stop at a train station :) It's as simple as that.
+`;
     return tpl
 }
 
 const templates = {
     'default': default_template,
-    'friends': friends_template
+    'friends': friends_template,
+    'business': business_template
 }
 
 export {
